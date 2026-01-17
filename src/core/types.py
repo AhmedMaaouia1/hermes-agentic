@@ -40,6 +40,9 @@ class ParsedFile(BaseModel):
     normalized_name: str                # nom normalisé (lowercase, sans symboles)
     tokens: List[str]                   # tokens simples extraits du nom
     file_type: str                      # document, image, code, archive, executable, other
+    # signaux temporels (passifs)
+    created_at: Optional[str]           # ISO format
+    modified_at: Optional[str]          # ISO format
     has_year: Optional[int]             # année détectée (ex: 2023) ou None
     has_copy: bool                      # présence de "copy", "copie", etc.
 
@@ -61,6 +64,7 @@ class FileProfile(BaseModel):
     topic: Optional[str]                # ex: facture, cours, cv, projet
     keywords: List[str]                 # mots-clés extraits ou inférés
     signals: Dict[str, Any]             # signaux faibles (ex: {"source": "filename"})
+    summary: Optional[str]              # Résumé factuel court, descriptif, non décisionnel
 
 
 # ======================================================
