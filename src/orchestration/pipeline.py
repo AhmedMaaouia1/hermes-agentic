@@ -1,25 +1,36 @@
-from typing import List
+from typing import List, Tuple
 import os
 
 from parsing.file_parser import parse_directory
 from agents.analyst import AnalystAgent
-from core.types import FileProfile
+from agents.categorizer import CategorizerAgent
+from core.types import FileProfile, CategorizationResult
 
 
-def run_pipeline(folder_path: str) -> List[FileProfile]:
+def run_pipeline(folder_path: str) -> Tuple[List[FileProfile], List[CategorizationResult]]:
     """
-    Pipeline MINIMAL pour tester l'Agent Analyst.
+    Pipeline TEST :
     - Parsing
-    - Analyse fichier par fichier
+    - Analyst
+    - Categorizer (Agent 2)
     """
     parsed_files = parse_directory(folder_path)
 
     analyst = AnalystAgent()
-    results: List[FileProfile] = []
+    categorizer = CategorizerAgent()
+
+    profiles: List[FileProfile] = []
+    categorizations: List[CategorizationResult] = []
 
     for pf in parsed_files:
         file_path = os.path.join(folder_path, pf.filename)
-        profile = analyst.analyze(pf, file_path=file_path)
-        results.append(profile)
 
-    return results
+        # --- Agent Analyst
+        profile = analyst.analyze(pf, file_path=file_path)
+        profiles.append(profile)
+
+        # --- Agent Catégorisation
+        cat = categorizer.categorize(profile)
+        categorizations.append(cat)
+
+    return profiles, categorizations
