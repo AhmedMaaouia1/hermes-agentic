@@ -15,7 +15,7 @@ import re
 from datetime import datetime
 from typing import List, Optional
 
-from core.types import ParsedFile
+from src.core.types import ParsedFile
 
 
 # ------------------------------------------------------
