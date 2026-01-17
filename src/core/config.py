@@ -20,6 +20,9 @@ logging.basicConfig(
     ]
 )
 
-
 def get_logger(name: str):
     return logging.getLogger(name)
+
+# ---------- Agent Analyst configuration ----------
+ANALYST_USE_CONTENT = True     # False par défaut (baseline-safe)
+ANALYST_MAX_TOKENS = 800         # Limite dure 

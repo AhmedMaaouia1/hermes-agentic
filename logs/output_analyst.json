@@ -1,0 +1,172 @@
+[
+  {
+    "filename": "1.jpg",
+    "file_type": "image",
+    "topic": "Image metadata",
+    "keywords": [
+      "filename",
+      "extension",
+      "tokens",
+      "file_type",
+      "content_excerpt"
+    ],
+    "signals": {
+      "source": "content",
+      "used_content": true,
+      "content_source": "ocr_text",
+      "extraction_method": "tesseract+preprocessing",
+      "ocr_success": true,
+      "content_tokens": 120
+    },
+    "summary": "The content excerpt appears to be gibberish, lacking coherent information about the image '1.jpg'."
+  },
+  {
+    "filename": "attestation_scolarite_107.pdf",
+    "file_type": "document",
+    "topic": "Attestation scolaire numéro 107",
+    "keywords": [
+      "attestation",
+      "scolarite",
+      "numéro 1 endommagé"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "L'examen final de l’année est mentionné, portant le numéro d'attestation '107'. Le document pourrait contenir des informations sur les résultats ou la validité due à un état altéré."
+  },
+  {
+    "filename": "carte_identite_5.pdf",
+    "file_type": "document",
+    "topic": "Cartes d'identité nationales",
+    "keywords": [
+      "carte",
+      "identité",
+      "française",
+      "numéro d’ordre"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "La carte nationale est une pièce de plastique décorée avec des lettres et des chiffres, où le numéro '5' pourrait indiquer un rang ou une catégorie spécifique."
+  },
+  {
+    "filename": "copy_fk8ut.txt",
+    "file_type": "document",
+    "topic": "Copie de document non disponible",
+    "keywords": [
+      "copier",
+      "fichier",
+      "non disponible"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "txt",
+      "extraction_method": "builtin",
+      "content_tokens": 0
+    },
+    "summary": "Le contenu du fichier 'copy_fk8ut.txt' n'est pas accessible, car l'excerpt fourni ne présente aucun texte."
+  },
+  {
+    "filename": "copy_vazcc.png",
+    "file_type": "image",
+    "topic": "image_generic",
+    "keywords": [
+      "copy",
+      "vazcc"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "image_no_text",
+      "extraction_method": "tesseract+preprocessing",
+      "ocr_success": false,
+      "ocr_error": "cannot identify image file 'data/test_small/copy_vazcc.png'",
+      "content_tokens": 0
+    },
+    "summary": "Image sans texte détectable, probablement une photo ou capture d’écran."
+  },
+  {
+    "filename": "CV_stage_2025_118.pdf",
+    "file_type": "document",
+    "topic": "Stage CV Analysis (2025)",
+    "keywords": [
+      "CV",
+      "stage",
+      "analysis",
+      "2025"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "This document is a professional resume from an individual's career progression, highlighting various job experiences and skills relevant to the late-career stage."
+  },
+  {
+    "filename": "data.xlsx",
+    "file_type": "document",
+    "topic": "Fichier Excel",
+    "keywords": [
+      "fichier",
+      "Excel",
+      "donnée"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "unsupported",
+      "extraction_method": null,
+      "content_tokens": 0
+    },
+    "summary": "Le fichier nommé 'data.xlsx' contient des données, sans autre détail fourni dans l'excerpt."
+  },
+  {
+    "filename": "doc_final_gq5c3.txt",
+    "file_type": "document",
+    "topic": "Gestion de la qualité dans le secteur industriel",
+    "keywords": [
+      "qualité",
+      "industrie",
+      "contrôle",
+      "processus"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false
+    },
+    "summary": "Le fichier 'doc_final_gq5c3.txt' est un document finalisé sans contenu explicite exprimé par les tokens présentés."
+  },
+  {
+    "filename": "installer_app_19.exe",
+    "file_type": "executable",
+    "topic": "Installation logiciel numéro 19",
+    "keywords": [
+      "installer",
+      "application",
+      "software",
+      "exe"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "unsupported",
+      "extraction_method": null,
+      "content_tokens": 0
+    },
+    "summary": "Le fichier 'installer_app_19.exe' est un élément d'exécution pour installer le logiciel avec ce nom dans son environnement, sans contenu explicite inclus."
+  }
+]
