@@ -4,20 +4,24 @@ import os
 from parsing.file_parser import parse_directory
 from agents.analyst import AnalystAgent
 from agents.categorizer import CategorizerAgent
-from core.types import FileProfile, CategorizationResult
+from agents.planner import PlannerAgent
+from core.types import FileProfile, CategorizationResult, HierarchyProposal
 
 
-def run_pipeline(folder_path: str) -> Tuple[List[FileProfile], List[CategorizationResult]]:
+def run_pipeline(folder_path: str) -> Tuple[List[FileProfile], List[CategorizationResult], HierarchyProposal]:
     """
-    Pipeline TEST :
-    - Parsing
-    - Analyst
-    - Categorizer (Agent 2)
+    Pipeline HERMES :
+    - Parsing des fichiers
+    - Analyse (Agent Analyst)
+    - Catégorisation sémantique (Agent Categorizer)
+    - Planification hiérarchique (Agent Planner)
+
     """
     parsed_files = parse_directory(folder_path)
 
     analyst = AnalystAgent()
     categorizer = CategorizerAgent()
+    planner = PlannerAgent()
 
     profiles: List[FileProfile] = []
     categorizations: List[CategorizationResult] = []
@@ -33,4 +37,10 @@ def run_pipeline(folder_path: str) -> Tuple[List[FileProfile], List[Categorizati
         cat = categorizer.categorize(profile)
         categorizations.append(cat)
 
-    return profiles, categorizations
+    # --- Agent Planner
+    hierarchy_plan: HierarchyProposal = planner.plan(
+        categorizations=categorizations
+    )
+
+    return profiles, categorizations, hierarchy_plan
+
