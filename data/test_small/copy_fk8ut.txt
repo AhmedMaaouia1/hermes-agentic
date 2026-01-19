@@ -1,0 +1,5 @@
+#Bonjour
+
+print("Hello World")
+
+## Félicitations, tu as codé ton premier script Python !

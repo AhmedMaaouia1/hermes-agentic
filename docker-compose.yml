@@ -5,14 +5,13 @@ services:
     ports:
       - "11434:11434"
     volumes:
-      - .:/app
+      - ollama_data:/root/.ollama
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "ollama", "list"]
       interval: 10s
       timeout: 5s
       retries: 10
-
 
   hermes:
     build:
@@ -28,3 +27,6 @@ services:
       - .:/app
     command: python src/main.py data/test_small
     restart: "no"
+
+volumes:
+  ollama_data:

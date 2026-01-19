@@ -3,10 +3,11 @@
 from typing import List, Dict, Optional
 import logging
 
-from src.core.types import CategorizationResult, HierarchyProposal
+from core.types import CategorizationResult, HierarchyProposal
 
 
 logger = logging.getLogger(__name__)
+
 
 
 class PlannerAgent:
@@ -42,6 +43,7 @@ class PlannerAgent:
         warnings: List[str] = []
 
         logger.info("Starting hierarchy planning for %d files.", len(categorizations))
+
 
         for item in categorizations:
             filename = item.filename
@@ -94,6 +96,8 @@ class PlannerAgent:
             "Files without subcategories are placed directly under their category. "
             "No category or subcategory has been modified during planning."
         )
+        logger.info("Planner output folders: %s", folder_structure.keys())
+
 
         logger.info("Hierarchy planning completed.")
 

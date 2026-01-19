@@ -168,3 +168,137 @@
 2026-01-17 18:27:43,635 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
 2026-01-17 18:27:48,361 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
 2026-01-17 18:27:56,191 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-19 12:45:38,573 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-19 12:45:44,984 | INFO | hermes.categorizer | [RULE] file=1.jpg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-19 12:45:46,044 | INFO | httpx | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:45:46,046 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-19 12:45:46,052 | INFO | httpx | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:45:46,053 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-19 12:45:46,113 | INFO | httpx | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:57:37,230 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-19 12:57:38,259 | INFO | hermes.categorizer | [RULE] file=1.jpg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-19 12:57:38,544 | INFO | httpx | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:57:38,545 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-19 12:57:38,593 | INFO | httpx | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:57:38,594 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-19 12:57:38,641 | INFO | httpx | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:25,427 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-19 11:59:26,446 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:31,901 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-01-19 11:59:31,902 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-19 11:59:39,453 | INFO | hermes.categorizer | [EMBEDDING] model_loaded=all-MiniLM-L6-v2
+2026-01-19 11:59:39,960 | INFO | hermes.categorizer | [EMBEDDING] taxonomy_embeddings_built n=19
+2026-01-19 11:59:39,993 | INFO | hermes.categorizer | [EMBEDDING] file=1.jpg best=Images/Photos score=0.555 conf=0.70
+2026-01-19 11:59:40,301 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:40,302 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-19 11:59:40,320 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:40,321 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-19 11:59:40,335 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:40,361 | INFO | hermes.categorizer | [EMBEDDING] file=copy_fk8ut.txt best=Images/Scans score=0.357 conf=0.55
+2026-01-19 11:59:40,456 | INFO | hermes.categorizer | [RULE] file=copy_vazcc.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-19 11:59:40,479 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:40,481 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_118.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-19 11:59:40,492 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:40,493 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-19 11:59:40,501 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 11:59:40,503 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-19 11:59:40,504 | INFO | agents.planner | Starting hierarchy planning for 8 files.
+2026-01-19 11:59:40,505 | WARNING | agents.planner | Low confidence (0.55) for file 'copy_fk8ut.txt' in category 'Images'
+2026-01-19 11:59:40,506 | INFO | agents.planner | Planner output folders: dict_keys(['Images/Photos', 'Administratif/Attestations', 'Administratif/Identite', 'Images/Scans', 'Images/Screenshots', 'Administratif/CV', 'Donnees/Tableurs', 'Logiciels/Installateurs'])
+2026-01-19 11:59:40,507 | INFO | agents.planner | Hierarchy planning completed.
+2026-01-19 12:41:50,737 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-19 12:41:52,560 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:42:07,529 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-01-19 12:42:07,530 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-19 12:42:19,405 | INFO | hermes.categorizer | [EMBEDDING] model_loaded=all-MiniLM-L6-v2
+2026-01-19 12:42:19,963 | INFO | hermes.categorizer | [EMBEDDING] taxonomy_embeddings_built n=19
+2026-01-19 12:42:20,209 | INFO | hermes.categorizer | [EMBEDDING] file=1.jpg best=Images/Photos score=0.555 conf=0.70
+2026-01-19 12:42:27,525 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:42:27,526 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-19 12:42:27,538 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:42:27,540 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-19 12:42:27,651 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:42:27,684 | INFO | hermes.categorizer | [EMBEDDING] file=copy_fk8ut.txt best=Images/Scans score=0.357 conf=0.55
+2026-01-19 12:42:29,741 | INFO | hermes.categorizer | [RULE] file=copy_vazcc.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-19 12:42:30,024 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:42:30,025 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_118.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-19 12:42:30,031 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:42:30,032 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-19 12:42:30,039 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:42:30,041 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-19 12:42:30,042 | INFO | agents.planner | Starting hierarchy planning for 8 files.
+2026-01-19 12:42:30,043 | WARNING | agents.planner | Low confidence (0.55) for file 'copy_fk8ut.txt' in category 'Images'
+2026-01-19 12:42:30,043 | INFO | agents.planner | Planner output folders: dict_keys(['Images/Photos', 'Administratif/Attestations', 'Administratif/Identite', 'Images/Scans', 'Images/Screenshots', 'Administratif/CV', 'Donnees/Tableurs', 'Logiciels/Installateurs'])
+2026-01-19 12:42:30,045 | INFO | agents.planner | Hierarchy planning completed.
+2026-01-19 12:56:16,299 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-19 12:56:17,282 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:56:22,681 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-01-19 12:56:22,682 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-19 12:56:36,044 | INFO | hermes.categorizer | [EMBEDDING] model_loaded=all-MiniLM-L6-v2
+2026-01-19 12:56:36,525 | INFO | hermes.categorizer | [EMBEDDING] taxonomy_embeddings_built n=19
+2026-01-19 12:56:36,555 | INFO | hermes.categorizer | [EMBEDDING] file=1.jpg best=Images/Photos score=0.555 conf=0.70
+2026-01-19 12:56:36,861 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:56:36,863 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-19 12:56:36,879 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:56:36,880 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-19 12:56:36,895 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:56:36,923 | INFO | hermes.categorizer | [EMBEDDING] file=copy_fk8ut.txt best=Images/Scans score=0.357 conf=0.55
+2026-01-19 12:56:37,022 | INFO | hermes.categorizer | [RULE] file=copy_vazcc.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-19 12:56:37,036 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:56:37,038 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_118.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-19 12:56:37,047 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:56:37,049 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-19 12:56:37,056 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 12:56:37,057 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-19 12:56:37,058 | INFO | agents.planner | Starting hierarchy planning for 8 files.
+2026-01-19 12:56:37,060 | WARNING | agents.planner | Low confidence (0.55) for file 'copy_fk8ut.txt' in category 'Images'
+2026-01-19 12:56:37,061 | INFO | agents.planner | Planner output folders: dict_keys(['Images/Photos', 'Administratif/Attestations', 'Administratif/Identite', 'Images/Scans', 'Images/Screenshots', 'Administratif/CV', 'Donnees/Tableurs', 'Logiciels/Installateurs'])
+2026-01-19 12:56:37,062 | INFO | agents.planner | Hierarchy planning completed.
+2026-01-19 13:07:07,592 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-19 13:07:08,499 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 13:07:16,239 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-01-19 13:07:16,239 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-19 13:07:18,464 | INFO | hermes.categorizer | [EMBEDDING] model_loaded=all-MiniLM-L6-v2
+2026-01-19 13:07:19,123 | INFO | hermes.categorizer | [EMBEDDING] taxonomy_embeddings_built n=19
+2026-01-19 13:07:19,153 | INFO | hermes.categorizer | [EMBEDDING] file=1.jpg best=Images/Photos score=0.555 conf=0.70
+2026-01-19 13:07:19,406 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 13:07:19,408 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-19 13:07:19,428 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 13:07:19,429 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-19 13:07:19,440 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 13:07:19,471 | INFO | hermes.categorizer | [EMBEDDING] file=copy_fk8ut.txt best=Images/Scans score=0.357 conf=0.55
+2026-01-19 13:07:19,592 | INFO | hermes.categorizer | [RULE] file=copy_vazcc.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-19 13:07:19,605 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 13:07:19,606 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_118.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-19 13:07:19,612 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 13:07:19,614 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-19 13:07:19,621 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-19 13:07:19,622 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-19 13:07:19,623 | INFO | agents.planner | Starting hierarchy planning for 8 files.
+2026-01-19 13:07:19,624 | WARNING | agents.planner | Low confidence (0.55) for file 'copy_fk8ut.txt' in category 'Images'
+2026-01-19 13:07:19,625 | INFO | agents.planner | Planner output folders: dict_keys(['Images/Photos', 'Administratif/Attestations', 'Administratif/Identite', 'Images/Scans', 'Images/Screenshots', 'Administratif/CV', 'Donnees/Tableurs', 'Logiciels/Installateurs'])
+2026-01-19 13:07:19,627 | INFO | agents.planner | Hierarchy planning completed.
+2026-01-19 13:53:25,750 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-19 13:53:27,992 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2026-01-19 13:53:40,941 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-01-19 13:53:40,942 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-19 13:53:56,859 | INFO | hermes.categorizer | [EMBEDDING] model_loaded=all-MiniLM-L6-v2
+2026-01-19 13:53:57,566 | INFO | hermes.categorizer | [EMBEDDING] taxonomy_embeddings_built n=19
+2026-01-19 13:53:57,601 | INFO | hermes.categorizer | [EMBEDDING] file=1.jpg best=Images/Photos score=0.555 conf=0.70
+2026-01-19 13:53:58,111 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2026-01-19 13:53:58,113 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-19 13:53:58,251 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2026-01-19 13:53:58,253 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-19 13:53:58,372 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2026-01-19 13:53:58,480 | INFO | hermes.categorizer | [EMBEDDING] file=copy_fk8ut.txt best=Images/Scans score=0.357 conf=0.55
+2026-01-19 13:53:58,613 | INFO | hermes.categorizer | [RULE] file=copy_vazcc.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-19 13:53:58,762 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2026-01-19 13:53:58,764 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_118.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-19 13:53:59,033 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2026-01-19 13:53:59,035 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-19 13:53:59,181 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2026-01-19 13:53:59,182 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-19 13:53:59,183 | INFO | agents.planner | Starting hierarchy planning for 8 files.
+2026-01-19 13:53:59,184 | WARNING | agents.planner | Low confidence (0.55) for file 'copy_fk8ut.txt' in category 'Images'
+2026-01-19 13:53:59,185 | INFO | agents.planner | Planner output folders: dict_keys(['Images/Photos', 'Administratif/Attestations', 'Administratif/Identite', 'Images/Scans', 'Images/Screenshots', 'Administratif/CV', 'Donnees/Tableurs', 'Logiciels/Installateurs'])
+2026-01-19 13:53:59,186 | INFO | agents.planner | Hierarchy planning completed.
