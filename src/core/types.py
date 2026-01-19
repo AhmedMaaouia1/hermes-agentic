@@ -164,6 +164,8 @@ class PipelineResult(BaseModel):
     - évaluation
     - comparaison mono-agent vs multi-agents
     """
-
+    fileprofiles: FileProfile
+    categorizationRes : CategorizationResult
     initial_structure: HierarchyProposal
     review: Optional[ReviewResult] = None
+
