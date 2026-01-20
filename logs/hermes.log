@@ -543,3 +543,314 @@
 2026-01-20 11:02:23,719 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
 2026-01-20 11:02:23,720 | WARNING | hermes.reviewer | LLM Reviewer skipped (error): 'NoneType' object has no attribute 'group'
 2026-01-20 11:02:23,722 | INFO | hermes.reviewer | ReviewerAgent: review completed issues=3 suggestions=8
+2026-01-20 11:09:03,772 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-20 11:09:38,293 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:09:48,857 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-01-20 11:09:48,858 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-20 11:09:57,752 | INFO | hermes.categorizer | [EMBEDDING] model_loaded=all-MiniLM-L6-v2
+2026-01-20 11:09:58,199 | INFO | hermes.categorizer | [EMBEDDING] taxonomy_embeddings_built n=19
+2026-01-20 11:09:58,234 | WARNING | hermes.categorizer | [FALLBACK] file=.gitkeep reason=low_similarity best=Projets/Code score=0.296 conf=0.40
+2026-01-20 11:10:01,878 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:10:09,657 | INFO | hermes.categorizer | [RULE] file=archive.zip rule_id=archive_zip category=Archives/ZIP confidence=0.92
+2026-01-20 11:10:14,539 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:10:22,932 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_0.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:10:27,479 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:10:36,484 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:10:40,938 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:10:49,534 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_110.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:10:53,943 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:11:00,877 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_29.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:11:05,293 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:11:14,215 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_32.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:11:18,566 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:11:27,565 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_38.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:11:32,014 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:11:40,303 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_50.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:11:44,543 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:11:53,076 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_6.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:11:57,487 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:12:05,391 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_96.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-20 11:12:09,943 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:12:17,679 | INFO | hermes.categorizer | [RULE] file=carte_identite_26.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-20 11:12:21,712 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:12:29,952 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-20 11:12:34,143 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:12:44,466 | INFO | hermes.categorizer | [RULE] file=carte_identite_82.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-20 11:12:48,561 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:12:58,184 | INFO | hermes.categorizer | [RULE] file=carte_identite_84.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-20 11:13:02,436 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:13:09,991 | INFO | hermes.categorizer | [RULE] file=carte_identite_91.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-20 11:13:14,074 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:13:24,661 | INFO | hermes.categorizer | [RULE] file=carte_identite_97.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-20 11:13:28,917 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:13:36,856 | WARNING | hermes.categorizer | [FALLBACK] file=copy_4cc5o.pdf reason=low_similarity best=Images/Scans score=0.310 conf=0.40
+2026-01-20 11:13:41,132 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:13:49,675 | INFO | hermes.categorizer | [EMBEDDING] file=copy_b9487.pdf best=Images/Scans score=0.388 conf=0.55
+2026-01-20 11:13:53,724 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:14:03,028 | INFO | hermes.categorizer | [EMBEDDING] file=copy_fk8ut.txt best=Images/Scans score=0.413 conf=0.55
+2026-01-20 11:14:06,900 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:14:17,055 | WARNING | hermes.categorizer | [FALLBACK] file=copy_irodx.txt reason=low_similarity best=Images/Scans score=0.317 conf=0.40
+2026-01-20 11:14:17,133 | INFO | hermes.categorizer | [RULE] file=copy_ubcxu.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:14:17,144 | INFO | hermes.categorizer | [RULE] file=copy_vazcc.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:14:21,230 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:15:14,353 | INFO | hermes.categorizer | [EMBEDDING] file=copy_vren9.pdf best=Images/Scans score=0.409 conf=0.55
+2026-01-20 11:15:19,239 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:15:27,393 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_13.pdf best=Cours/Machine_Learning score=0.740 conf=0.80
+2026-01-20 11:15:31,751 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:15:41,649 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_18.pdf best=Cours/Machine_Learning score=0.802 conf=0.80
+2026-01-20 11:15:46,142 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:15:53,439 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_18_copy.pdf best=Cours/Machine_Learning score=0.725 conf=0.80
+2026-01-20 11:15:57,676 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:16:05,023 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_3.pdf best=Cours/Machine_Learning score=0.727 conf=0.80
+2026-01-20 11:16:09,176 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:16:17,706 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_4.pdf best=Cours/Machine_Learning score=0.840 conf=0.80
+2026-01-20 11:16:21,990 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:16:30,810 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_46.pdf best=Cours/Machine_Learning score=0.839 conf=0.80
+2026-01-20 11:16:35,110 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:16:42,832 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_49.pdf best=Cours/Machine_Learning score=0.862 conf=0.80
+2026-01-20 11:16:47,193 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:16:53,051 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_62.pdf best=Cours/Machine_Learning score=0.719 conf=0.80
+2026-01-20 11:16:57,318 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:17:05,399 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_67.pdf best=Cours/Machine_Learning score=0.660 conf=0.80
+2026-01-20 11:17:09,757 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:17:20,031 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_70.pdf best=Cours/Machine_Learning score=0.831 conf=0.80
+2026-01-20 11:17:24,410 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:17:32,819 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_85.pdf best=Cours/Machine_Learning score=0.855 conf=0.80
+2026-01-20 11:17:37,176 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:17:43,616 | INFO | hermes.categorizer | [EMBEDDING] file=cours_machine_learning_90.pdf best=Cours/Machine_Learning score=0.894 conf=0.80
+2026-01-20 11:17:48,344 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:17:59,043 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_12.pdf best=Cours/NLP score=0.715 conf=0.80
+2026-01-20 11:18:03,385 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:18:09,937 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_16.pdf best=Cours/NLP score=0.741 conf=0.80
+2026-01-20 11:18:14,391 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:18:24,128 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_27.pdf best=Cours/NLP score=0.727 conf=0.80
+2026-01-20 11:18:28,580 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:18:38,566 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_43.pdf best=Cours/NLP score=0.685 conf=0.80
+2026-01-20 11:18:42,979 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:18:52,570 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_58.pdf best=Cours/NLP score=0.795 conf=0.80
+2026-01-20 11:18:57,023 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:19:08,277 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_76.pdf best=Cours/NLP score=0.710 conf=0.80
+2026-01-20 11:19:12,885 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:20:23,480 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_76_copy.pdf best=Cours/NLP score=0.746 conf=0.80
+2026-01-20 11:20:27,855 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:20:37,528 | INFO | hermes.categorizer | [EMBEDDING] file=cours_nlp_ch_78.pdf best=Cours/Machine_Learning score=0.704 conf=0.80
+2026-01-20 11:20:42,683 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:20:52,410 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_113.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-20 11:20:56,848 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:21:03,946 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_118.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-20 11:21:08,347 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:21:19,754 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_22.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-20 11:21:24,186 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:21:33,642 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_55.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-20 11:21:38,180 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:21:45,994 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_61.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-20 11:21:50,452 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:21:57,425 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_63.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-20 11:22:01,813 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:22:11,520 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_98.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-20 11:22:15,156 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:22:25,441 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:22:30,012 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:22:38,171 | INFO | hermes.categorizer | [RULE] file=dataset_resultats_33.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:22:42,363 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:22:52,252 | INFO | hermes.categorizer | [RULE] file=dataset_resultats_34.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:22:56,496 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:23:06,388 | INFO | hermes.categorizer | [RULE] file=dataset_resultats_42.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:23:10,630 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:23:20,337 | INFO | hermes.categorizer | [RULE] file=dataset_resultats_54.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:23:24,493 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:23:31,960 | INFO | hermes.categorizer | [RULE] file=dataset_resultats_56.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:23:36,184 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:23:44,587 | INFO | hermes.categorizer | [RULE] file=dataset_resultats_57.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:23:48,719 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:24:00,980 | INFO | hermes.categorizer | [RULE] file=dataset_resultats_89.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-20 11:24:04,408 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:24:13,205 | INFO | hermes.categorizer | [EMBEDDING] file=document.pdf best=Images/Scans score=0.447 conf=0.55
+2026-01-20 11:24:17,842 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:24:27,944 | WARNING | hermes.categorizer | [FALLBACK] file=doc_final_gq5c3.txt reason=low_similarity best=Images/Scans score=0.339 conf=0.40
+2026-01-20 11:24:27,965 | INFO | hermes.categorizer | [RULE] file=doc_final_or56f.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:24:32,444 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:24:42,304 | INFO | hermes.categorizer | [RULE] file=facture_electricite_1.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:24:46,426 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:24:53,059 | INFO | hermes.categorizer | [RULE] file=facture_electricite_10.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:24:57,254 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:25:06,564 | INFO | hermes.categorizer | [RULE] file=facture_electricite_106.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:25:10,945 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:25:18,112 | INFO | hermes.categorizer | [RULE] file=facture_electricite_115.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:25:22,285 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:25:32,879 | INFO | hermes.categorizer | [RULE] file=facture_electricite_15.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:25:37,179 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:25:46,579 | INFO | hermes.categorizer | [RULE] file=facture_electricite_21.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:25:51,034 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:25:58,842 | INFO | hermes.categorizer | [RULE] file=facture_internet_36.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:26:03,018 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:26:10,936 | INFO | hermes.categorizer | [RULE] file=facture_internet_45.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:26:15,128 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:26:23,454 | INFO | hermes.categorizer | [RULE] file=facture_internet_69.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:26:27,553 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:26:35,590 | INFO | hermes.categorizer | [RULE] file=facture_internet_71.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:26:39,696 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:26:47,579 | INFO | hermes.categorizer | [RULE] file=facture_internet_9.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:26:51,748 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:27:01,592 | INFO | hermes.categorizer | [RULE] file=facture_internet_95.pdf rule_id=admin_facture_pdf category=Administratif/Factures confidence=0.95
+2026-01-20 11:27:05,493 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:27:14,044 | INFO | hermes.categorizer | [EMBEDDING] file=file_final.pdf best=Projets/Code score=0.448 conf=0.55
+2026-01-20 11:27:14,065 | INFO | hermes.categorizer | [RULE] file=final_v2_c58dr.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:27:14,078 | INFO | hermes.categorizer | [RULE] file=final_v2_hzioy.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:27:18,715 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:27:26,164 | INFO | hermes.categorizer | [EMBEDDING] file=final_v2_o5bxx.txt best=Projets/Code score=0.395 conf=0.55
+2026-01-20 11:27:26,181 | INFO | hermes.categorizer | [RULE] file=image.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:27:26,196 | INFO | hermes.categorizer | [RULE] file=IMG_79.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:27:26,211 | INFO | hermes.categorizer | [RULE] file=IMG_93.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:27:31,123 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:27:44,508 | INFO | hermes.categorizer | [RULE] file=impots_2023_100.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:27:48,816 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:27:58,584 | INFO | hermes.categorizer | [RULE] file=impots_2023_11.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:28:02,979 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:28:12,843 | INFO | hermes.categorizer | [RULE] file=impots_2023_30.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:28:17,177 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:28:29,674 | INFO | hermes.categorizer | [RULE] file=impots_2023_40.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:28:33,916 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:28:44,117 | INFO | hermes.categorizer | [RULE] file=impots_2023_44.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:28:48,363 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:28:57,938 | INFO | hermes.categorizer | [RULE] file=impots_2023_48.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:29:02,294 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:29:09,991 | INFO | hermes.categorizer | [RULE] file=impots_2023_60.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:29:14,165 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:29:25,977 | INFO | hermes.categorizer | [RULE] file=impots_2023_7.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:29:30,141 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:30:18,250 | INFO | hermes.categorizer | [RULE] file=impots_2023_75.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:30:22,523 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:30:31,979 | INFO | hermes.categorizer | [RULE] file=impots_2023_94.pdf rule_id=admin_impots_pdf category=Administratif/Impots confidence=0.93
+2026-01-20 11:30:35,702 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:30:42,187 | INFO | hermes.categorizer | [RULE] file=installer.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:30:46,703 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:30:54,224 | INFO | hermes.categorizer | [RULE] file=installer_app_103.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:30:58,533 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:31:07,366 | INFO | hermes.categorizer | [RULE] file=installer_app_114.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:31:11,483 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:31:20,906 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:31:25,017 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:31:32,882 | INFO | hermes.categorizer | [RULE] file=installer_app_37.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:31:37,120 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:31:44,325 | INFO | hermes.categorizer | [RULE] file=installer_app_53.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:31:48,441 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:31:57,663 | INFO | hermes.categorizer | [RULE] file=installer_app_64.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:32:01,792 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:32:12,204 | INFO | hermes.categorizer | [RULE] file=installer_app_81.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-20 11:32:12,213 | INFO | hermes.categorizer | [RULE] file=new_71yzo.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:32:15,683 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:32:24,040 | INFO | hermes.categorizer | [RULE] file=notes.pdf rule_id=projet_rapport_keyword category=Projets/Rapports confidence=0.88
+2026-01-20 11:32:28,497 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:32:39,900 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_101.txt best=Cours/Divers score=0.385 conf=0.55
+2026-01-20 11:32:44,002 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:32:50,973 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_102.txt best=Archives/Old score=0.397 conf=0.55
+2026-01-20 11:32:55,131 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:33:03,199 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_31.txt best=Archives/Old score=0.461 conf=0.55
+2026-01-20 11:33:07,245 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:33:14,091 | WARNING | hermes.categorizer | [FALLBACK] file=notes_reunion_39.txt reason=low_similarity best=Administratif/Impots score=0.264 conf=0.40
+2026-01-20 11:33:18,294 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:33:25,265 | WARNING | hermes.categorizer | [FALLBACK] file=notes_reunion_51.txt reason=low_similarity best=Administratif/Impots score=0.274 conf=0.40
+2026-01-20 11:33:29,401 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:33:37,744 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_65.txt best=Archives/Old score=0.447 conf=0.55
+2026-01-20 11:33:41,932 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:33:50,892 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_73.txt best=Archives/Old score=0.420 conf=0.55
+2026-01-20 11:33:54,997 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:34:02,161 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_80.txt best=Archives/Old score=0.379 conf=0.55
+2026-01-20 11:34:06,429 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:34:16,674 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_80_copy.txt best=Archives/Old score=0.397 conf=0.55
+2026-01-20 11:34:20,744 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:34:27,840 | INFO | hermes.categorizer | [EMBEDDING] file=notes_reunion_88.txt best=Cours/Divers score=0.372 conf=0.55
+2026-01-20 11:34:32,479 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:34:40,408 | INFO | hermes.categorizer | [RULE] file=projet_code_109.zip rule_id=archive_zip category=Archives/ZIP confidence=0.92
+2026-01-20 11:34:44,512 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:34:52,808 | INFO | hermes.categorizer | [RULE] file=projet_code_24.zip rule_id=archive_zip category=Archives/ZIP confidence=0.92
+2026-01-20 11:34:56,810 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:35:06,325 | INFO | hermes.categorizer | [RULE] file=projet_code_28.zip rule_id=archive_zip category=Archives/ZIP confidence=0.92
+2026-01-20 11:35:10,393 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:35:19,485 | INFO | hermes.categorizer | [RULE] file=projet_code_68.zip rule_id=archive_zip category=Archives/ZIP confidence=0.92
+2026-01-20 11:35:23,618 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:35:31,244 | INFO | hermes.categorizer | [RULE] file=projet_code_72.zip rule_id=archive_zip category=Archives/ZIP confidence=0.92
+2026-01-20 11:35:35,463 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:35:43,842 | INFO | hermes.categorizer | [RULE] file=projet_code_77.zip rule_id=archive_zip category=Archives/ZIP confidence=0.92
+2026-01-20 11:35:48,583 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:35:58,155 | INFO | hermes.categorizer | [RULE] file=projet_ia_rapport_111.pdf rule_id=projet_rapport_keyword category=Projets/Rapports confidence=0.88
+2026-01-20 11:36:02,470 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:36:11,258 | INFO | hermes.categorizer | [RULE] file=projet_ia_rapport_41.pdf rule_id=projet_rapport_keyword category=Projets/Rapports confidence=0.88
+2026-01-20 11:36:15,606 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:36:22,679 | INFO | hermes.categorizer | [RULE] file=projet_ia_rapport_47.pdf rule_id=projet_rapport_keyword category=Projets/Rapports confidence=0.88
+2026-01-20 11:36:26,596 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:36:33,506 | INFO | hermes.categorizer | [EMBEDDING] file=scan123.pdf best=Images/Scans score=0.586 conf=0.70
+2026-01-20 11:36:37,737 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:36:45,903 | INFO | hermes.categorizer | [EMBEDDING] file=scan_02dgt.txt best=Images/Scans score=0.535 conf=0.70
+2026-01-20 11:36:45,921 | INFO | hermes.categorizer | [RULE] file=scan_4shnf.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:45,930 | INFO | hermes.categorizer | [RULE] file=scan_ciyhe.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:45,938 | INFO | hermes.categorizer | [RULE] file=scan_ertj5.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:50,168 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:36:58,058 | INFO | hermes.categorizer | [EMBEDDING] file=scan_j2qp8.txt best=Images/Scans score=0.390 conf=0.55
+2026-01-20 11:36:58,068 | INFO | hermes.categorizer | [RULE] file=screenshot_error_104.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:58,081 | INFO | hermes.categorizer | [RULE] file=screenshot_error_117.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:58,095 | INFO | hermes.categorizer | [RULE] file=screenshot_error_117_copy.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:58,112 | INFO | hermes.categorizer | [RULE] file=screenshot_error_119.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:58,128 | INFO | hermes.categorizer | [RULE] file=screenshot_error_14.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:36:58,146 | INFO | hermes.categorizer | [RULE] file=screenshot_error_92.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:37:01,557 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:37:07,434 | INFO | hermes.categorizer | [RULE] file=script.py rule_id=projet_code_by_ext category=Projets/Code confidence=0.90
+2026-01-20 11:37:11,772 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:37:17,390 | INFO | hermes.categorizer | [RULE] file=script_analysis_112.py rule_id=projet_code_by_ext category=Projets/Code confidence=0.90
+2026-01-20 11:37:21,351 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:37:27,888 | INFO | hermes.categorizer | [RULE] file=script_analysis_17.py rule_id=projet_code_by_ext category=Projets/Code confidence=0.90
+2026-01-20 11:37:31,902 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:37:41,877 | INFO | hermes.categorizer | [RULE] file=script_analysis_23.py rule_id=projet_code_by_ext category=Projets/Code confidence=0.90
+2026-01-20 11:37:45,740 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:37:52,602 | INFO | hermes.categorizer | [RULE] file=script_analysis_8.py rule_id=projet_code_by_ext category=Projets/Code confidence=0.90
+2026-01-20 11:37:56,590 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:38:06,777 | INFO | hermes.categorizer | [RULE] file=script_analysis_87.py rule_id=projet_code_by_ext category=Projets/Code confidence=0.90
+2026-01-20 11:38:10,738 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:38:18,700 | INFO | hermes.categorizer | [RULE] file=script_analysis_99.py rule_id=projet_code_by_ext category=Projets/Code confidence=0.90
+2026-01-20 11:38:23,222 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:38:32,746 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_105.docx best=Cours/IA score=0.539 conf=0.70
+2026-01-20 11:38:36,954 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:38:45,284 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_108.docx best=Cours/IA score=0.639 conf=0.70
+2026-01-20 11:38:49,618 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:38:59,599 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_116.docx best=Cours/Machine_Learning score=0.538 conf=0.70
+2026-01-20 11:39:03,542 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:39:12,102 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_2.docx best=Projets/IA score=0.566 conf=0.70
+2026-01-20 11:39:16,252 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:39:26,100 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_20.docx best=Projets/IA score=0.512 conf=0.70
+2026-01-20 11:39:30,237 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:39:39,281 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_25.docx best=Projets/IA score=0.578 conf=0.70
+2026-01-20 11:39:43,608 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:39:51,024 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_2_copy.docx best=Cours/IA score=0.564 conf=0.70
+2026-01-20 11:39:55,197 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:40:03,441 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_35.docx best=Projets/IA score=0.631 conf=0.70
+2026-01-20 11:40:07,676 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:40:14,738 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_52.docx best=Projets/IA score=0.495 conf=0.55
+2026-01-20 11:40:18,833 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:40:25,832 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_59.docx best=Projets/IA score=0.620 conf=0.70
+2026-01-20 11:40:30,004 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:40:39,550 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_66.docx best=Cours/Machine_Learning score=0.516 conf=0.70
+2026-01-20 11:40:43,679 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:40:52,633 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_74.docx best=Projets/IA score=0.544 conf=0.70
+2026-01-20 11:40:56,812 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:41:08,715 | WARNING | hermes.categorizer | [FALLBACK] file=TD_IA_83.docx reason=low_similarity best=Images/Scans score=0.337 conf=0.40
+2026-01-20 11:41:12,856 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:41:20,896 | INFO | hermes.categorizer | [EMBEDDING] file=TD_IA_86.docx best=Projets/IA score=0.586 conf=0.70
+2026-01-20 11:41:20,912 | INFO | hermes.categorizer | [RULE] file=temp_cvs4f.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:41:20,924 | INFO | hermes.categorizer | [RULE] file=temp_pseim.jpeg rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-20 11:41:24,789 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-20 11:41:32,806 | INFO | hermes.categorizer | [EMBEDDING] file=unknown_file.txt best=Images/Scans score=0.401 conf=0.55
+2026-01-20 11:41:32,848 | INFO | agents.planner | Starting hierarchy planning for 156 files.
+2026-01-20 11:41:32,849 | WARNING | agents.planner | Low confidence (0.40) for file '.gitkeep' in category 'Divers'
+2026-01-20 11:41:32,850 | WARNING | agents.planner | Low confidence (0.40) for file 'copy_4cc5o.pdf' in category 'Divers'
+2026-01-20 11:41:32,850 | WARNING | agents.planner | Low confidence (0.40) for file 'copy_irodx.txt' in category 'Divers'
+2026-01-20 11:41:32,851 | WARNING | agents.planner | Low confidence (0.40) for file 'doc_final_gq5c3.txt' in category 'Divers'
+2026-01-20 11:41:32,854 | WARNING | agents.planner | Low confidence (0.40) for file 'notes_reunion_39.txt' in category 'Divers'
+2026-01-20 11:41:32,855 | WARNING | agents.planner | Low confidence (0.40) for file 'notes_reunion_51.txt' in category 'Divers'
+2026-01-20 11:41:32,857 | WARNING | agents.planner | Low confidence (0.40) for file 'TD_IA_83.docx' in category 'Divers'
+2026-01-20 11:41:32,858 | INFO | agents.planner | Planner output folders: dict_keys(['Divers', 'Archives/ZIP', 'Administratif/Attestations', 'Administratif/Identite', 'Images/Scans', 'Images/Screenshots', 'Cours/Machine_Learning', 'Cours/NLP', 'Administratif/CV', 'Donnees/Tableurs', 'Administratif/Factures', 'Projets/Code', 'Administratif/Impots', 'Logiciels/Installateurs', 'Projets/Rapports', 'Cours/Divers', 'Archives/Old', 'Cours/IA', 'Projets/IA'])
+2026-01-20 11:41:32,861 | INFO | agents.planner | Hierarchy planning completed.
+2026-01-20 11:41:32,880 | INFO | hermes.reviewer | ReviewerAgent: starting review
+2026-01-20 11:41:32,974 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-20 11:41:32,975 | WARNING | hermes.reviewer | LLM Reviewer skipped (error): 'NoneType' object has no attribute 'group'
+2026-01-20 11:41:32,976 | INFO | hermes.reviewer | ReviewerAgent: review completed issues=3 suggestions=1
