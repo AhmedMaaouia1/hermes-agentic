@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "1.jpg",
+    "category": "Images",
+    "subcategory": "Scans",
+    "confidence": 0.55,
+    "rationale": "Classé comme Images/Scans via embedding. Confiance=0.55. Signaux utilisés: filename='1.jpg', topic='Image Analysis', keywords_clean=['image content analysis', 'visual data examination'], summary_present. similarity=0.436",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "attestation_scolarite_107.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_107.pdf', topic='certificat de scolarité numérique', keywords_clean=['attestation', 'certificat', 'numérique', 'scolarite'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "carte_identite_5.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='carte_identite_5.pdf', topic='Carte d'Identité Numérique', keywords_clean=['authentification', 'carte', 'certificat', 'identite', 'numérique'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "copy_fk8ut.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='copy_fk8ut.txt', topic='Script Python de débutant', keywords_clean=['bonjour', 'fk8ut', 'hello world', 'print'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "copy_vazcc.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='copy_vazcc.png', topic='image_generic', keywords_clean=['vazcc'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "CV_stage_2025_118.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_118.pdf', topic='Stage CV Documentary Analysis', keywords_clean=['application process', 'stage', 'year'], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "data.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='data.xlsx', topic='Base de données Excel', keywords_clean=['base de données', 'excel', 'fichiers xlsx'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_19.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_19.exe', topic='Installation d'application', keywords_clean=['exe', 'installer', 'interface utilisateur', 'programmation', 'téléchargement'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  }
+]

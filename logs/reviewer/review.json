@@ -1,0 +1,72 @@
+{
+  "issues": [
+    {
+      "issue_type": "low_confidence_categorization",
+      "severity": "medium",
+      "description": "1 fichiers ont une confiance < 0.55. Ils sont candidats pour une vérification manuelle.",
+      "affected_files": [
+        "copy_fk8ut.txt"
+      ]
+    },
+    {
+      "issue_type": "divers_overuse",
+      "severity": "low",
+      "description": "1 fichiers sont classés en 'Divers'. Cela peut indiquer des règles insuffisantes ou un profil trop pauvre.",
+      "affected_files": [
+        "copy_fk8ut.txt"
+      ]
+    },
+    {
+      "issue_type": "possible_duplicates",
+      "severity": "low",
+      "description": "Certains fichiers semblent être des doublons (copy/copie/(1), etc.).",
+      "affected_files": [
+        "copy_fk8ut.txt",
+        "copy_vazcc.png"
+      ]
+    }
+  ],
+  "suggestions": [
+    {
+      "action": "merge_folder",
+      "target": "Images/Scans",
+      "suggestion": "Le dossier 'Images/Scans' contient un seul fichier. Suggestion: fusionner dans 'Images' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Administratif/Attestations",
+      "suggestion": "Le dossier 'Administratif/Attestations' contient un seul fichier. Suggestion: fusionner dans 'Administratif' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Administratif/Identite",
+      "suggestion": "Le dossier 'Administratif/Identite' contient un seul fichier. Suggestion: fusionner dans 'Administratif' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Images/Screenshots",
+      "suggestion": "Le dossier 'Images/Screenshots' contient un seul fichier. Suggestion: fusionner dans 'Images' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Administratif/CV",
+      "suggestion": "Le dossier 'Administratif/CV' contient un seul fichier. Suggestion: fusionner dans 'Administratif' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Donnees/Tableurs",
+      "suggestion": "Le dossier 'Donnees/Tableurs' contient un seul fichier. Suggestion: fusionner dans 'Donnees' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Logiciels/Installateurs",
+      "suggestion": "Le dossier 'Logiciels/Installateurs' contient un seul fichier. Suggestion: fusionner dans 'Logiciels' pour réduire la fragmentation."
+    },
+    {
+      "action": "move_file",
+      "target": "Review/",
+      "suggestion": "1 fichiers ont une faible confiance. Suggestion: les placer dans un dossier 'Review/' pour vérification manuelle. Exemples: copy_fk8ut.txt"
+    }
+  ],
+  "revised_structure": null
+}

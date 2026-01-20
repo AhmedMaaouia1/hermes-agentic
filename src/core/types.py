@@ -157,15 +157,20 @@ class ReviewResult(BaseModel):
 # ======================================================
 class PipelineResult(BaseModel):
     """
-    Résultat final du système HERMES Agentic.
-    Utilisé pour :
+    Résultat final d'une exécution complète du pipeline HERMES Agentic.
+
+    Représente UN dossier analysé.
+    Sert pour :
     - affichage
     - export JSON
     - évaluation
     - comparaison mono-agent vs multi-agents
     """
-    fileprofiles: FileProfile
-    categorizationRes : CategorizationResult
-    initial_structure: HierarchyProposal
+
+    parsed_files: List[ParsedFile]
+    file_profiles: List[FileProfile]
+    categorizations: List[CategorizationResult]
+    hierarchy: HierarchyProposal
     review: Optional[ReviewResult] = None
+
 

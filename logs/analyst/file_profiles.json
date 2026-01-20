@@ -2,13 +2,10 @@
   {
     "filename": "1.jpg",
     "file_type": "image",
-    "topic": "Image metadata",
+    "topic": "Image Analysis",
     "keywords": [
-      "filename",
-      "extension",
-      "tokens",
-      "file_type",
-      "content_excerpt"
+      "image content analysis",
+      "visual data examination"
     ],
     "signals": {
       "source": "content",
@@ -18,16 +15,17 @@
       "ocr_success": true,
       "content_tokens": 120
     },
-    "summary": "The content excerpt appears to be gibberish, lacking coherent information about the image '1.jpg'."
+    "summary": "The provided text appears to contain nonsensical strings and symbols, suggesting an image that lacks discernible informative content or structure."
   },
   {
     "filename": "attestation_scolarite_107.pdf",
     "file_type": "document",
-    "topic": "Attestation scolaire numéro 107",
+    "topic": "certificat de scolarité numérique",
     "keywords": [
       "attestation",
       "scolarite",
-      "numéro 1 endommagé"
+      "numérique",
+      "certificat"
     ],
     "signals": {
       "source": "filename",
@@ -37,17 +35,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "L'examen final de l’année est mentionné, portant le numéro d'attestation '107'. Le document pourrait contenir des informations sur les résultats ou la validité due à un état altéré."
+    "summary": "Il s'agit dde certificat délivré pour attester du respect des critères éducatifs, sans contenu explicite dans l’extrait fourni."
   },
   {
     "filename": "carte_identite_5.pdf",
     "file_type": "document",
-    "topic": "Cartes d'identité nationales",
+    "topic": "Carte d'Identité Numérique",
     "keywords": [
       "carte",
-      "identité",
-      "française",
-      "numéro d’ordre"
+      "identite",
+      "numérique",
+      "certificat",
+      "authentification"
     ],
     "signals": {
       "source": "filename",
@@ -57,25 +56,27 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La carte nationale est une pièce de plastique décorée avec des lettres et des chiffres, où le numéro '5' pourrait indiquer un rang ou une catégorie spécifique."
+    "summary": "La carte identité numérique est un document électronique utilisé pour authentifier l'identité sur Internet."
   },
   {
     "filename": "copy_fk8ut.txt",
     "file_type": "document",
-    "topic": "Copie de document non disponible",
+    "topic": "Script Python de débutant",
     "keywords": [
-      "copier",
-      "fichier",
-      "non disponible"
+      "copy",
+      "fk8ut",
+      "Bonjour",
+      "print",
+      "Hello World"
     ],
     "signals": {
-      "source": "filename",
-      "used_content": false,
+      "source": "content",
+      "used_content": true,
       "content_source": "txt",
       "extraction_method": "builtin",
-      "content_tokens": 0
+      "content_tokens": 13
     },
-    "summary": "Le contenu du fichier 'copy_fk8ut.txt' n'est pas accessible, car l'excerpt fourni ne présente aucun texte."
+    "summary": "Le contenu du document 'copy_fk8ut.txt' inclut un exemple simple d’utilisation de la fonction print en Python pour afficher le message \"Hello World\"."
   },
   {
     "filename": "copy_vazcc.png",
@@ -99,12 +100,12 @@
   {
     "filename": "CV_stage_2025_118.pdf",
     "file_type": "document",
-    "topic": "Stage CV Analysis (2025)",
+    "topic": "Stage CV Documentary Analysis",
     "keywords": [
       "CV",
       "stage",
-      "analysis",
-      "2025"
+      "year",
+      "application process"
     ],
     "signals": {
       "source": "filename",
@@ -114,16 +115,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "This document is a professional resume from an individual's career progression, highlighting various job experiences and skills relevant to the late-career stage."
+    "summary": "The document is a structured representation of an applicant's professional qualifications and experiences, intended for review during the second stage (2025-118) in an unspecified application cycle."
   },
   {
     "filename": "data.xlsx",
     "file_type": "document",
-    "topic": "Fichier Excel",
+    "topic": "Base de données Excel",
     "keywords": [
-      "fichier",
+      "base de données",
       "Excel",
-      "donnée"
+      "fichiers XLSX"
     ],
     "signals": {
       "source": "filename",
@@ -132,33 +133,18 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier nommé 'data.xlsx' contient des données, sans autre détail fourni dans l'excerpt."
-  },
-  {
-    "filename": "doc_final_gq5c3.txt",
-    "file_type": "document",
-    "topic": "Gestion de la qualité dans le secteur industriel",
-    "keywords": [
-      "qualité",
-      "industrie",
-      "contrôle",
-      "processus"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false
-    },
-    "summary": "Le fichier 'doc_final_gq5c3.txt' est un document finalisé sans contenu explicite exprimé par les tokens présentés."
+    "summary": "Le fichier 'data.xlsx' est un document Microsoft Excel avec une extension .xlsx, et semble se rapporter à des informations structurées."
   },
   {
     "filename": "installer_app_19.exe",
     "file_type": "executable",
-    "topic": "Installation logiciel numéro 19",
+    "topic": "Installation d'application",
     "keywords": [
       "installer",
-      "application",
-      "software",
-      "exe"
+      "exe",
+      "programmation",
+      "téléchargement",
+      "interface utilisateur"
     ],
     "signals": {
       "source": "filename",
@@ -167,6 +153,6 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'installer_app_19.exe' est un élément d'exécution pour installer le logiciel avec ce nom dans son environnement, sans contenu explicite inclus."
+    "summary": "Le fichier 'installer_app_19.exe' est un programme exécutable sans contenus supplémentaires accessibles via le texte."
   }
 ]

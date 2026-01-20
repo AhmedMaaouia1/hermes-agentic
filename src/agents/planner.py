@@ -21,7 +21,7 @@ class PlannerAgent:
       des catégories ou sous-catégories.
     """
 
-    LOW_CONFIDENCE_THRESHOLD = 0.6
+    LOW_CONFIDENCE_THRESHOLD = 0.45
 
     def plan(
         self,

@@ -1,0 +1,42 @@
+{
+  "folder_structure": {
+    "Images/Scans": [
+      "1.jpg"
+    ],
+    "Administratif/Attestations": [
+      "attestation_scolarite_107.pdf"
+    ],
+    "Administratif/Identite": [
+      "carte_identite_5.pdf"
+    ],
+    "Divers": [
+      "copy_fk8ut.txt"
+    ],
+    "Images/Screenshots": [
+      "copy_vazcc.png"
+    ],
+    "Administratif/CV": [
+      "CV_stage_2025_118.pdf"
+    ],
+    "Donnees/Tableurs": [
+      "data.xlsx"
+    ],
+    "Logiciels/Installateurs": [
+      "installer_app_19.exe"
+    ]
+  },
+  "file_to_folder": {
+    "1.jpg": "Images/Scans",
+    "attestation_scolarite_107.pdf": "Administratif/Attestations",
+    "carte_identite_5.pdf": "Administratif/Identite",
+    "copy_fk8ut.txt": "Divers",
+    "copy_vazcc.png": "Images/Screenshots",
+    "CV_stage_2025_118.pdf": "Administratif/CV",
+    "data.xlsx": "Donnees/Tableurs",
+    "installer_app_19.exe": "Logiciels/Installateurs"
+  },
+  "rationale": "Files are grouped deterministically by their assigned category. When a subcategory is available, it is used as a second-level folder. Files without subcategories are placed directly under their category. No category or subcategory has been modified during planning.",
+  "warnings": [
+    "Low confidence (0.40) for file 'copy_fk8ut.txt' in category 'Divers'"
+  ]
+}

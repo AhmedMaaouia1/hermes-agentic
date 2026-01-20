@@ -1,0 +1,117 @@
+[
+  {
+    "filename": "1.jpg",
+    "extension": ".jpg",
+    "normalized_name": "1",
+    "tokens": [
+      "1"
+    ],
+    "file_type": "image",
+    "created_at": "2026-01-19T21:08:56.363746",
+    "modified_at": "2026-01-19T21:08:56.363746",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_107.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 107",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "107"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-19T21:08:56.364744",
+    "modified_at": "2026-01-19T21:08:56.364744",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "carte_identite_5.pdf",
+    "extension": ".pdf",
+    "normalized_name": "carte identite 5",
+    "tokens": [
+      "carte",
+      "identite",
+      "5"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-19T21:08:56.384885",
+    "modified_at": "2026-01-19T21:08:56.384885",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "copy_fk8ut.txt",
+    "extension": ".txt",
+    "normalized_name": "copy fk8ut",
+    "tokens": [
+      "copy",
+      "fk8ut"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-19T21:08:56.385877",
+    "modified_at": "2026-01-19T21:08:56.385877",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "copy_vazcc.png",
+    "extension": ".png",
+    "normalized_name": "copy vazcc",
+    "tokens": [
+      "copy",
+      "vazcc"
+    ],
+    "file_type": "image",
+    "created_at": "2026-01-19T21:08:56.386880",
+    "modified_at": "2026-01-19T21:08:56.386880",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "CV_stage_2025_118.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 118",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "118"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-19T21:08:56.363746",
+    "modified_at": "2026-01-19T21:08:56.363746",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "data.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "data",
+    "tokens": [
+      "data"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-19T21:08:56.386880",
+    "modified_at": "2026-01-19T21:08:56.386880",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_19.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 19",
+    "tokens": [
+      "installer",
+      "app",
+      "19"
+    ],
+    "file_type": "executable",
+    "created_at": "2026-01-19T21:08:56.387873",
+    "modified_at": "2026-01-19T21:08:56.387873",
+    "has_year": null,
+    "has_copy": false
+  }
+]
