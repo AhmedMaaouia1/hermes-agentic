@@ -15,7 +15,7 @@ import re
 from datetime import datetime
 from typing import List, Optional
 
-from src.core.types import ParsedFile
+from core.types import ParsedFile
 
 
 # ------------------------------------------------------
@@ -64,6 +64,15 @@ def extract_year(tokens: List[str]) -> Optional[int]:
                 return year
     return None
 
+def get_file_dates(file_path: str) -> tuple[Optional[str], Optional[str]]:
+    """Récupère les dates de création et de modification (format ISO)."""
+    try:
+        stat = os.stat(file_path)
+        created = datetime.fromtimestamp(stat.st_ctime).isoformat()
+        modified = datetime.fromtimestamp(stat.st_mtime).isoformat()
+        return created, modified
+    except OSError:
+        return None, None
 
 # ------------------------------------------------------
 # Parsing principal
@@ -81,6 +90,8 @@ def parse_file(file_path: str) -> ParsedFile:
 
     has_copy = any(tok in {"copy", "copie", "duplicate"} for tok in tokens)
     year = extract_year(tokens)
+    
+    created_at, modified_at = get_file_dates(file_path)
 
     return ParsedFile(
         filename=filename,
@@ -88,9 +99,12 @@ def parse_file(file_path: str) -> ParsedFile:
         normalized_name=normalized_name,
         tokens=tokens,
         file_type=detect_file_type(extension),
+        created_at=created_at,
+        modified_at=modified_at,
         has_year=year,
         has_copy=has_copy,
     )
+
 
 
 def parse_directory(directory_path: str) -> List[ParsedFile]:
