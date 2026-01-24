@@ -1,0 +1,44 @@
+{
+  "files_evaluated": 155,
+  "exact_match_accuracy": 0.7290322580645161,
+  "category_accuracy": 0.8193548387096774,
+  "subcategory_accuracy": 0.7878787878787878,
+  "confidence_analysis": {
+    "high_confidence_accuracy": 0.796875,
+    "low_confidence_accuracy": 0.4074074074074074
+  },
+  "confusion_matrix": {
+    "Archives": {
+      "Archives": 1
+    },
+    "Administratif": {
+      "Administratif": 44
+    },
+    "Divers": {
+      "Images": 4,
+      "Administratif": 4,
+      "Divers": 9,
+      "Projets": 3,
+      "Archives": 3
+    },
+    "Images": {
+      "Images": 20,
+      "Divers": 1
+    },
+    "Cours": {
+      "Cours": 27,
+      "Projets": 6,
+      "Donnees": 1
+    },
+    "Donnees": {
+      "Donnees": 8
+    },
+    "Logiciels": {
+      "Logiciels": 8
+    },
+    "Projets": {
+      "Archives": 6,
+      "Projets": 10
+    }
+  }
+}

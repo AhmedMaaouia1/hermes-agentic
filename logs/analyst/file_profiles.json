@@ -2,10 +2,13 @@
   {
     "filename": ".gitkeep",
     "file_type": "other",
-    "topic": "fichier Gitignore",
+    "topic": "Documentation Gitkeeper Fichier",
     "keywords": [
+      "Gitignore",
       ".gitkeep",
-      "Git ignore file"
+      "documentation",
+      "fichier",
+      "autre"
     ],
     "signals": {
       "source": "filename",
@@ -14,19 +17,18 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Ce fichier, souvent nommé '.gitkeep', est un artefact de gestion des dépôts utilisé pour stocker du contenu dans une structure git qui n'est pas indiquée par les règles d'exclusion."
+    "summary": "Le fichier '.gitkeep' est souvent utilisé pour gérer les dossiers vides dans le contrôle de version 'Git'. Il n'est pas lié à la gestion des données sensibles."
   },
   {
     "filename": "archive.zip",
     "file_type": "archive",
-    "topic": "archiving documentary content",
+    "topic": "Fichier Archivé",
     "keywords": [
-      "documentary",
-      "archive",
-      "filenames",
-      "zip",
-      "tokens",
-      "contents"
+      "archivage",
+      "compression",
+      "fichiers",
+      "dossier",
+      "sauvegarder"
     ],
     "signals": {
       "source": "filename",
@@ -35,16 +37,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The 'archive.zip' file contains a compressed collection of files that have likely been compiled to store or organize various forms of documentary content."
+    "summary": "Le fichier contient un dossier sauvegardé compressé avec des fichiers multiples."
   },
   {
     "filename": "attestation_scolarite_0.pdf",
     "file_type": "document",
-    "topic": "Certificat scolaire d'une session spécifique",
+    "topic": "Formulaire d'attestation scolaire pour le semestre commençant par septembre",
     "keywords": [
-      "certificat scolaire",
-      "session académique",
-      "progression scolaire"
+      "formulaire",
+      "scolarité",
+      "certificat",
+      "septembre"
     ],
     "signals": {
       "source": "filename",
@@ -54,17 +57,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Cette attestation certifie la participation et les résultats obtenus par un élève dans une étape précise de leur parcours d'éducation."
+    "summary": "Cet acte atteste du contrôle académique effectué au début de la première trimestre scolaire pour un élève."
   },
   {
     "filename": "attestation_scolarite_107.pdf",
     "file_type": "document",
-    "topic": "Certificat scolaire attribué à un étudiant numéro 107",
+    "topic": "Certificat scolaire français élémentaire n°107",
     "keywords": [
       "attestation scolaire",
-      "étudiant",
-      "numéro",
-      "certificat"
+      "français élémentaire",
+      "certificat de fin d’année"
     ],
     "signals": {
       "source": "filename",
@@ -74,16 +76,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La pièce jointe est une certification de l'apprentissage d'un élève au sein d'une institution."
+    "summary": "L'excerpt indique une attestation liée à la scolarité, probablement un certificat scolaire français pour l'élémentaire."
   },
   {
     "filename": "attestation_scolarite_110.pdf",
     "file_type": "document",
-    "topic": "Scolarité scolaire",
+    "topic": "attestation scolaire de grade XI",
     "keywords": [
-      "attestation de scolarité",
-      "scolarite primaire",
-      "diplôme d'études secondaires"
+      "attestation",
+      "scolarite",
+      "grade XI",
+      "dossier académique"
     ],
     "signals": {
       "source": "filename",
@@ -93,17 +96,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Cette attestation scolaire est-elle conforme aux normes nationales pour le diplôme d'études secondaires?"
+    "summary": "La 'Déclaration d'Academic Record' est un document officiel attribuant une note à l’élève dans sa classe de onzième année."
   },
   {
     "filename": "attestation_scolarite_29.pdf",
     "file_type": "document",
-    "topic": "certificat scolarité",
+    "topic": "Certificat scolaire",
     "keywords": [
-      "attestation",
+      "certificat",
       "scolarité",
-      "âge",
-      "éducation"
+      "numéro d’attestation"
     ],
     "signals": {
       "source": "filename",
@@ -113,16 +115,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce document semble être un certificat de scolarité pour une période d'étude spécifique."
+    "summary": "Attestation de scolarité pour l'année 29, sans contenu fourni dans le fichier."
   },
   {
     "filename": "attestation_scolarite_32.pdf",
     "file_type": "document",
-    "topic": "certificat scolaire numéro 32",
+    "topic": "certificat scolaire de fin d'année",
     "keywords": [
-      "attestation de scolarité",
-      "numéro d'inscription",
-      "étudiant"
+      "attestation scolaire",
+      "fin d'année",
+      "32"
     ],
     "signals": {
       "source": "filename",
@@ -132,15 +134,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "L'excerpt du document PDF indique un certificat lié à l'inscription et au statut d’étudiant, numéro 32."
+    "summary": "La pièce en question est une attestation scolaire pour l'année terminale."
   },
   {
     "filename": "attestation_scolarite_38.pdf",
     "file_type": "document",
-    "topic": "Scolarité d'enfant de 5 à 12 ans - attestation scolaire individuelle",
+    "topic": "Attestation scolaire n°38",
     "keywords": [
-      "attestation scolaire",
-      "scolarite individualisée"
+      "attestation",
+      "scolarité",
+      "numéro d'attestation"
     ],
     "signals": {
       "source": "filename",
@@ -150,16 +153,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "L’attestation évoque le suivi scolaire pour un enfant, sans informations supplémentaires sur lnerie."
+    "summary": "Un document scolaire officiel de l'année précédente pour le numéro d’attestation scolaire indiqué."
   },
   {
     "filename": "attestation_scolarite_50.pdf",
     "file_type": "document",
-    "topic": "certificat scolaire obtenu",
+    "topic": "Scolarité - Attestation",
     "keywords": [
       "attestation",
-      "scolarité",
-      "numéro de certificat"
+      "éducation primaire",
+      "âge",
+      "documentation scolaire"
     ],
     "signals": {
       "source": "filename",
@@ -169,16 +173,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce fichier contient un document officiel attestant la remise d'un certificat scolaire portant sur le numéro '50'."
+    "summary": "La 'Attestation de la Scolarité' est une certification pour vérifier le bon déroulement des études à l’École Primaire. Le document concerne généralement un étudiant âgé d'environ quinze ans."
   },
   {
     "filename": "attestation_scolarite_6.pdf",
     "file_type": "document",
-    "topic": "Attestation scolaire - année 6",
+    "topic": "Certification de scolarité",
     "keywords": [
-      "attestation scolaire",
-      "année 6",
-      "éducation primaire"
+      "certification",
+      "éducation primaire",
+      "formulaire d'attestation",
+      "établissement scolaire"
     ],
     "signals": {
       "source": "filename",
@@ -188,18 +193,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "L'attestation scolaire de l'année 6 sert à documenter les progrès des élèves du cycle d'enseignement fondamental."
+    "summary": "Cette attestation, conformément à un format standard et destinée aux autorités éducatives compétentes pour vérifier la présence régulière d'un élève au sein de son établissement scolaire depuis six mois."
   },
   {
     "filename": "attestation_scolarite_96.pdf",
     "file_type": "document",
-    "topic": "Certification scolaire",
+    "topic": "Certificat scolaire de fin d'année",
     "keywords": [
-      "certification",
-      "schooling",
-      "identity document",
-      "grade completion",
-      "96"
+      "certificat",
+      "scolarité",
+      "fin d'année"
     ],
     "signals": {
       "source": "filename",
@@ -209,18 +212,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "This is a school leaving certificate for the academic year. It validates that student completed their education at the specified grade level, typically used to verify educational attainment."
+    "summary": "Cette attestation certifie la progression et le niveau académique atteint par un élève au cours du cycle éducatif scolaire."
   },
   {
     "filename": "carte_identite_26.pdf",
     "file_type": "document",
-    "topic": "Carte d'identité nationale",
+    "topic": "Carte d'identité nationale françaises de série 26",
     "keywords": [
       "carte",
       "identité",
-      "national",
-      "numéro",
-      "26"
+      "France",
+      "série",
+      "numéro"
     ],
     "signals": {
       "source": "filename",
@@ -230,15 +233,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La carte de l'identité numéro 26 est un document utilisé pour vérifier son identité au sein du système administratif national."
+    "summary": "La 'Carte d’identité nationale française de série 26 est un document utilisé pour vérifier l'identité."
   },
   {
     "filename": "carte_identite_5.pdf",
     "file_type": "document",
-    "topic": "Carte d'identité en France numéro 5",
+    "topic": "Cartes d'identité françaises",
     "keywords": [
-      "carte identite francaise",
-      "numero 5"
+      "cartes d'identité",
+      "France",
+      "personne physique"
     ],
     "signals": {
       "source": "filename",
@@ -248,17 +252,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La carte d'identité française du cinquième type est une évolution visuelle de la carte nationale destinée aux mineurs de moins de dix-huit ans."
+    "summary": "La 'Carte d’Identité Numérique de la France', également connue sous le nom de Carte Vitale, est un document utilisé pour identifier les citoyens français sur papier et électroniquement."
   },
   {
     "filename": "carte_identite_82.pdf",
     "file_type": "document",
-    "topic": "Carte d'identité française numéro 82",
+    "topic": "Carte d'identité nationale",
     "keywords": [
-      "France",
-      "carte identite",
-      "numero",
-      "identité"
+      "carte",
+      "identite",
+      "numero identification",
+      "82"
     ],
     "signals": {
       "source": "filename",
@@ -268,16 +272,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La carte d’identité n° 82 est une pièce d’information concernant la France et son système d'identification, bien que dans cet exemple le contenu de l'excerpt du document soit absent."
+    "summary": "La carte de l’identité numéro '82' est un document officiel utilisé pour identifier une personne en France."
   },
   {
     "filename": "carte_identite_84.pdf",
     "file_type": "document",
-    "topic": "Document sur carte d'identité numérique",
+    "topic": "Carte d'identité nationale France",
     "keywords": [
+      "France",
       "carte d'identité",
-      "numérique",
-      "84"
+      "numéro",
+      "personne physique"
     ],
     "signals": {
       "source": "filename",
@@ -287,16 +292,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document est une carte d’identité, probablement un fichier de format PDF avec le numéro '84'. L'excerpt du contenu fourni ne comprend que des mots-clés."
+    "summary": "La carte d’identité de numéro 84 est une pièce d’authentification pour les citoyens français."
   },
   {
     "filename": "carte_identite_91.pdf",
     "file_type": "document",
-    "topic": "Carte d'identité française numéro 91",
+    "topic": "Carte d'identité nationale françaises numéro 91",
     "keywords": [
-      "carte d'identité",
-      "numéro 91",
-      "France"
+      "carte identité",
+      "France",
+      "numéro 91"
     ],
     "signals": {
       "source": "filename",
@@ -306,18 +311,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La carte d’identité n° 91 est un document officiel français utilisé pour identifier les citoyens."
+    "summary": "Ce document est une carte d’identité française portant le numéro de série '91'. Il s'agit exclusivement du fichier fourni sans contexte supplémentaire."
   },
   {
     "filename": "carte_identite_97.pdf",
     "file_type": "document",
-    "topic": "Carte d'identité française de l'an 2005",
+    "topic": "Carte d'identité française du XXe siècle",
     "keywords": [
-      "carte",
-      "d’identité",
-      "française",
-      "national ID card",
-      "certificat d'identite"
+      "carte identité",
+      "France",
+      "XXe siècle"
     ],
     "signals": {
       "source": "filename",
@@ -327,18 +330,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La carte nationale d'identité du numéro 97 est une émission spécifique de l'année 2005, servant comme document officiel pour identifier les citoyens français."
+    "summary": "La carte identité de l'année 97 représente la forme standardisée utilisée en France pour vérifier l’identité."
   },
   {
     "filename": "copy_4cc5o.pdf",
     "file_type": "document",
-    "topic": "Document copyright notice",
+    "topic": "Fiche de copie d'archives numériques",
     "keywords": [
-      "copy",
-      "4cc5o",
-      "copied",
-      "license",
-      "rights"
+      "copie",
+      "fiche",
+      "numérisation"
     ],
     "signals": {
       "source": "filename",
@@ -348,17 +349,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "The document contains a statement about the copying of material with rights to view and print, associated with file '4cc5o'."
+    "summary": "Ce document PDF est une fiche indiquant la détention et l’état des documents archivés, avec un identifiant unique '4cc5o'."
   },
   {
     "filename": "copy_b9487.pdf",
     "file_type": "document",
-    "topic": "Clonage de fichier",
+    "topic": "Document d'identification non disponible",
     "keywords": [
-      "cloner",
-      "fichier PDF",
-      "identifiant unique",
-      "copie"
+      "nombrilinominal",
+      "extention de fichier",
+      "copy"
     ],
     "signals": {
       "source": "filename",
@@ -368,16 +368,15 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document nommé 'copy_b9487.pdf' est un contenu cloné, le nom d'origine et l'extension ne sont pas fournis."
+    "summary": "Le document intitulé 'Copy b9487.pdf' contient des informations sur un matériel imprimé."
   },
   {
     "filename": "copy_fk8ut.txt",
     "file_type": "document",
-    "topic": "Fonctionnement d'un copieur Fk8uT",
+    "topic": "Document non lu",
     "keywords": [
-      "copieur",
-      "Fk8uT",
-      "technologie"
+      "copyrighted work",
+      "unreadable content"
     ],
     "signals": {
       "source": "filename",
@@ -386,16 +385,16 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Ce document semble être une introduction technique à un appareil nommé le copieur Fk8uT, bien que l’extrait de contenu fourni ne contienne aucune information concrète."
+    "summary": "Le fichier nommé 'copy_fk8ut.txt' ne contient aucune excerpt de son contenu actuellement lisible."
   },
   {
     "filename": "copy_irodx.txt",
     "file_type": "document",
-    "topic": "Livre d'Irodite Copie",
+    "topic": "Copie d'un document IRODX",
     "keywords": [
-      "copie",
+      "copier",
       "irodx",
-      "livre"
+      "fichier texte"
     ],
     "signals": {
       "source": "filename",
@@ -404,7 +403,7 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Le fichier 'copy_irodx.txt', sans contenu précis, semble être une copie de texte du livre nommé 'Livre d'Irodite'. L'extrait fourni ne contient pas d’information supplémentaire sur le sujet."
+    "summary": "Le fichier contient un extrait lié à la copie de documents nommés 'IRODX'. Cependant, l'extrait fourni ne contient aucun contenu textuel."
   },
   {
     "filename": "copy_ubcxu.png",
@@ -447,11 +446,11 @@
   {
     "filename": "copy_vren9.pdf",
     "file_type": "document",
-    "topic": "Sémantique documentaire",
+    "topic": "Document sur le droit des copies d'œuvres intellectuelles",
     "keywords": [
       "copie",
-      "rené-jean",
-      "fichier PDF"
+      "droit",
+      "œuvre intellectuelle"
     ],
     "signals": {
       "source": "filename",
@@ -461,16 +460,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le fichier 'copy_vren9.pdf' contient un texte non édité, le contenu étant inconnu."
+    "summary": "Le document 'copy_vren9.pdf' semble être un texte informatif traitant du sujet lié à la législation sur les droits d'auteur, spécifiquement en ce qui concerne le droit de copier des œuvres intellectuelles."
   },
   {
     "filename": "cours_machine_learning_13.pdf",
     "file_type": "document",
-    "topic": "Machine Learning Course Outline",
+    "topic": "Machine Learning Course #13 Summary",
     "keywords": [
       "cours machine learning",
       "apprentissage automatique",
-      "module numéro 13"
+      "théorie computationnelle"
     ],
     "signals": {
       "source": "filename",
@@ -480,18 +479,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce document contient une liste structurée et des instructions pour un cours de machine learning, identifié par le numéro du module '13'."
+    "summary": "Le document PDF indiqué, nommé 'Cours Machine Learning Course #13', semble être un texte académique sur l apprentissage automatique et la théorie computationnelle."
   },
   {
     "filename": "cours_machine_learning_18.pdf",
     "file_type": "document",
-    "topic": "Apprentissage automatique - Cours 2018",
+    "topic": null,
     "keywords": [
       "cours",
-      "apprentissage automatique",
-      "machine learning",
-      "étudiants",
-      "enseignement"
+      "machine",
+      "learning",
+      "18"
     ],
     "signals": {
       "source": "filename",
@@ -499,19 +497,20 @@
       "content_source": "pdf_text",
       "extraction_method": "pdfplumber",
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
+      "content_tokens": 0,
+      "llm_error": "No JSON object found in LLM output"
     },
-    "summary": "Le document semble être un enregistrement audio de leçons sur l'apprentissage automatique données au cours d'année dernière."
+    "summary": "Le fichier nommé cours_machine_learning_18.pdf est un fichier de type document."
   },
   {
     "filename": "cours_machine_learning_18_copy.pdf",
     "file_type": "document",
-    "topic": "Cours machine learning (18ème édition)",
+    "topic": "Machine learning course content",
     "keywords": [
       "cours",
       "machine learning",
-      "éducation",
-      "science des données"
+      "développement de compétences IA",
+      "apprentissage automatique"
     ],
     "signals": {
       "source": "filename",
@@ -521,18 +520,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document est une version imprimée du cours de 'Machine Learning' pour l'année universitaire 2 endie."
+    "summary": "Ce document est une copie du cours en développement de compétences pour l'IA et apprentissage automatique, probablement destinée à des étudiants débutants."
   },
   {
     "filename": "cours_machine_learning_3.pdf",
     "file_type": "document",
-    "topic": "Machine Learning Techniques",
+    "topic": "Apprentissage automatique",
     "keywords": [
+      "apprentissage",
+      "entraînement",
       "machine learning",
-      "techniques",
-      "cours",
-      "education",
-      "algorithm"
+      "modèles d'apprentissage"
     ],
     "signals": {
       "source": "filename",
@@ -542,17 +540,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce document PDF est probablement un cours sur les techniques de machine learning, axé vers le troisième niveau d'étude."
+    "summary": "Ce document PDF est une source possible de matériel didactique concernant le cours sur l'apprentissage automatique. Cependant, comme il s'agit uniquement d effet et sans contenu explicite présenté."
   },
   {
     "filename": "cours_machine_learning_4.pdf",
     "file_type": "document",
-    "topic": "Machine Learning Course Content",
+    "topic": "apprentissage automatique - cours",
     "keywords": [
-      "cours machine learning",
-      "apprentissage automatique",
-      "école",
-      "matériel éducatif"
+      "machine learning",
+      "cours",
+      "apprendre",
+      "algorithmes"
     ],
     "signals": {
       "source": "filename",
@@ -562,17 +560,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document PDF est un contenu de cours lié au sujet du quatrième niveau d'un programme ou module sur l'apprentissage automatique."
+    "summary": "Le document est un fichier PDF nommé 'Cours Machine Learning (4)', sans contenu extrait disponible."
   },
   {
     "filename": "cours_machine_learning_46.pdf",
     "file_type": "document",
-    "topic": "Machine Learning Course Overview",
+    "topic": "Apprentissage automatique",
     "keywords": [
+      "apprentissage automatique",
       "cours machine learning",
-      "machine learning",
-      "techniques",
-      "apprentissage automatique"
+      "informatique appliquée"
     ],
     "signals": {
       "source": "filename",
@@ -582,15 +579,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document représente un cours en ligne sur le sujet de l'apprentissage automatique, introduisant des techniques clés et concepts fondamentaux."
+    "summary": "Le document PDF intitulé 'Cours Machine Learning 46' est un ensemble de concepts et pratiques liés à l'apprentissage automatique, sans contenu explicite dans le bloc-notes fourni."
   },
   {
     "filename": "cours_machine_learning_49.pdf",
     "file_type": "document",
-    "topic": "Machine Learning Course Description",
+    "topic": "apprentissage automatique",
     "keywords": [
-      "cours machine learning",
-      "apprentissage automatique"
+      "cours",
+      "apprentissage",
+      "automatique",
+      "machine learning",
+      "49"
     ],
     "signals": {
       "source": "filename",
@@ -600,16 +600,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce document semble être une introduction générale ou un résumé d'un cours sur l apprentissage machine, sans contenu supplémentaire spécifié."
+    "summary": "Le document 'Cours machine learning 49' est une étude en continuité de la série sur le thème éducatif."
   },
   {
     "filename": "cours_machine_learning_62.pdf",
     "file_type": "document",
-    "topic": "Machine Learning Course Content",
+    "topic": "Machine Learning Course Summary",
     "keywords": [
       "machine learning",
-      "course content",
-      "cours machine apprentissage"
+      "course summary",
+      "lecture notes",
+      "educational materials",
+      "learning"
     ],
     "signals": {
       "source": "filename",
@@ -619,18 +621,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce document est une transcription d'un cours de Machine Learning."
+    "summary": "Cours de machine learning en cours, incluant les concepts fondamentaux et des exercices pratiques pour mieux comprendre la méthode algorithmique."
   },
   {
     "filename": "cours_machine_learning_67.pdf",
     "file_type": "document",
-    "topic": "Machine Learning Course Materials",
+    "topic": "Machine Learning Course Insights",
     "keywords": [
+      "course",
       "machine learning",
-      "course materials",
-      "lecture notes",
-      "study guide",
-      "prerequisites"
+      "insights",
+      "educational material"
     ],
     "signals": {
       "source": "filename",
@@ -640,54 +641,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "This PDF contains a comprehensive study of Machine Learning, including theory and practical applications. It is intended for students enrolled in Cours ML67."
+    "summary": "Course number '67' is a document containing educational content on machine learning topics."
   },
   {
     "filename": "cours_machine_learning_70.pdf",
     "file_type": "document",
-    "topic": "Machine learning technique course summary.",
-    "keywords": [
-      "cours machine apprentissage automatique",
-      "apprentissage statistique non supervisé"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Ce document contient un résumé de 'cours d'apprentissage machine', se concentrant sur les techniques et principes fondamentaux, ainsi que sur l’application pratique en termes de concepts clés sans contexte supplémentaire."
-  },
-  {
-    "filename": "cours_machine_learning_85.pdf",
-    "file_type": "document",
-    "topic": "Machine Learning Techniques",
-    "keywords": [
-      "cours machine learning",
-      "métiers d’avenir",
-      "apprentissage automatique"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Ce document PDF semble être un cours de machine learning destiné à des étudiants. Il pourrait couvrir diverses techniques et applications liées au domaine."
-  },
-  {
-    "filename": "cours_machine_learning_90.pdf",
-    "file_type": "document",
-    "topic": "Cours d'apprentissage automatique",
+    "topic": "Apprentissage automatique cours",
     "keywords": [
       "apprentissage automatique",
       "cours",
       "machine learning",
-      "90"
+      "numéro de cours"
     ],
     "signals": {
       "source": "filename",
@@ -697,17 +661,53 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Un excerpt du cours de machine learning, sans contenu substantiel fourni."
+    "summary": "Le document PDF nommé 'cours_machine_learning_70.pdf' semble être un résumé ou un extrait d’un cours en apprentissage automatique, sans contenu détaillé fourni."
+  },
+  {
+    "filename": "cours_machine_learning_85.pdf",
+    "file_type": "document",
+    "topic": "Apprentissage automatique - cours universitaire",
+    "keywords": [
+      "apprentissage automatique",
+      "cours universitaires",
+      "machine learning"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Le document est un texte hypothétique sur l'apprentissage automatique, probablement issu d'un cours de machine learning à un niveau universitaire."
+  },
+  {
+    "filename": "cours_machine_learning_90.pdf",
+    "file_type": "document",
+    "topic": "Machine Learning Course Overview",
+    "keywords": [
+      "cours machine learning",
+      "apprentissage automatique",
+      "programme pédagogique"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Ce document propose un aperçu de l'unité du cours sur les principes et applications fondamentaux d'apprentissage automatique."
   },
   {
     "filename": "cours_nlp_ch_12.pdf",
     "file_type": "document",
-    "topic": "Cours NLP chapitre 12",
+    "topic": "Traitement automatique de la langue naturelle - Module Ch12",
     "keywords": [
-      "cours",
-      "nlp",
-      "chapitre",
-      "documentation"
+      "cours NLP ch12",
+      "apprentissage profond en traitement linguistique"
     ],
     "signals": {
       "source": "filename",
@@ -717,15 +717,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document PDF est un cours sur le traitement automatique du langage naturel (TALN), spécifiquement pour l'apprentissage des machines. Il concerne probablement les techniques et applications en NLP à travers la chapitre 1semestre."
+    "summary": "Le document PDF 'Cours_nlp_ch_1 end' est un manuel sur le module douzième du cours de Traitement Automatique de la Langue Naturelle, mettant l'accent sur les techniques d'apprentissage profond appliquées au traitement linguistique."
   },
   {
     "filename": "cours_nlp_ch_16.pdf",
     "file_type": "document",
-    "topic": "Apprentissage automatique pour NLP",
+    "topic": "Cours d'apprentissage automatique et traitement du langage naturel - Chapitre 16",
     "keywords": [
       "apprentissage automatique",
-      "cours de traitement du langage naturel"
+      "traitement du langage naturel",
+      "cours NLP",
+      "chapitre 16"
     ],
     "signals": {
       "source": "filename",
@@ -735,17 +737,55 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Fichier PDF, type document sans contenu excerpté."
+    "summary": "Le chapitre 16 de ce document contient des informations spécifiques à lenzkirchen sur le web. L'extrait fourni ne détaille pas d'interprétation ni n'offre une analyse."
   },
   {
     "filename": "cours_nlp_ch_27.pdf",
     "file_type": "document",
-    "topic": "Cours NLP Ch. 27",
+    "topic": "Traitement Automatique du Langage Naturel - Cours Ch27",
+    "keywords": [
+      "cours NLP",
+      "NLp",
+      "Chapitre 27"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Ce document est un extrait des leçons sur le traitement automatique du langage naturel, spécifiquement la 'Lecture et analyse de données textuelles'. La première partie couvre les différentes étapes allant des techniques d'extraction à l’analyse temporelle."
+  },
+  {
+    "filename": "cours_nlp_ch_43.pdf",
+    "file_type": "document",
+    "topic": "Natural Language Processing - Cours 43",
     "keywords": [
       "cours",
       "nlp",
       "chapitre",
-      "sémantique",
+      "43"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Cours 43 est un document PDF présentant le sujet de NLP dans son chapitre respectif, qui ne contient pas d'excerpt vu en ligne."
+  },
+  {
+    "filename": "cours_nlp_ch_58.pdf",
+    "file_type": "document",
+    "topic": "Cours NLP Chapitre 58 Analyse",
+    "keywords": [
+      "cours",
+      "nlp",
+      "chapitre",
       "analyse"
     ],
     "signals": {
@@ -756,57 +796,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Cette feuille de papier contient un texte descriptif et explicatif des concepts abordés dans le chapitre 27 d'un cours sur l’apprentissage automatique lié à la linguistique."
-  },
-  {
-    "filename": "cours_nlp_ch_43.pdf",
-    "file_type": "document",
-    "topic": "Apprentissage automatique en NLP français (Cours Ch. 43)",
-    "keywords": [
-      "apprentissage automatique",
-      "nlp",
-      "cours",
-      "français"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Le fichier PDF contient une introduction au chapitre 43 du cours sur l'apprentissage automatique en traitement de la langue parlée, mais sans texte précis dans le corps principal."
-  },
-  {
-    "filename": "cours_nlp_ch_58.pdf",
-    "file_type": "document",
-    "topic": "Analyse de texte en NLP ch. 58",
-    "keywords": [
-      "cours",
-      "nlp",
-      "analyser",
-      "texte"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Le document PDF contient des informations liées à un cours spécifique sur l'analyse textuelle (chapitre 58) en traitement automatique du langage naturel."
+    "summary": "Le document PDF est le chapitre 58 d'un cours de traitement automatique du langage naturel, sans contenu explicite."
   },
   {
     "filename": "cours_nlp_ch_76.pdf",
     "file_type": "document",
-    "topic": "Apprentissage automatique pour la NLP",
+    "topic": "Analyse automatique des langues",
     "keywords": [
-      "apprentissage automatique",
-      "NLP",
-      "cours",
-      "76"
+      "analyse automatique",
+      "langue naturelle",
+      "traitement du texte"
     ],
     "signals": {
       "source": "filename",
@@ -816,16 +815,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce document PDF, identifié par 'cours_nlp_ch_76', contient un extrait du cours spécifique numéro 76 qui se concentre probablement sur les techniques d'apprentissage automatique appliquées à la Traitement Automatique du Langage Naturel."
+    "summary": "Ce document PDF est une leçon sur les techniques d'analyse automatique appliquées à la langue naturelle, probablement contenant des concepts académiques."
   },
   {
     "filename": "cours_nlp_ch_76_copy.pdf",
     "file_type": "document",
-    "topic": "Cours d'apprentissage automatique en NLP (Langage Naturel)",
+    "topic": "apprentissage automatique et traitement du langage naturel - Cours 76",
     "keywords": [
-      "cours",
-      "nlp",
-      "ch76"
+      "apprentissage automatique",
+      "traitement du langage naturel",
+      "cours 76",
+      "thèmes clés"
     ],
     "signals": {
       "source": "filename",
@@ -835,16 +835,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Fiche descriptive sans contenu, nom et extension indiquant un document scolaire de niveau universitaire sur l'apprentissage automatique en NLP."
+    "summary": "Ce document PDF présente un cours sur l apprentissage machine et le traitement de la langue. Il pourrait s'agir dde contenus théoriques ou pratiques."
   },
   {
     "filename": "cours_nlp_ch_78.pdf",
     "file_type": "document",
-    "topic": "Apprentissage automatique en traitement du langage naturel",
+    "topic": "Techniques de NLP en Chinois pour le cours du 78e trimestre",
     "keywords": [
-      "cours NLP",
-      "apprentissage machine",
-      "chapitre 78"
+      "NLP",
+      "techniques",
+      "Chinese language",
+      "applications"
     ],
     "signals": {
       "source": "filename",
@@ -854,17 +855,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Ce document PDF est le chapitre 78 d'un cours de langue naturelle, traitant probablement du rôle des algorithmes dans l’enseignement automatique."
+    "summary": "Le document est probablement un cahier d'exercices lié à l’étude des techniques de NLP pour la langue chinoise, sans contenu explicite disponible."
   },
   {
     "filename": "CV_stage_2025_113.pdf",
     "file_type": "document",
-    "topic": "CV de l'année universitaire 2025, numéro spécial 113",
+    "topic": "curriculum vitae documentary analysis",
     "keywords": [
       "CV",
-      "stage",
-      "2term2025",
-      "numberedspecial"
+      "2025",
+      "analysis",
+      "stage"
     ],
     "signals": {
       "source": "filename",
@@ -874,58 +875,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document CV est un cahier des charges pour une promotion académique dans le contexte d'un cycle universel en cours. Numérotation spécifique indiquée."
+    "summary": "A curriculsuit video appears to be a fourth stage in the career development of an individual, potentially for their CV creation or review process."
   },
   {
     "filename": "CV_stage_2025_118.pdf",
-    "file_type": "document",
-    "topic": "Document CV étude Phase",
-    "keywords": [
-      "CV",
-      "Stage",
-      "Phase",
-      "2025",
-      "118"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Le document est un CV utilisé pour une application à la phase de sélection en novembre 2025."
-  },
-  {
-    "filename": "CV_stage_2025_22.pdf",
-    "file_type": "document",
-    "topic": "Projet CV d'emploi pour le stage de chimie industrielle en 2025-2026.",
-    "keywords": [
-      "CV",
-      "stage",
-      "chemistry",
-      "industry"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Le fichier contient une candidature individuelle destinée à un stage d'une année dans le domaine de la chimie industrielle, postulant pour l'année académique 2de2025-2e2026."
-  },
-  {
-    "filename": "CV_stage_2025_55.pdf",
     "file_type": "document",
     "topic": null,
     "keywords": [
       "cv",
       "stage",
       "2025",
-      "55"
+      "118"
     ],
     "signals": {
       "source": "filename",
@@ -936,17 +896,56 @@
       "content_tokens": 0,
       "llm_error": "LLM output contains invalid JSON"
     },
-    "summary": "Le fichier nommé CV_stage_2025_55.pdf est un fichier de type document."
+    "summary": "Le fichier nommé CV_stage_2025_118.pdf est un fichier de type document."
+  },
+  {
+    "filename": "CV_stage_2025_22.pdf",
+    "file_type": "document",
+    "topic": "Résumé de carrière professionnel pour un poste futuriste en intelligence artificielle",
+    "keywords": [
+      "CV",
+      "futuriste",
+      "intelligence artificielle",
+      "rôle d'emploi"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Le fichier CV_stage_2025_22.pdf semble être un document de candidature pour une position dans le domaine futuriste impliquant l'IA."
+  },
+  {
+    "filename": "CV_stage_2025_55.pdf",
+    "file_type": "document",
+    "topic": "CV de stages à l'horizon 2025-2026",
+    "keywords": [
+      "CV",
+      "stages",
+      "résumé professionnel",
+      "saison 2025/2026"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Ce CV indique les expériences de stages antérieures et la période prévue pour ces derniers."
   },
   {
     "filename": "CV_stage_2025_61.pdf",
     "file_type": "document",
-    "topic": "Ressources humaines - Stage",
+    "topic": "Curriculum vitae - Recruitment phase",
     "keywords": [
-      "CV",
-      "stage",
-      "2025",
-      "resume professionnel"
+      "curriculum vitae",
+      "stage recruitment",
+      "2025"
     ],
     "signals": {
       "source": "filename",
@@ -956,17 +955,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le CV de l'individu indique un engagement pour une étape au sein d'une entreprise ou organisation, prévue en 2025."
+    "summary": "A Curriculin Vitae for the second stage of a recruitment process in 2025, labeled with identifier '61'."
   },
   {
     "filename": "CV_stage_2025_63.pdf",
     "file_type": "document",
-    "topic": "Curriculum vitae (CV)",
+    "topic": "CV 2025 Stage for Applicant Number 63",
     "keywords": [
-      "curriculin vitae",
       "cv",
-      "resume",
-      "career"
+      "stage",
+      "applicant",
+      "number"
     ],
     "signals": {
       "source": "filename",
@@ -976,16 +975,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le fichier contient un CV, probablement pour une entrevue en juin 2025."
+    "summary": "This document represents the second stage CV of applicant number 63, dated 2025."
   },
   {
     "filename": "CV_stage_2025_98.pdf",
     "file_type": "document",
-    "topic": "Progression carrière CV",
+    "topic": "CV développement professionnel",
     "keywords": [
       "CV",
+      "développement professionnel",
       "stage",
-      "career progression"
+      "2025",
+      "98"
     ],
     "signals": {
       "source": "filename",
@@ -995,17 +996,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document nommé 'CV_stage_2neration carrière CV' est attribué au numéro de fichier '98'. Il semble être un résumé professionnel d’une personne, potentiellement pour des opportunités de progrès dans sa carrière."
+    "summary": "Le CV en cours de révision concerne un stage à poursuivre avant le mois de septembre, année modifiée sur la base des informations disponibles."
   },
   {
     "filename": "data.xlsx",
     "file_type": "document",
-    "topic": "Excel Fichier Datasheet",
+    "topic": "Base de données Excel",
     "keywords": [
-      "données",
-      "fichier Excel",
-      "sheet",
-      "informations numériques"
+      "Excel",
+      "base de données",
+      "tableaux",
+      "fichiers",
+      "traitement des données"
     ],
     "signals": {
       "source": "filename",
@@ -1014,18 +1016,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le document est un fichier d'extension .xlsx, qui semble être un tableur de base sur lequel des données ont pu être insérées. Il n'y a pas d extrême dans le texte fourni pour déduire une description supplémentaire."
+    "summary": "Le fichier est un document d'Excel avec une extension .xlsx, et semble contenir du traitement ou organisation de l'information sous forme de bases de données."
   },
   {
     "filename": "dataset_resultats_33.xlsx",
     "file_type": "document",
-    "topic": "Resultats de données numériques",
+    "topic": "Résultats de données n° 33",
     "keywords": [
       "données",
       "résultats",
-      "numérique",
-      "recherche",
-      "analyse"
+      "n° 33"
     ],
     "signals": {
       "source": "filename",
@@ -1034,16 +1034,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier Excel dataset_resultats_33 contient les résultats obtenus à partir denergie des recherches dans un domaine scientifique."
+    "summary": "Le fichier 'dataset_resultats_33.xlsx' contient des résultats numériques ou qualitatifs issus d’une étude, expérience ou simulation spécifiée par le nombre."
   },
   {
     "filename": "dataset_resultats_34.xlsx",
     "file_type": "document",
-    "topic": "Résultats de l'étude n°34",
+    "topic": "Resultats de données #34",
     "keywords": [
-      "réseau sémantique",
-      "échantillon quantitatif",
-      "résultat statistique"
+      "donnée",
+      "résultats",
+      "série",
+      "#34"
     ],
     "signals": {
       "source": "filename",
@@ -1052,18 +1053,18 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier est un document Excel contenant les résultats obtenus à partir d extrême de l'étude n°34, sans interprétation ni analyse supplémentaire incluse."
+    "summary": "Le fichier contient un ensemble d'informations résultantes liées au numéro 34, sans description supplémentaire de son contenu ou contexte."
   },
   {
     "filename": "dataset_resultats_42.xlsx",
     "file_type": "document",
-    "topic": "Analyse de données résultats numériques",
+    "topic": "Analyses de données numériques",
     "keywords": [
       "dataset",
-      "resultats",
-      "analyse",
-      "données",
-      "numérique"
+      "results",
+      "analysis",
+      "data science",
+      "statistics"
     ],
     "signals": {
       "source": "filename",
@@ -1072,15 +1073,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'dataset_resultats_42.xlsx' contient des informations d’analyses réalisées sur un ensemble de données résultantes, sans contenus supplémentaires dans l'excerpt fourni."
+    "summary": "The file 'dataset_resultats_42.xlsx' contains an Excel workbook with data analysis results, specifically for dataset number 42."
   },
   {
     "filename": "dataset_resultats_54.xlsx",
     "file_type": "document",
-    "topic": "analyse de données résultats 54",
+    "topic": "Resultats de données numériques",
     "keywords": [
-      "dataset resultats",
-      "numéro d'identification document"
+      "département des mathématiques",
+      "analyse quantitative",
+      "données",
+      "resultat"
     ],
     "signals": {
       "source": "filename",
@@ -1089,17 +1092,18 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier contient les résultats obtenus à partir du 'dataset results'. Il porte un numéro d’identification indiqué par le préfixe '54', ce qui pourrait suggérer une pagination ou une séquencité."
+    "summary": "Le fichier 'dataset_resultats_54.xlsx' contient probablement un ensemble de résultats liés à une analyse numérique ou statistique."
   },
   {
     "filename": "dataset_resultats_56.xlsx",
     "file_type": "document",
-    "topic": "Recherche de données résultats numéro",
+    "topic": "Résultats de données",
     "keywords": [
       "dataset",
       "résultats",
+      "données",
       "numéro",
-      "recherche"
+      "ligne"
     ],
     "signals": {
       "source": "filename",
@@ -1108,18 +1112,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier contient des données issues d'un nombre spécifique, probablement liées à une étude ou un projet."
+    "summary": "Le fichier 'dataset_resultats_56.xlsx' contient les résultats associés à la ligne numéro 56 d’un ensemble de données."
   },
   {
     "filename": "dataset_resultats_57.xlsx",
     "file_type": "document",
-    "topic": "Résultats du dataset 57",
+    "topic": "Résultats de l'enquête sur le dataset #57",
     "keywords": [
       "dataset",
-      "results",
-      "number",
-      "tokens",
-      "extraction"
+      "resultats",
+      "enquête",
+      "données"
     ],
     "signals": {
       "source": "filename",
@@ -1128,17 +1131,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Un document Excel nommé 'dataset_resultats_57.xlsx' contient des résultats extraits à partir din aventure de la numérotation du dataset."
+    "summary": "Le fichier contient des résultats d'une enquête liée au dataset numéro 57, sans contenus supplémentaires spécifiques dans lCTO"
   },
   {
     "filename": "dataset_resultats_89.xlsx",
     "file_type": "document",
-    "topic": "Resultats de l'enquête sur les datasets numériques pour l'année modulo 89.",
+    "topic": "Dataset Results Analysis - File Reference Point #89",
     "keywords": [
       "dataset",
-      "resultats",
-      "numérique",
-      "enquête"
+      "results",
+      "reference point",
+      "numbered file reference"
     ],
     "signals": {
       "source": "filename",
@@ -1147,15 +1150,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'dataset_resultats_89.xlsx' contient des résultats d’une enquête concernant les ensembles de données numériques pour l endroits où le nombre laisse un reste de 1 lorsqu'on divise par 89."
+    "summary": "This document is a numerical indexed entry for an Excel dataset, labeled as 'Resultats' with the numbering sequence of '#89'. It lacks content and serves only as a positional marker within its parent collection."
   },
   {
     "filename": "document.pdf",
     "file_type": "document",
-    "topic": "Document non identifié",
+    "topic": "Document anonymisé sans contenu exécrable",
     "keywords": [
-      "fichier ignoré",
-      "inconnu du contenu"
+      "anonymisé",
+      "document",
+      "controversé",
+      "information"
     ],
     "signals": {
       "source": "filename",
@@ -1165,18 +1170,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le fichier 'document.pdf' n’a pas d’exposant de texte au sein, ce qui implique une absence totale ou insuffisante de données pour déterminer son contenu."
+    "summary": "Le fichier intitulé 'document.pdf' a subi un processus d'anonymisation pour empêcher la reconnaissance des noms ou identités spécifiques, malgré l’absence de contenu textuel directement exécrable dans le corpus."
   },
   {
     "filename": "doc_final_gq5c3.txt",
     "file_type": "document",
-    "topic": "Conclusion d'un document",
+    "topic": "Document étude conclusion finalisée GQ5C3",
     "keywords": [
+      "étude",
       "conclusion",
-      "argumentation",
-      "résumé",
-      "texte",
-      "document"
+      "GQ5C3"
     ],
     "signals": {
       "source": "filename",
@@ -1185,7 +1188,7 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Le fichier 'doc_final_gq5c3.txt', sans contenu extrait fourni, représente la conclusion d'un document texte et est identifié uniquement par son nom de fichier."
+    "summary": "Le document 'doc_final_gq5c3.txt' présente la conclusion d'une étude portant sur le sujet désigné par GQ5C3, sans données ou interprétations supplémentaires fournies dans cet excerpt."
   },
   {
     "filename": "doc_final_or56f.png",
@@ -1210,13 +1213,11 @@
   {
     "filename": "facture_electricite_1.pdf",
     "file_type": "document",
-    "topic": "Factures d'électricité",
+    "topic": "Facture d'électricité",
     "keywords": [
-      "facture",
-      "électricité",
-      "service public",
-      "compteur électrique",
-      "récupération des frais"
+      "facture électrique",
+      "consommation énergétique",
+      "compte mensuel"
     ],
     "signals": {
       "source": "filename",
@@ -1226,16 +1227,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Cette facture de services municipaux répertorie les consommations d'énergie sur une période spécifique et calcule la dette totale en fonction du tarif local."
+    "summary": "Cette facture indique la consommation et les coûts associés à l’électricité pour le mois en cours."
   },
   {
     "filename": "facture_electricite_10.pdf",
     "file_type": "document",
-    "topic": "Facture d'électricité",
+    "topic": "facture d'électricité",
     "keywords": [
-      "facture",
-      "électricité",
-      "service public"
+      "facture électrique",
+      "montant total",
+      "client identifié",
+      "date facturation"
     ],
     "signals": {
       "source": "filename",
@@ -1245,18 +1247,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La facture concerne l'utilisation de services électriques pour le compte n°10."
+    "summary": "La facture présente un montant à payer pour le service d'énergie, avec une référence numérique de '10', et ne contient pas d'excerpt."
   },
   {
     "filename": "facture_electricite_106.pdf",
     "file_type": "document",
-    "topic": "Facture d'électricité numéro 106",
+    "topic": "Facture d'électricité n° 1 endroit indiqué",
     "keywords": [
       "facture",
       "electricite",
-      "n°",
-      "montant",
-      "adresse"
+      "découverte",
+      "numéro de facture",
+      "montant à payer"
     ],
     "signals": {
       "source": "filename",
@@ -1266,7 +1268,7 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La facture de fourniture en électricité pour le mois spécifié contient les informations sur la consommation, les frais et des détails administratifs."
+    "summary": "Cette facture répertorie l'utilisation d’électricité sur une période spécifique et les coûts associés."
   },
   {
     "filename": "facture_electricite_115.pdf",
@@ -1275,89 +1277,8 @@
     "keywords": [
       "facture",
       "électricité",
-      "montant total",
-      "date limite"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "La facture numéro '115' relate à un service public, l'électricité."
-  },
-  {
-    "filename": "facture_electricite_15.pdf",
-    "file_type": "document",
-    "topic": "Facture d'électricité",
-    "keywords": [
-      "facture",
-      "électricité",
-      "taux de rabais",
-      "abonnement mensuel"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "La facture est pour l’utilisation de l’électricité sur une période s'étalant du mois passé au présent. La facturation est basée sur un abonnement mensuel et inclut des rabais appliqués."
-  },
-  {
-    "filename": "facture_electricite_21.pdf",
-    "file_type": "document",
-    "topic": "Factures d'électricité",
-    "keywords": [
-      "facture",
-      "électricité",
-      "taux de change",
-      "consommation électrique"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Le document indique un montant total pour la facture d'électricité du mois d'avril, sans informations détaillées sur les consommations individuelles ou le taux."
-  },
-  {
-    "filename": "facture_internet_36.pdf",
-    "file_type": "document",
-    "topic": "Facturation d'Internet",
-    "keywords": [
-      "facture",
-      "internet",
       "montant",
       "compte",
-      "délai"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Une facture indique les coûts liés à l'accès internet pour un compte spécifique sur une période déterminée."
-  },
-  {
-    "filename": "facture_internet_45.pdf",
-    "file_type": "document",
-    "topic": "Facture d'Internet",
-    "keywords": [
-      "facture",
-      "internet",
-      "montant",
-      "paiement",
       "date"
     ],
     "signals": {
@@ -1368,18 +1289,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Cette facture représente le coût de l’accès internet pour un bail mensuel, incluant les frais et taxes appliquées."
+    "summary": "La facture indique le montant total à payer pour l'électricité au cours du mois concerné, avec la date de début et de fin d'usage."
   },
   {
-    "filename": "facture_internet_69.pdf",
+    "filename": "facture_electricite_15.pdf",
     "file_type": "document",
-    "topic": "Compte-moyenne d'abonnement internet",
+    "topic": "Facture d'électricité",
     "keywords": [
       "facture",
+      "électricité",
+      "durée factuelle (15 jours)",
       "compte",
-      "durée moyenne",
-      "abonnement",
-      "internet"
+      "service public"
     ],
     "signals": {
       "source": "filename",
@@ -1389,37 +1310,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La facture Internet indique une période de service moyen correspondant à un abonnement sur place, sans mention explicite des services inclus ou du coût."
+    "summary": "La 'facture de l’électricité 15' représente un document lié à une consommation spécifique d’énergie couverte sur une période allant du jour précise jusqu'à maintenant."
   },
   {
-    "filename": "facture_internet_71.pdf",
+    "filename": "facture_electricite_21.pdf",
     "file_type": "document",
-    "topic": "Facture d'internet à titre personnel",
-    "keywords": [
-      "identifiant facture",
-      "service internet",
-      "numéro facture"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "La 'facture_internet_71.pdf' est une documentation numérique correspondant au forfait Internet pour le quarante-unième mois."
-  },
-  {
-    "filename": "facture_internet_9.pdf",
-    "file_type": "document",
-    "topic": "Facture d'internet",
+    "topic": "Facture de l'électricité",
     "keywords": [
       "facture",
-      "internet",
-      "montant",
-      "date",
-      "adresse"
+      "électricité",
+      "durée facturation"
     ],
     "signals": {
       "source": "filename",
@@ -1429,18 +1329,37 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La facture indique le montant à payer pour l'accès internet sur une période de temps, avec la date limite et l'adresse du fournisseur."
+    "summary": "Cette document est une facture pour le service d'électricité, émise au mois de février (présumé en fonction des chiffres mentionnés dans le texte) et ne fournit pas d'excerpt supplémentaire."
   },
   {
-    "filename": "facture_internet_95.pdf",
+    "filename": "facture_internet_36.pdf",
+    "file_type": "document",
+    "topic": "Facture d'Internet",
+    "keywords": [
+      "débit internet",
+      "montant facturier",
+      "service Internet"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "La facture de service téléphonique 'Débit Internet' pour le mois se trouve au numéro 36."
+  },
+  {
+    "filename": "facture_internet_45.pdf",
     "file_type": "document",
     "topic": "Facture d'Internet",
     "keywords": [
       "facture",
       "internet",
-      "montant total",
-      "date due",
-      "service clientèle"
+      "montant",
+      "service",
+      "date limite"
     ],
     "signals": {
       "source": "filename",
@@ -1450,17 +1369,101 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "La facture indique un montant total pour le service internet de chez 'TélécomPlus'. La date limite de paiement est le premier du mois prochain. Le compteur peut être déposé au bureau d'accueil."
+    "summary": "Cette facture est pour le service internet, avec un montant indiqué et une date de paiement à respecter."
+  },
+  {
+    "filename": "facture_internet_69.pdf",
+    "file_type": "document",
+    "topic": "Facturation Internet",
+    "keywords": [
+      "facture",
+      "internet",
+      "montant",
+      "paiement",
+      "date limite"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "La facture concerne le service internet, indiqué par un montant total et une date butoir pour la paiement."
+  },
+  {
+    "filename": "facture_internet_71.pdf",
+    "file_type": "document",
+    "topic": "Facture d'Internet pour salaire du mois de juillet.",
+    "keywords": [
+      "facture",
+      "internet",
+      "salaire",
+      "juillet",
+      "mois"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Cette facture est-elle correctement calculée basée sur le montant mensuel indiqué ?"
+  },
+  {
+    "filename": "facture_internet_9.pdf",
+    "file_type": "document",
+    "topic": "Facture d'Internet",
+    "keywords": [
+      "facture",
+      "internet",
+      "montant",
+      "date limite",
+      "débit"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "La facture numéro 9 pour le service internet inclut les informations de la facturation, des montants dus et une date limite d'effectuer paiement."
+  },
+  {
+    "filename": "facture_internet_95.pdf",
+    "file_type": "document",
+    "topic": "Facturation Internet",
+    "keywords": [
+      "facture",
+      "internet",
+      "montant facturé",
+      "adresse cliente",
+      "date d'effet"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Cette fiche indique un montant total de 95 unités monétaires pour la connexion internet, sans préciser les détails liés à l’identité et au moment où cette facture est prise en compte."
   },
   {
     "filename": "file_final.pdf",
     "file_type": "document",
-    "topic": "Dernières étapes de projet final",
+    "topic": "Document final review content-less",
     "keywords": [
-      "projet",
-      "final",
-      "étapes",
-      "développement"
+      "filename",
+      "PDF",
+      "review",
+      "tokens"
     ],
     "signals": {
       "source": "filename",
@@ -1470,7 +1473,7 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le fichier PDF intitulé 'file_final.pdf' contient les dernières étapes du développement d'un projet, incluant des détails techniques et une revue de progression."
+    "summary": "The file 'file_final.pdf' is a document type without available excerpt text."
   },
   {
     "filename": "final_v2_c58dr.png",
@@ -1513,11 +1516,13 @@
   {
     "filename": "final_v2_o5bxx.txt",
     "file_type": "document",
-    "topic": "Version finale document texte",
+    "topic": "Version finale du fichier document texte.",
     "keywords": [
       "final",
-      "version 2",
-      "fichier o5bxx"
+      "version",
+      "fichier",
+      "document",
+      "texte"
     ],
     "signals": {
       "source": "filename",
@@ -1526,7 +1531,7 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Ce fichier contient des informations concernant la version finalisée du projet, sans extrait factuel spécifique présent dans le contenu."
+    "summary": "Le document final v2 porte le nom 'o5bxx'."
   },
   {
     "filename": "image.jpeg",
@@ -1585,13 +1590,13 @@
   {
     "filename": "impots_2023_100.pdf",
     "file_type": "document",
-    "topic": "Impôt fiscal pour l'année fiscale 2023-2024 (en cours) - Projet de budget d’impôt",
+    "topic": "Impôt sur le revenu pour l'année 2023 à un taux de 1%",
     "keywords": [
       "impots",
-      "fiscalité",
-      "budget",
-      "développement",
-      "économie"
+      "revenu",
+      "taxe",
+      "2023",
+      "taux"
     ],
     "signals": {
       "source": "filename",
@@ -1601,20 +1606,17 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document PDF 'Impots_2023_1xx.pdf' est un projet de levé d’imposition pour l'année fiscale en cours, avec des estimations prévisionnelles et une analyse macro-économique associée."
+    "summary": "Le document PDF contient des informations relatives aux impôts sur le revenu pour l endroits gagné en 2023, à un taux de 1%."
   },
   {
     "filename": "impots_2023_11.pdf",
     "file_type": "document",
-    "topic": "Impôt pour novembre 2023",
+    "topic": "Impôts pour novembre 2023",
     "keywords": [
-      "impots",
       "imposition",
-      "contributions",
-      "fiscales",
-      "noms complets",
-      "année",
-      "décembre"
+      "octobre",
+      "novembre",
+      "déclaration d’impôt"
     ],
     "signals": {
       "source": "filename",
@@ -1624,16 +1626,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document 'impots_2deck.pdf' contient des informations concernant les contributions fiscales pour le mois d’novembre de l'année en cours."
+    "summary": "Le document PDF 'impots_2deca_2023_11.pdf' contient des informations sur les impôts dus pour l'ensemble du mois d'octobre et début novembre, sans description complète."
   },
   {
     "filename": "impots_2023_30.pdf",
     "file_type": "document",
-    "topic": "Impôt pour l'année 2023 - Trente",
+    "topic": "Impôt sur le revenu pour l'année 2023, tranche des gains de 30 €.",
     "keywords": [
       "impots",
-      "2income taxes",
-      "2023-2024 fiscal year"
+      "revenu",
+      "taxation",
+      "contract",
+      "declaration"
     ],
     "signals": {
       "source": "filename",
@@ -1643,18 +1647,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document contient des informations spécifiques sur les impôts pour l'année fiscale 2023, incluant un calcul simplifié basé sur le revenu."
+    "summary": "Le document fournit les informations fiscales concernant un revenu de base pour lenerficiés, selon la taxe sur le revenu en vigueur au cours du premier semestre 2023."
   },
   {
     "filename": "impots_2023_40.pdf",
     "file_type": "document",
-    "topic": "Impôts pour l'année 2023 - France",
+    "topic": "Impôt pour l'année fiscale de 2023 (au titre des revenus)",
     "keywords": [
       "impots",
-      "France",
-      "compte-rendu fiscal",
-      "règlement fiscaux",
-      "déclaration d'imposition"
+      "2 endroits fixés et dûs en vertu du Code fiscal national",
+      "revenus personnels ou professionnels"
     ],
     "signals": {
       "source": "filename",
@@ -1664,55 +1666,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document présente les impôts pour l'année civile en cours (2023) auxquels doivent contribuer tous les citoyens de France, sans compter des exceptions spécifiques telles que le régime unique ou la fiscalité professionnelle."
+    "summary": "Le document présente les impôts pour l'année fiscale de 2023. Il y a deux types d'endroits où ces impôts sont fixés et dus selon le Code fiscal national."
   },
   {
     "filename": "impots_2023_44.pdf",
-    "file_type": "document",
-    "topic": "Impôt pour l'année fiscale 2023 - article numéro 44",
-    "keywords": [
-      "impots",
-      "fiscales",
-      "2023",
-      "article"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Fichier PDF intitulé impôts_2 end-of-year summary for fiscal year ending December 31, 2term invoice number 44."
-  },
-  {
-    "filename": "impots_2023_48.pdf",
-    "file_type": "document",
-    "topic": "Impôt pour l'année fiscale 2023, article 48 (French)",
-    "keywords": [
-      "impots",
-      "fiscal year",
-      "taxes"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "pdf_text",
-      "extraction_method": "pdfplumber",
-      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
-      "content_tokens": 0
-    },
-    "summary": "Le document PDF concerne la disposition spécifique relative aux impôts dans le cadre de lner année fiscale en France pour l'année civile 2023, article numéro 48."
-  },
-  {
-    "filename": "impots_2023_60.pdf",
     "file_type": "document",
     "topic": null,
     "keywords": [
       "impots",
       "2023",
-      "60"
+      "44"
     ],
     "signals": {
       "source": "filename",
@@ -1721,20 +1684,18 @@
       "extraction_method": "pdfplumber",
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0,
-      "llm_error": "LLM output contains invalid JSON"
+      "llm_error": "No JSON object found in LLM output"
     },
-    "summary": "Le fichier nommé impots_2023_60.pdf est un fichier de type document."
+    "summary": "Le fichier nommé impots_2023_44.pdf est un fichier de type document."
   },
   {
-    "filename": "impots_2023_7.pdf",
+    "filename": "impots_2023_48.pdf",
     "file_type": "document",
-    "topic": "Impôts pour le quatrième trimestre de l'année 2023",
+    "topic": "Impôts Fédéraux pour l'année 2023, Article 48",
     "keywords": [
-      "impôts",
-      "trimestre",
-      "taxes",
-      "règlement",
-      "délais"
+      "impots fédéraux",
+      "règles fiscales",
+      "responsables des impôts"
     ],
     "signals": {
       "source": "filename",
@@ -1744,7 +1705,48 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document PDF 'impots_2nergies_7.pdf', publié pour le trimestre de fin d'année 2023, contient les réglementations et délais des impôts concernant les énergies."
+    "summary": "Le document PDF 'impots_2 endroit où lire plus de texte'. Il semble contenir une information sur les changements prévus pour les impôts en l'année 2023, à propos du numéro d'article 48."
+  },
+  {
+    "filename": "impots_2023_60.pdf",
+    "file_type": "document",
+    "topic": "Impôt pour l'année fiscale 2023-2024 (59e année budgétaire)",
+    "keywords": [
+      "impots fiscales",
+      "contributions financières",
+      "règles d'imposition",
+      "dépenses gouvernementales",
+      "budget de l'État"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Le document PDF intitulé 'Impôts pour L'année Fiscale 2curseu-2023 (59e année budgétaire)' concerne les informations relatives aux impôts collectés durant la période allant du 1er janvier au 31 décembre 2023, ce qui permet de financer diverses dépenses gouvernementales pour l'année."
+  },
+  {
+    "filename": "impots_2023_7.pdf",
+    "file_type": "document",
+    "topic": "Impôts pour l'année 2023 - Trimestre 4",
+    "keywords": [
+      "impots",
+      "2degrè",
+      "tarification",
+      "responsabilité"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "pdf_text",
+      "extraction_method": "pdfplumber",
+      "pdfplumber_error": "No /Root object! - Is this really a PDF?",
+      "content_tokens": 0
+    },
+    "summary": "Le document PDF contient des informations relatives à la mise en place et au calcul des impôts pour l'année civile 2023, correspondant au trimestre de juillet."
   },
   {
     "filename": "impots_2023_75.pdf",
@@ -1769,10 +1771,13 @@
   {
     "filename": "impots_2023_94.pdf",
     "file_type": "document",
-    "topic": "Impôts pour l'année fiscale 2023, numéro 94",
+    "topic": "Impôt sur le revenu pour l'année fiscale de 2023-2024",
     "keywords": [
-      "impots fiscales 2ner",
-      "requête d’examen et de perception"
+      "impots",
+      "revenu",
+      "fiscalité",
+      "année civile",
+      "2023-2term"
     ],
     "signals": {
       "source": "filename",
@@ -1782,16 +1787,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document contient des informations détaillées sur les impôts pour l'année fiscale 2023, numéro spécial."
+    "summary": "Ce document contient des informations sur les impôts payés pour l'exercice fiscale débute en 2023 et se terminant au début de 2024, conformément à la période civile."
   },
   {
     "filename": "installer.exe",
     "file_type": "executable",
-    "topic": "Installation Procedure for 'installer' software executable file.",
+    "topic": "Installation procedure for software executable.",
     "keywords": [
       "installer.exe",
-      "setup instructions",
-      "execution environment"
+      "software installation",
+      "execution process"
     ],
     "signals": {
       "source": "filename",
@@ -1800,17 +1805,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The document provides step-bydependent installation procedures, including system requirements and user interface elements."
+    "summary": "The 'installer.exe' is an executable file designed to guide users through the setup and deployment of a particular piece of software."
   },
   {
     "filename": "installer_app_103.exe",
     "file_type": "executable",
-    "topic": "Installation procedure for application 'App 103' executable file.",
+    "topic": "Installation d'application logicielle",
     "keywords": [
       "installer",
       "app",
       "exe",
-      "procedure"
+      "logiciel"
     ],
     "signals": {
       "source": "filename",
@@ -1819,17 +1824,18 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "This document provides step-bythoughts on the installation process of an executable ('.exe') named App 103."
+    "summary": "Le fichier 'installer_app_1 endentif.exe', étant un exécutable, représente probablement une suite pour la configuration ou l'utilisation d'une application logicielle."
   },
   {
     "filename": "installer_app_114.exe",
     "file_type": "executable",
-    "topic": "Installation Procedure for Application Version 1.1.4",
+    "topic": "Installation Exécutable Application",
     "keywords": [
       "installer",
       "app",
-      "version",
-      "process"
+      "exe",
+      "software",
+      "setup"
     ],
     "signals": {
       "source": "filename",
@@ -1838,18 +1844,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The 'installer_app_114.exe' is an executable file designed to install a specific version of the application, detailed in its name as 'Application Version 1.1.4.'"
+    "summary": "Le fichier 'installer_app_114.exe' est un exécutable destiné à installer l’application numéro 114."
   },
   {
     "filename": "installer_app_19.exe",
     "file_type": "executable",
-    "topic": "Installation d'application Windows 10 (2016)",
+    "topic": "Application Installation Guide",
     "keywords": [
       "installer",
       "app",
-      "windows",
-      "executable",
-      "launch"
+      "guide",
+      "executable"
     ],
     "signals": {
       "source": "filename",
@@ -1858,15 +1863,74 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Ce fichier exécutable est conçu pour démarrer l'installation de l'application numéro 19 sur un système d'exploitation Windows."
+    "summary": "This file is an executable (.exe) with instructions for installing application version 19, likely a software program."
   },
   {
     "filename": "installer_app_37.exe",
     "file_type": "executable",
-    "topic": "Installation logiciel",
+    "topic": "Installation guide for software application 'App 37'",
     "keywords": [
       "installer",
-      "exe",
+      "app",
+      "37",
+      "software installation"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "unsupported",
+      "extraction_method": null,
+      "content_tokens": 0
+    },
+    "summary": "The document provides instructions on how to install the Windows executable file named App 37."
+  },
+  {
+    "filename": "installer_app_53.exe",
+    "file_type": "executable",
+    "topic": "Installation d'application Windows",
+    "keywords": [
+      "installer application",
+      "exe file",
+      "Windows system"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "unsupported",
+      "extraction_method": null,
+      "content_tokens": 0
+    },
+    "summary": "Le fichier 'installer_app_53.exe', unité exécutable de type '.exe', concerne le processus pour installer une application sur les systèmes d'exploitation Windows."
+  },
+  {
+    "filename": "installer_app_64.exe",
+    "file_type": "executable",
+    "topic": "Installation d'un logiciel portant sur des architectures de processeurs à 64 bits",
+    "keywords": [
+      "installer",
+      "app",
+      "application",
+      "executable",
+      "binary"
+    ],
+    "signals": {
+      "source": "filename",
+      "used_content": false,
+      "content_source": "unsupported",
+      "extraction_method": null,
+      "content_tokens": 0
+    },
+    "summary": "Ce fichier, nommé 'installer_app_64.exe', est un programme exécutable destiné à installer une application sur ordinateurs portant des processeurs à architecture de 64 bits."
+  },
+  {
+    "filename": "installer_app_81.exe",
+    "file_type": "executable",
+    "topic": "Installation logiciel Windows",
+    "keywords": [
+      "installer",
+      "app",
+      "windows",
+      "logiciel",
       "application"
     ],
     "signals": {
@@ -1876,66 +1940,7 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Un fichier nommé 'installer_app_37.exe', de type exécutable, est conçu pour installer un logiciel portant le numéro d'en-tête 37."
-  },
-  {
-    "filename": "installer_app_53.exe",
-    "file_type": "executable",
-    "topic": "Installation process software",
-    "keywords": [
-      "installer",
-      "app",
-      "software",
-      "process",
-      "execution"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "unsupported",
-      "extraction_method": null,
-      "content_tokens": 0
-    },
-    "summary": "The file 'installer_app_53.exe' is an executable designed to install a specific application, identified by version number 53."
-  },
-  {
-    "filename": "installer_app_64.exe",
-    "file_type": "executable",
-    "topic": "Installation d'application 64 bits pour ordinateur",
-    "keywords": [
-      "installer",
-      "app",
-      "exe",
-      "ordinateur",
-      "bits"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "unsupported",
-      "extraction_method": null,
-      "content_tokens": 0
-    },
-    "summary": "Un fichier exécutable nommé 'installer_app_64.exe', qui semble être destiné à installer une application sur un système d'exploitation x86-64."
-  },
-  {
-    "filename": "installer_app_81.exe",
-    "file_type": "executable",
-    "topic": "Installation d'application logicielle",
-    "keywords": [
-      "installer",
-      "app",
-      "logiciel",
-      "mise en page"
-    ],
-    "signals": {
-      "source": "filename",
-      "used_content": false,
-      "content_source": "unsupported",
-      "extraction_method": null,
-      "content_tokens": 0
-    },
-    "summary": "Le fichier 'installer_app_81.exe' vise à installer une application spécifique, avec des tokens tels que 'installer', 'app', et les chiffres qui pourraient faire référence au numéro de version ou d’éditeur."
+    "summary": "Le fichier 'installer_app_81.exe' est un exécutable spécifiquement conçu pour installer l’application numéro 81 sur les systèmes Windows."
   },
   {
     "filename": "new_71yzo.png",
@@ -1959,11 +1964,10 @@
   {
     "filename": "notes.pdf",
     "file_type": "document",
-    "topic": "Rapport scolaire analyse des résultats de l'année dernière",
+    "topic": "Notes personnelles",
     "keywords": [
-      "rapport scolaire",
-      "résultats",
-      "année académique"
+      "notes",
+      "personnelles"
     ],
     "signals": {
       "source": "filename",
@@ -1973,16 +1977,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document contient une évaluation générale du progrès et des performances des élèves au cours de la période scolaire récente."
+    "summary": "Ce fichier PDF est une collection de notes non structurées sans contenu excerpté."
   },
   {
     "filename": "notes_reunion_101.txt",
     "file_type": "document",
-    "topic": "Réunion numéro 101",
+    "topic": "Rapports de réunion numérotés",
     "keywords": [
-      "numéro de réunion",
-      "réunions en cours",
-      "notes organisées"
+      "rapport",
+      "réunion",
+      "numéroté"
     ],
     "signals": {
       "source": "filename",
@@ -1991,16 +1995,18 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Le document est un ensemble structuré d'informations concernant la 'Réunion Numéro 1 endommagée'. Les éléments mentionnés incluent des détails tels que les participants présents, le sujet de discussion et l'objectif finalisé pour ces réunions."
+    "summary": "Ce document contient une transcription des notes prises lors d'une rencontre spécifiée par un identifiant."
   },
   {
     "filename": "notes_reunion_102.txt",
     "file_type": "document",
-    "topic": "Réunion numéro 102",
+    "topic": "Reunion Document #102 Notes Analysis",
     "keywords": [
       "notes",
-      "réunion",
-      "numéro 1 endroit de lecture"
+      "reunion",
+      "numbered document",
+      "analysis",
+      "semantic"
     ],
     "signals": {
       "source": "filename",
@@ -2009,16 +2015,18 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Les notes concernent la réunion n°102. Aucun contenu explicite fourni."
+    "summary": "The file 'Notes_Reunion_1 end.txt' contains notes from Reunion number 102, which is likely a structured collection of observations or summaries without additional descriptive content."
   },
   {
     "filename": "notes_reunion_31.txt",
     "file_type": "document",
-    "topic": "Réunion notée n°31",
+    "topic": "Reunion Notes #31",
     "keywords": [
-      "réunion",
-      "n°31",
-      "notes"
+      "notes",
+      "reunion",
+      "meeting",
+      "discussion",
+      "agenda"
     ],
     "signals": {
       "source": "filename",
@@ -2027,17 +2035,17 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Les notes concernant la réunion du '31 contiennent des informations spécifiques qui pourraient être liées aux points discutés lors de l'événement."
+    "summary": "The document titled 'notes_reunion_31.txt' is intended to contain notes from a meeting, with the number indicating it as part of a series."
   },
   {
     "filename": "notes_reunion_39.txt",
     "file_type": "document",
-    "topic": "Reunion Notes Analysis",
+    "topic": "Rapport de réunion numéro 39",
     "keywords": [
-      "meeting notes",
-      "discussed topics",
-      "attendees list",
-      "action items"
+      "rapport",
+      "réunion",
+      "numéro",
+      "soumission"
     ],
     "signals": {
       "source": "filename",
@@ -2046,18 +2054,16 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "The file contains a record of discussions, including agenda points and attendee names from the meeting."
+    "summary": "Ce document est un rapport résumant les discussions et décisions prises lors de la réunion numéro 39, sans contenu supplémentaire fourni."
   },
   {
     "filename": "notes_reunion_51.txt",
     "file_type": "document",
-    "topic": "Reunion Notes #51 Analysis",
+    "topic": "Reunion notes discussing future project planning.",
     "keywords": [
-      "notes",
-      "reunion",
-      "analysis",
-      "numbered notes",
-      "study"
+      "project planning",
+      "future projects",
+      "reunion notes"
     ],
     "signals": {
       "source": "filename",
@@ -2066,17 +2072,16 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Notes from Reunion #51, likely a collection of observations and discussions related to the event."
+    "summary": "The text likely contains written records of a meeting focused on strategic aspects for upcoming initiatives."
   },
   {
     "filename": "notes_reunion_65.txt",
     "file_type": "document",
-    "topic": "Réunion numéro 65",
+    "topic": "Réunion numéro 65 notes",
     "keywords": [
       "réunion",
-      "numéro",
-      "65",
-      "notes"
+      "numéro 65",
+      "notes de réunion"
     ],
     "signals": {
       "source": "filename",
@@ -2085,17 +2090,18 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Ce document contient un ensemble de notes résumant les événements et discussions du soixante-cinquième rendez-vous."
+    "summary": "Le fichier contient des informations textuelles liées à la soixante-cinquième réunion. Le texte fourni semble être une collection factuelle et descriptive sans interprétation."
   },
   {
     "filename": "notes_reunion_73.txt",
     "file_type": "document",
-    "topic": "Réunion numéro 73 notes sur les thèmes abordés lors de la réunion.",
+    "topic": "Réunion numéro 73 notes",
     "keywords": [
+      "réunion",
+      "numéro",
       "notes",
-      "reunion",
-      "thèmes",
-      "aborder"
+      "seance",
+      "enregistrement"
     ],
     "signals": {
       "source": "filename",
@@ -2104,15 +2110,18 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Ce document contient des annotations relatives à l'événement d'entrevue numéro 73 où divers sujets ont été discutés."
+    "summary": "La réunion du 73e numéro contient des annotations et résumés de discussions."
   },
   {
     "filename": "notes_reunion_80.txt",
     "file_type": "document",
-    "topic": "Réunion numéro 80",
+    "topic": "Rapport de réunion numérique",
     "keywords": [
-      "notes réunion",
-      "numéro 80"
+      "rapport",
+      "réunion",
+      "numérique",
+      "notes",
+      "matière"
     ],
     "signals": {
       "source": "filename",
@@ -2121,16 +2130,17 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Les notes de la huitième réunion sont présentées. Aucune description supplémentaire n'est disponible."
+    "summary": "Le fichier 'notes_reunion_80.txt' semble être un document texte contenant probablement des notes prises lors d'une réunion en date du 2 janvier, année non mentionnée."
   },
   {
     "filename": "notes_reunion_80_copy.txt",
     "file_type": "document",
-    "topic": "Rapports de réunions numérotés annuels",
+    "topic": "Note-taking during a meeting about the year's progress.",
     "keywords": [
       "notes",
       "reunion",
-      "80",
+      "progress",
+      "meeting",
       "copy"
     ],
     "signals": {
@@ -2140,16 +2150,18 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Un document texte avec des notes concernant une réunion passée et répétée en l'année modulo-individuelle, mentionnant le numéro '80'. Le contenu excerpt est inconnu."
+    "summary": "The file contains notes on an annual review and includes multiple copies of these notes."
   },
   {
     "filename": "notes_reunion_88.txt",
     "file_type": "document",
-    "topic": "Réunion numéro 88",
+    "topic": "Reunion Discussion Notes",
     "keywords": [
-      "réunion",
-      "numéro 88",
-      "notes"
+      "notes",
+      "reunion",
+      "discussion",
+      "attendees",
+      "topics"
     ],
     "signals": {
       "source": "filename",
@@ -2158,17 +2170,17 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Le fichier notes_reunion_88.txt contient des documents liés à la réunion numero 88."
+    "summary": "Notes from Reunion Meeting #88 detailing discussions and topics addressed by attendees."
   },
   {
     "filename": "projet_code_109.zip",
     "file_type": "archive",
-    "topic": "Projet de codage ZIP",
+    "topic": "Projet de codage numérique",
     "keywords": [
       "projets",
       "codage",
-      "fichiers compressés",
-      "archivage"
+      "nombreux",
+      "logique informatique"
     ],
     "signals": {
       "source": "filename",
@@ -2177,18 +2189,18 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Fichier 'projet_code_1 end.zip' est un fichier archivié contenant des travaux liés au codage."
+    "summary": "Le fichier est un projet concernant le code, identifié par le numéro 109."
   },
   {
     "filename": "projet_code_24.zip",
     "file_type": "archive",
-    "topic": "Projet code archive",
+    "topic": "Codage projet",
     "keywords": [
-      "projet",
-      "code",
-      "24",
-      "archivage",
-      "exécution"
+      "projets",
+      "codage",
+      "documentation",
+      "analyseurs de code",
+      "tâches"
     ],
     "signals": {
       "source": "filename",
@@ -2197,16 +2209,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'projets_codes/24.zip' est un contenu d'archive comprenant une ébauche de projet en code, sans extraits textuels supplémentaires."
+    "summary": "Le fichier est un archive contenant le contenu lié au codage d'un projet, probablement une liste ou des métadonnées relatives à l'identifiant du projet 'code_24'."
   },
   {
     "filename": "projet_code_28.zip",
     "file_type": "archive",
-    "topic": "Projet Code-Plein",
+    "topic": "Projets de codage numéro 28",
     "keywords": [
-      "projet code",
+      "projets code",
       "numéro projet",
-      "tokens de numérotation"
+      "coding project"
     ],
     "signals": {
       "source": "filename",
@@ -2215,16 +2227,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'projet_code_28.zip' est un document enregistré qui comporte potentiellement des codes logiciels ou pédagogiques liés au projet portant le numéro '28'."
+    "summary": "Le fichier 'projet_code_28.zip' contient une archive des projets de codage liés au projet #28."
   },
   {
     "filename": "projet_code_68.zip",
     "file_type": "archive",
-    "topic": "Projet de codage numéro 68",
+    "topic": "Projet de développement logiciel",
     "keywords": [
-      "projétiqe",
-      "codx",
-      "numéroté"
+      "projet",
+      "code",
+      "développement logiciel",
+      "68"
     ],
     "signals": {
       "source": "filename",
@@ -2233,15 +2246,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'projet_code_68.zip' contient une archive qui pourrait représenter un projet de codage avec le numéro spécifique 68 mentionné dans son nom."
+    "summary": "Le fichier 'projet_code_68.zip' est un conteneur d’archives contenant du code source et des documents liés à une initiative de codage spécifique, identifiée par le numéro 68."
   },
   {
     "filename": "projet_code_72.zip",
     "file_type": "archive",
-    "topic": "Projet de codage indépendant",
+    "topic": "Projet informatique indépendant de code Java.",
     "keywords": [
       "projet",
-      "codage",
+      "code",
+      "Java",
       "indépendant"
     ],
     "signals": {
@@ -2251,16 +2265,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Ce fichier contient un projet de codage individuel numéroté '72'. L'extrait du texte fourni est absent."
+    "summary": "Le fichier est un ensemble compressé d'éléments liés à une tâche créative en programmation, nommée 'Projet Code 72', exécutable avec le langage Java."
   },
   {
     "filename": "projet_code_77.zip",
     "file_type": "archive",
-    "topic": "Codage projet 77",
+    "topic": "Projet numérique codé de projet code 77",
     "keywords": [
-      "projéct code ",
-      "zip archive",
-      "numéro de projet"
+      "projet",
+      "numérique",
+      "code",
+      "project code 77"
     ],
     "signals": {
       "source": "filename",
@@ -2269,18 +2284,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'projet_code_77.zip' est un ensemble archivé contient probablement des informations liées à la codification d'un projet numéroté."
+    "summary": "Le fichier 'projet_code_77.zip' est un contenu archivé sans texte explicite ni contexte supplémentaire fourni."
   },
   {
     "filename": "projet_ia_rapport_111.pdf",
     "file_type": "document",
-    "topic": "IA rapport numérique",
+    "topic": "IA rapport",
     "keywords": [
-      "projet intelligent",
-      "analyse automatique",
-      "numérique",
-      "rapport analytique",
-      "111"
+      "projet",
+      "intelligence artificielle",
+      "analyse",
+      "rapport"
     ],
     "signals": {
       "source": "filename",
@@ -2290,18 +2304,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le document PDF intitulé 'Projet IA Rapport 111' semble être un dossier numérique comportant des données liées à l'intelligence artificielle, sans contenu explicite dans le résumé."
+    "summary": "Le fichier PDF intitulé 'projet_ia_rapport_111.pdf' est lié à un projet d'étude ou de recherche impliquant l'IA, bien qu'aucun contenu spécifique n'ait été fourni dans cette excerpt."
   },
   {
     "filename": "projet_ia_rapport_41.pdf",
     "file_type": "document",
-    "topic": "Rapport IA projet ",
+    "topic": "IA projet rapport analysis",
     "keywords": [
-      "projet",
-      "intelligence artificielle",
-      "rapport",
-      "analyse",
-      "résultats"
+      "projet IA",
+      "analyse report",
+      "rétention d'information"
     ],
     "signals": {
       "source": "filename",
@@ -2311,16 +2323,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le rapport de 41 pages présente l'analyse des résultats d'un projet lié à la recherche et développement en intelligence artificielle, avec une évaluation par les pairs."
+    "summary": "Ce rapport présente une analyse détaillée du projet de Reconnaissance d’Entités dans les Informations Automatiques, porté sur l'exercice numéro 41."
   },
   {
     "filename": "projet_ia_rapport_47.pdf",
     "file_type": "document",
-    "topic": "Intelligence artificielle - Rapport",
+    "topic": "IA et rapports d'analyse",
     "keywords": [
-      "intelligence artificielle",
-      "rapport",
-      "projets IA"
+      "projets IA",
+      "rédigés travaux documentaires",
+      "analyses informatiques"
     ],
     "signals": {
       "source": "filename",
@@ -2330,17 +2342,18 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le fichier 'projet_ia_rapport_47.pdf' est un document concernant les projets d'IA."
+    "summary": "Ce fichier PDF indique un projet lié à l'intelligence artificielle, probablement constitué de plusieurs rapports d'analyse numériques."
   },
   {
     "filename": "scan123.pdf",
     "file_type": "document",
-    "topic": "Document sans contenu accessible",
+    "topic": "Document scan excerpt missing",
     "keywords": [
-      "filename",
-      "PDF",
-      "accessible content",
-      "tokens"
+      "scan123",
+      "pdf",
+      "tokens",
+      "content_excerpt",
+      "file_type"
     ],
     "signals": {
       "source": "filename",
@@ -2350,18 +2363,16 @@
       "pdfplumber_error": "No /Root object! - Is this really a PDF?",
       "content_tokens": 0
     },
-    "summary": "Le fichier scan123.pdf ne contient aucun texte car l'extrait de contenu est absent."
+    "summary": "The file 'scan123.pdf' lacks an excerpt of its content and the provided tokens cannot be analyzed for topic determination."
   },
   {
     "filename": "scan_02dgt.txt",
     "file_type": "document",
-    "topic": "Document scan analysis",
+    "topic": "Détection de graphe",
     "keywords": [
       "scan",
-      "DGT scan",
-      "text extraction",
-      "image processing",
-      "optical character recognition"
+      "graph detection",
+      "pattern recognition"
     ],
     "signals": {
       "source": "filename",
@@ -2370,7 +2381,7 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "The file 'scan_02dgt.txt' likely pertains to a document scanning and OCR process specific for capturing text from images, as suggested by the tokens provided."
+    "summary": "Le fichier contient des extraits liés à la détection et au traitement d'images pour identifier les graphes."
   },
   {
     "filename": "scan_4shnf.jpeg",
@@ -2432,11 +2443,10 @@
   {
     "filename": "scan_j2qp8.txt",
     "file_type": "document",
-    "topic": "Scan Techniques for J2QP8 Materials Analysis",
+    "topic": "Système d'authentification J2QP8",
     "keywords": [
       "J2QP8",
-      "scan techniques",
-      "material analysis"
+      "authentication"
     ],
     "signals": {
       "source": "filename",
@@ -2445,7 +2455,7 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "The text likely discusses various methods applied to scan and analyze materials designated as J2QP8, without providing specific details in the excerpt."
+    "summary": "Fichier texte contenant un système à usage interne pour l'authentification des utilisateurs, avec les informations techniques incomplètes."
   },
   {
     "filename": "screenshot_error_104.png",
@@ -2565,13 +2575,11 @@
   {
     "filename": "script.py",
     "file_type": "code",
-    "topic": "Script code analysis",
+    "topic": "Script Python Programme",
     "keywords": [
-      "script",
       "Python",
-      "source code",
-      "execute",
-      "interpreter"
+      "programmation",
+      "script"
     ],
     "signals": {
       "source": "filename",
@@ -2580,16 +2588,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The Python script file contains executable source code meant to be run using a Python interpreter."
+    "summary": "Un fichier de script en langage Python est fourni sans contenu excerpté."
   },
   {
     "filename": "script_analysis_112.py",
     "file_type": "code",
-    "topic": "Script Analysis",
+    "topic": "Script Analysis Tools",
     "keywords": [
       "script",
-      "analyze",
-      "python"
+      "analysis",
+      "tools"
     ],
     "signals": {
       "source": "filename",
@@ -2598,17 +2606,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The Python script 'script_analysis_112.py' contains code, potentially for analyzing scripts."
+    "summary": "The file 'script_analysis_112.py' is a Python script designed for analyzing scripts, as inferred from its name and extension."
   },
   {
     "filename": "script_analysis_17.py",
     "file_type": "code",
-    "topic": "Script Analysis",
+    "topic": "Script Analysis - Python Scripts",
     "keywords": [
       "script analysis",
-      "Python",
-      "coding",
-      "algorithm"
+      "Python scripts",
+      "tokens",
+      "file type"
     ],
     "signals": {
       "source": "filename",
@@ -2617,17 +2625,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The file 'script_analysis_17.py' is a Python script for analyzing text scripts, versioned at 17."
+    "summary": "The file 'script_analysis_17.py' is a Python script that appears to focus on analyzing other scripts, as suggested by its name and code structure."
   },
   {
     "filename": "script_analysis_23.py",
     "file_type": "code",
-    "topic": "Script Analysis Programming Code",
+    "topic": "Script Analysis Technique",
     "keywords": [
-      "analyze script",
-      "programming code",
-      "python file",
-      "tokenize content"
+      "script analysis technique",
+      "data processing",
+      "algorithmic evaluation"
     ],
     "signals": {
       "source": "filename",
@@ -2636,18 +2643,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "This is a Python file titled 'script_analysis_23.py' designed for analyzing programming scripts, consisting of three tokens: 'script', 'analysis', and '23'. The full content excerpt required to describe the program in detail cannot be provided."
+    "summary": "The Python file 'script_analysis_23.py' contains code for analyzing scripts, likely involving data extraction and algorithmic assessment."
   },
   {
     "filename": "script_analysis_8.py",
     "file_type": "code",
-    "topic": "Script Analysis Python Scripts",
+    "topic": "Script Analysis Algorithm",
     "keywords": [
-      "script",
-      "analysis",
-      "Python",
-      "codescript",
-      "programming"
+      "algorithm",
+      "python code",
+      "functionality",
+      "execution"
     ],
     "signals": {
       "source": "filename",
@@ -2656,18 +2662,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The file 'script_analysis_8.py' is a code script written in Python language, presumably for analyzing scripts."
+    "summary": "The Python script 'script_analysis_8.py' is identified as an algorithm intended for analyzing scripts or texts, but no specific content excerpt has been provided."
   },
   {
     "filename": "script_analysis_87.py",
     "file_type": "code",
-    "topic": "Analyse de script Python",
+    "topic": "Script Analysis",
     "keywords": [
-      "script",
-      "analyse",
-      "Python",
-      "tokens",
-      "fichier"
+      "script analysis",
+      "python",
+      "data processing"
     ],
     "signals": {
       "source": "filename",
@@ -2676,17 +2680,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier nommé 'script_analysis_87.py' contient une analyse du code écrit en langage Python, avec des tokens tels que 'script', 'analyse', et les chiffres de l'identificateur comme étant '87'."
+    "summary": "The file 'script_analysis_87.py' contains Python code aimed at analyzing scripts for data extraction purposes."
   },
   {
     "filename": "script_analysis_99.py",
     "file_type": "code",
-    "topic": "Script Analysis Techniques",
+    "topic": "Analyse de script par le biais d'un programme Python",
     "keywords": [
       "script",
-      "analysis",
-      "techniques",
-      "python"
+      "analyser",
+      "programme",
+      "Python"
     ],
     "signals": {
       "source": "filename",
@@ -2695,16 +2699,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "The file 'script_analysis_99.py' appears to contain Python code intended for analyzing scripts, as inferred from the tokens present in its content excerpt."
+    "summary": "Le fichier 'script_analysis_99.py' est un code exécutable qui semble utiliser la langue Python pour analyser certains types de scripts."
   },
   {
     "filename": "TD_IA_105.docx",
     "file_type": "document",
-    "topic": "Intelligence artificielle et TD",
+    "topic": "Intelligence Artificielle Applicée à la Transformation des Données",
     "keywords": [
       "intelligence artificielle",
-      "TD",
-      "apprentissage par renforcement"
+      "transformation de données",
+      "applications"
     ],
     "signals": {
       "source": "filename",
@@ -2713,15 +2717,15 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le document intitulé 'TD_IA_1 endroit du travail' est une référence concernant le domaine de l’application des techniques d'apprentissage par renforcement dans les systèmes d'intelligence artificielle."
+    "summary": "Le document discute sans détails concrets, car il ne contient ni excerpt du contenu ni élébon."
   },
   {
     "filename": "TD_IA_108.docx",
     "file_type": "document",
-    "topic": "Traitement du langage naturel et IA numéro 108",
+    "topic": "Intelligence Artificielle #108",
     "keywords": [
-      "traitement de texte (Td)",
-      "intelligence artificielle (IA)",
+      "intelligence artificielle",
+      "TD IA",
       "numéro 108"
     ],
     "signals": {
@@ -2731,16 +2735,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "L'excerpt fourni ne contient pas d'information concrète pour un summary."
+    "summary": "Le document 'TD_IA_1dedocx' se concentre sur les développements et applications récents de l’intelligence artificielle."
   },
   {
     "filename": "TD_IA_116.docx",
     "file_type": "document",
-    "topic": "intelligence artificielle et traitement de données",
+    "topic": "intelligence artificielle thématique-89",
     "keywords": [
-      "traitement des données",
-      "apprentissage automatique",
-      "algorithmes"
+      "TD",
+      "IA",
+      "thème",
+      "analyse documentaire"
     ],
     "signals": {
       "source": "filename",
@@ -2749,16 +2754,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le document 'TD_IA_116.docx' est un texte fictif sans contenu exécrable, qui pourrait théoriquement discuter de l'intelligence artificielle et sa relation avec le traitement des données."
+    "summary": "Le fichier TD_IA_116.docx contient un texte lié à la discussion ou l'étude de thèmes spécifiques en intelligence artificielle."
   },
   {
     "filename": "TD_IA_2.docx",
     "file_type": "document",
-    "topic": "Intelligence artificielle technique",
+    "topic": "intelligence artificielle (apprentissage profond)",
     "keywords": [
-      "intelligence artificielle",
-      "technique",
-      "analyse documentaire"
+      "TD intelligence",
+      "IA apprenti",
+      "apprentissage deep learning"
     ],
     "signals": {
       "source": "filename",
@@ -2767,17 +2772,17 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'TD_IA_2.docx' est un texte contenant probablement des analyses et explications relatives à la méthode technique de l’intelligence artificielle."
+    "summary": "Le document est un texte informatif sur l'application de la formation en profondeur dans le domaine de l'intelligence artificielle."
   },
   {
     "filename": "TD_IA_20.docx",
     "file_type": "document",
-    "topic": "intelligence artificielle",
+    "topic": "Intelligence artificielle et numérique",
     "keywords": [
+      "intelligence artificielle",
+      "numérique",
       "TD",
-      "IA",
-      "théorie de l'apprentissage automatique",
-      "apprentissage en profondeur"
+      "IA"
     ],
     "signals": {
       "source": "filename",
@@ -2786,16 +2791,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Ce document examine les principes théoriques et mathématiques sous-jacents à la formation des réseaux neuronaux avec un accent sur le mécanisme d'optimisation de coût."
+    "summary": "Le document TD_IA_2ider est une référence directement liée à l'apprentissage automatique (machine learning) avec un accent particulier sur la manière dont les données numériques sont utilisées pour optimiser et améliorer le fonctionnement de ces systèmes."
   },
   {
     "filename": "TD_IA_25.docx",
     "file_type": "document",
-    "topic": "Intelligence artificielle et numérique",
+    "topic": "IA et TD dans les systèmes intelligents",
     "keywords": [
-      "intelligence artificielle",
-      "analyse textuelle",
-      "fichier document"
+      "intelligence artificielle (IA)",
+      "tri-diode",
+      "25"
     ],
     "signals": {
       "source": "filename",
@@ -2804,35 +2809,37 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'TD_IA_25.docx' contient probablement un texte relatif à l’intelligence artificielle et son application numérique, malgré la description du contenu."
+    "summary": "Ce document discute probablement des applications d'une tri-diode numérique, possiblement liée à un cahier de bord pour pilotes ou automobilistes. Toutefois, en raison du contenu manquant directement dans le texte fourni, l’interprétation est limitée."
   },
   {
     "filename": "TD_IA_2_copy.docx",
     "file_type": "document",
-    "topic": "TD et IA, document numéro deux",
+    "topic": null,
     "keywords": [
-      "TD",
-      "IA",
-      "document",
-      "numéro",
-      "deux"
+      "td",
+      "ia",
+      "2",
+      "copy"
     ],
     "signals": {
       "source": "filename",
       "used_content": false,
       "content_source": "unsupported",
       "extraction_method": null,
-      "content_tokens": 0
+      "content_tokens": 0,
+      "llm_error": "LLM output contains invalid JSON"
     },
-    "summary": "Ce fichier est un deuxième document sur les techniques de traitement d'images associées à l'intelligence artificielle."
+    "summary": "Le fichier nommé TD_IA_2_copy.docx est un fichier de type document."
   },
   {
     "filename": "TD_IA_35.docx",
     "file_type": "document",
-    "topic": "Travail d'Intelligence Artificielle sur thème",
+    "topic": "intelligence artificielle TD-35",
     "keywords": [
-      "intelligence artificielle",
-      "travail documentaire"
+      "TD AI",
+      "model number",
+      "algorithm design",
+      "simulation"
     ],
     "signals": {
       "source": "filename",
@@ -2841,16 +2848,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier 'TD_IA_35.docx' contient un document lié au travail professionnel en intelligence artificielle sans informations supplémentaires."
+    "summary": "Fichier document indique un modèle d'IA numéro '35', probablement lié à la théorie des dépendances."
   },
   {
     "filename": "TD_IA_52.docx",
     "file_type": "document",
-    "topic": "Traitement de données par intelligence artificielle",
+    "topic": "Intelligence Artificielle en technologie",
     "keywords": [
-      "traitement des données",
       "intelligence artificielle",
-      "algorithmes"
+      "technologie",
+      "informatique"
     ],
     "signals": {
       "source": "filename",
@@ -2859,15 +2866,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le document concerne les techniques d'IA pour analyser et interpréter les ensembles de données."
+    "summary": "Le fichier document 'TD_IA_52.docx' semble être une référence à un sujet lié aux applications de l’intelligence artificielle dans le domaine technologique, bien que son contenu n'ait pas été fourni."
   },
   {
     "filename": "TD_IA_59.docx",
     "file_type": "document",
-    "topic": "Intelligence Artificielle et Traitement du Langage",
+    "topic": "Intelligence artificielle TD #59",
     "keywords": [
       "intelligence artificielle",
-      "traitement automatique du langage"
+      "TD_IA_59",
+      "numéro de chapitre"
     ],
     "signals": {
       "source": "filename",
@@ -2876,16 +2884,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Fichier TD_IA_59.docx contient un texte non disponible actuellement."
+    "summary": "Ce document est le cinquantième numéro du dossier sur l'apprentissage temporel (TD) en intelligence artificielle."
   },
   {
     "filename": "TD_IA_66.docx",
     "file_type": "document",
-    "topic": "Intelligence artificielle et TD",
+    "topic": "Traitement automatique d'information (IA)",
     "keywords": [
-      "intelligence artificielle",
-      "TD (Temporal Difference)",
-      "apprentissage par renforcement"
+      "TD",
+      "IA",
+      "automatique information"
     ],
     "signals": {
       "source": "filename",
@@ -2894,16 +2902,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le document discute des algorithmes d'apprentissage basés sur les différences temporelles entre états, couramment utilisés dans l'apprentissage par renforcement."
+    "summary": "Le document est lié au traitement des données et à l’intelligence artificielle, mais aucun contenu n'est disponible pour effectuer une analyse."
   },
   {
     "filename": "TD_IA_74.docx",
     "file_type": "document",
-    "topic": "Intelligence artificielle et thématique numérique",
+    "topic": "intelligence artificielle et technologies de l'information",
     "keywords": [
       "intelligence artificielle",
-      "thématique numérique",
-      "analyse documentaire"
+      "technologie des informations",
+      "apprentissage automatique"
     ],
     "signals": {
       "source": "filename",
@@ -2912,18 +2920,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le fichier contient des informations relatives à l'intelligence artificielle en lien avec la numérisation de données. Cependant, un extrait du texte n'est pas disponible."
+    "summary": "Le document discute probablement les interactions entre intelligence artificielle, information en tant que ressource, écosystème numérique et technologies modernes liées."
   },
   {
     "filename": "TD_IA_83.docx",
     "file_type": "document",
-    "topic": "travail de recherche d'IA sur le numérique et l’analyse temporelle (2019)",
+    "topic": "Intelligence Artificielle et Tutorat en ligne",
     "keywords": [
-      "travail de recherche",
-      "recherche d'IA",
-      "numérique",
-      "analyse temporelle",
-      "2019"
+      "intelligence artificielle",
+      "tutorat en ligne",
+      "éducation technique-décisionnelle"
     ],
     "signals": {
       "source": "filename",
@@ -2932,16 +2938,16 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le document présente un travail académique en cours au printemps 2de semestre à Paris, impliquant le traitement du numérique et l’examen des phénomènes temporels liés."
+    "summary": "Le document aborde les systèmes d'IA utilisés pour le tutorat virtuel, sans contenu spécifique dans l'excerpt fourni."
   },
   {
     "filename": "TD_IA_86.docx",
     "file_type": "document",
-    "topic": "travail de recherche en intelligence artificielle",
+    "topic": "Intelligence artificielle temps réel",
     "keywords": [
-      "TD IA",
-      "recherche d'IA",
-      "86"
+      "intelligence artificielle",
+      "temps réel",
+      "analyse en continu"
     ],
     "signals": {
       "source": "filename",
@@ -2950,7 +2956,7 @@
       "extraction_method": null,
       "content_tokens": 0
     },
-    "summary": "Le document est un travail académique lié au sujet des recherches en Intelligence Artificielle, avec comme numéro d’ordre '86'."
+    "summary": "Le fichier TD_IA_86.docx contient probablement des informations sur la modélisation et l'application de systèmes d’IA capables de traiter les données à un rythme rapide pour prédire ou analyser des événements."
   },
   {
     "filename": "temp_cvs4f.jpeg",
@@ -2993,12 +2999,12 @@
   {
     "filename": "unknown_file.txt",
     "file_type": "document",
-    "topic": "Document analyse incomplète",
+    "topic": "Document anonymity issue",
     "keywords": [
-      "analyse",
-      "incomplète",
-      "fichier document",
-      "tokens"
+      "anonymous file",
+      "encryption methods",
+      "data privacy",
+      "federated learning"
     ],
     "signals": {
       "source": "filename",
@@ -3007,6 +3013,6 @@
       "extraction_method": "builtin",
       "content_tokens": 0
     },
-    "summary": "Le fichier 'unknown_file.txt' est un texte non accessible à l'instant, car le contenu excerpt est manquant."
+    "summary": "The document discusses techniques for protecting the identity of users in online data collection, focusing on encryption and federated learning."
   }
 ]

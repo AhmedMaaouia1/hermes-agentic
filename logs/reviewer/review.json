@@ -3,29 +3,37 @@
     {
       "issue_type": "low_confidence_categorization",
       "severity": "medium",
-      "description": "7 fichiers ont une confiance < 0.55. Ils sont candidats pour une vérification manuelle.",
+      "description": "11 fichiers ont une confiance < 0.55. Ils sont candidats pour une vérification manuelle.",
       "affected_files": [
         ".gitkeep",
-        "TD_IA_83.docx",
-        "copy_4cc5o.pdf",
         "copy_irodx.txt",
-        "doc_final_gq5c3.txt",
-        "notes_reunion_39.txt",
-        "notes_reunion_51.txt"
+        "file_final.pdf",
+        "notes_reunion_102.txt",
+        "notes_reunion_31.txt",
+        "notes_reunion_51.txt",
+        "notes_reunion_80_copy.txt",
+        "notes_reunion_88.txt",
+        "scan123.pdf",
+        "scan_j2qp8.txt",
+        "unknown_file.txt"
       ]
     },
     {
       "issue_type": "divers_overuse",
       "severity": "low",
-      "description": "7 fichiers sont classés en 'Divers'. Cela peut indiquer des règles insuffisantes ou un profil trop pauvre.",
+      "description": "11 fichiers sont classés en 'Divers'. Cela peut indiquer des règles insuffisantes ou un profil trop pauvre.",
       "affected_files": [
         ".gitkeep",
-        "TD_IA_83.docx",
-        "copy_4cc5o.pdf",
         "copy_irodx.txt",
-        "doc_final_gq5c3.txt",
-        "notes_reunion_39.txt",
-        "notes_reunion_51.txt"
+        "file_final.pdf",
+        "notes_reunion_102.txt",
+        "notes_reunion_31.txt",
+        "notes_reunion_51.txt",
+        "notes_reunion_80_copy.txt",
+        "notes_reunion_88.txt",
+        "scan123.pdf",
+        "scan_j2qp8.txt",
+        "unknown_file.txt"
       ]
     },
     {
@@ -52,7 +60,7 @@
     {
       "action": "move_file",
       "target": "Review/",
-      "suggestion": "7 fichiers ont une faible confiance. Suggestion: les placer dans un dossier 'Review/' pour vérification manuelle. Exemples: .gitkeep, TD_IA_83.docx, copy_4cc5o.pdf, copy_irodx.txt, doc_final_gq5c3.txt"
+      "suggestion": "11 fichiers ont une faible confiance. Suggestion: les placer dans un dossier 'Review/' pour vérification manuelle. Exemples: .gitkeep, copy_irodx.txt, file_final.pdf, notes_reunion_102.txt, notes_reunion_31.txt"
     }
   ],
   "revised_structure": null
