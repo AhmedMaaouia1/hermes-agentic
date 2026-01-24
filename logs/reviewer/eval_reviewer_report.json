@@ -1,0 +1,21 @@
+{
+  "files_evaluated": 20,
+  "exact_match_accuracy": 0.0,
+  "category_accuracy": 0.0,
+  "subcategory_accuracy": 0.0,
+  "confidence_analysis": {
+    "high_confidence_accuracy": 0.0,
+    "low_confidence_accuracy": 0.0
+  },
+  "confusion_matrix": {
+    "Divers": {
+      "Review": 13
+    },
+    "Images": {
+      "Review": 4
+    },
+    "Cours": {
+      "Review": 3
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "issue_type": "low_confidence_categorization",
+      "severity": "medium",
+      "description": "11 fichiers ont une confiance < 0.55. Ils sont candidats pour une vérification manuelle.",
+      "affected_files": [
+        ".gitkeep",
+        "copy_irodx.txt",
+        "file_final.pdf",
+        "notes_reunion_102.txt",
+        "notes_reunion_31.txt",
+        "notes_reunion_51.txt",
+        "notes_reunion_80_copy.txt",
+        "notes_reunion_88.txt",
+        "scan123.pdf",
+        "scan_j2qp8.txt",
+        "unknown_file.txt"
+      ]
+    },
+    {
+      "issue_type": "divers_overuse",
+      "severity": "low",
+      "description": "11 fichiers sont classés en 'Divers'. Cela peut indiquer des règles insuffisantes ou un profil trop pauvre.",
+      "affected_files": [
+        ".gitkeep",
+        "copy_irodx.txt",
+        "file_final.pdf",
+        "notes_reunion_102.txt",
+        "notes_reunion_31.txt",
+        "notes_reunion_51.txt",
+        "notes_reunion_80_copy.txt",
+        "notes_reunion_88.txt",
+        "scan123.pdf",
+        "scan_j2qp8.txt",
+        "unknown_file.txt"
+      ]
+    },
+    {
+      "issue_type": "possible_duplicates",
+      "severity": "low",
+      "description": "Certains fichiers semblent être des doublons (copy/copie/(1), etc.).",
+      "affected_files": [
+        "TD_IA_2_copy.docx",
+        "copy_4cc5o.pdf",
+        "copy_b9487.pdf",
+        "copy_fk8ut.txt",
+        "copy_irodx.txt",
+        "copy_ubcxu.png",
+        "copy_vazcc.png",
+        "copy_vren9.pdf",
+        "cours_machine_learning_18_copy.pdf",
+        "cours_nlp_ch_76_copy.pdf",
+        "notes_reunion_80_copy.txt",
+        "screenshot_error_117_copy.png"
+      ]
+    }
+  ],
+  "suggestions": [
+    {
+      "action": "move_file",
+      "target": "Review/",
+      "suggestion": "11 fichiers ont une faible confiance. Suggestion: les placer dans un dossier 'Review/' pour vérification manuelle. Exemples: .gitkeep, copy_irodx.txt, file_final.pdf, notes_reunion_102.txt, notes_reunion_31.txt"
+    }
+  ],
+  "revised_structure": null
+}

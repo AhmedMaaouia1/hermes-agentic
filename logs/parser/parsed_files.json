@@ -1,0 +1,2340 @@
+[
+  {
+    "filename": ".gitkeep",
+    "extension": "",
+    "normalized_name": ".gitkeep",
+    "tokens": [
+      ".gitkeep"
+    ],
+    "file_type": "other",
+    "created_at": "2025-12-13T12:57:17.715830",
+    "modified_at": "2025-12-13T12:57:17.715830",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "archive.zip",
+    "extension": ".zip",
+    "normalized_name": "archive",
+    "tokens": [
+      "archive"
+    ],
+    "file_type": "archive",
+    "created_at": "2025-12-13T14:17:24.050422",
+    "modified_at": "2025-12-13T14:17:24.050422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_0.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 0",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "0"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_107.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 107",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "107"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.041420",
+    "modified_at": "2025-12-13T14:17:24.041420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_110.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 110",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "110"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.042420",
+    "modified_at": "2025-12-13T14:17:24.042420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_29.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 29",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "29"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.012941",
+    "modified_at": "2025-12-13T14:17:24.012941",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_32.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 32",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "32"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.013947",
+    "modified_at": "2025-12-13T14:17:24.013947",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_38.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 38",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "38"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.017998",
+    "modified_at": "2025-12-13T14:17:24.017998",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_50.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 50",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "50"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.027410",
+    "modified_at": "2025-12-13T14:17:24.027410",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_6.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 6",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "6"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "attestation_scolarite_96.pdf",
+    "extension": ".pdf",
+    "normalized_name": "attestation scolarite 96",
+    "tokens": [
+      "attestation",
+      "scolarite",
+      "96"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.039418",
+    "modified_at": "2025-12-13T14:17:24.039418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "carte_identite_26.pdf",
+    "extension": ".pdf",
+    "normalized_name": "carte identite 26",
+    "tokens": [
+      "carte",
+      "identite",
+      "26"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.009529",
+    "modified_at": "2025-12-13T14:17:24.009529",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "carte_identite_5.pdf",
+    "extension": ".pdf",
+    "normalized_name": "carte identite 5",
+    "tokens": [
+      "carte",
+      "identite",
+      "5"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "carte_identite_82.pdf",
+    "extension": ".pdf",
+    "normalized_name": "carte identite 82",
+    "tokens": [
+      "carte",
+      "identite",
+      "82"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.037418",
+    "modified_at": "2025-12-13T14:17:24.037418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "carte_identite_84.pdf",
+    "extension": ".pdf",
+    "normalized_name": "carte identite 84",
+    "tokens": [
+      "carte",
+      "identite",
+      "84"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.037418",
+    "modified_at": "2025-12-13T14:17:24.037418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "carte_identite_91.pdf",
+    "extension": ".pdf",
+    "normalized_name": "carte identite 91",
+    "tokens": [
+      "carte",
+      "identite",
+      "91"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.038419",
+    "modified_at": "2025-12-13T14:17:24.038419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "carte_identite_97.pdf",
+    "extension": ".pdf",
+    "normalized_name": "carte identite 97",
+    "tokens": [
+      "carte",
+      "identite",
+      "97"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.039418",
+    "modified_at": "2025-12-13T14:17:24.039418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "copy_4cc5o.pdf",
+    "extension": ".pdf",
+    "normalized_name": "copy 4cc5o",
+    "tokens": [
+      "copy",
+      "4cc5o"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.048416",
+    "modified_at": "2025-12-13T14:17:24.048416",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "copy_b9487.pdf",
+    "extension": ".pdf",
+    "normalized_name": "copy b9487",
+    "tokens": [
+      "copy",
+      "b9487"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.047418",
+    "modified_at": "2025-12-13T14:17:24.047418",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "copy_fk8ut.txt",
+    "extension": ".txt",
+    "normalized_name": "copy fk8ut",
+    "tokens": [
+      "copy",
+      "fk8ut"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.048416",
+    "modified_at": "2025-12-13T14:17:24.048416",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "copy_irodx.txt",
+    "extension": ".txt",
+    "normalized_name": "copy irodx",
+    "tokens": [
+      "copy",
+      "irodx"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.046418",
+    "modified_at": "2025-12-13T14:17:24.046418",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "copy_ubcxu.png",
+    "extension": ".png",
+    "normalized_name": "copy ubcxu",
+    "tokens": [
+      "copy",
+      "ubcxu"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.048416",
+    "modified_at": "2025-12-13T14:17:24.048416",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "copy_vazcc.png",
+    "extension": ".png",
+    "normalized_name": "copy vazcc",
+    "tokens": [
+      "copy",
+      "vazcc"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.046418",
+    "modified_at": "2025-12-13T14:17:24.046418",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "copy_vren9.pdf",
+    "extension": ".pdf",
+    "normalized_name": "copy vren9",
+    "tokens": [
+      "copy",
+      "vren9"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.045427",
+    "modified_at": "2025-12-13T14:17:24.045427",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "cours_machine_learning_13.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 13",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "13"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_18.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 18",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "18"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_18_copy.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 18 copy",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "18",
+      "copy"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.052417",
+    "modified_at": "2025-12-13T14:17:24.052417",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "cours_machine_learning_3.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 3",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "3"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_4.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 4",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "4"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_46.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 46",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "46"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.020376",
+    "modified_at": "2025-12-13T14:17:24.020376",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_49.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 49",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "49"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.020376",
+    "modified_at": "2025-12-13T14:17:24.020376",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_62.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 62",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "62"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.031419",
+    "modified_at": "2025-12-13T14:17:24.031419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_67.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 67",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "67"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.031419",
+    "modified_at": "2025-12-13T14:17:24.031419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_70.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 70",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "70"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.032418",
+    "modified_at": "2025-12-13T14:17:24.032418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_85.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 85",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "85"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.037418",
+    "modified_at": "2025-12-13T14:17:24.037418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_machine_learning_90.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours machine learning 90",
+    "tokens": [
+      "cours",
+      "machine",
+      "learning",
+      "90"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.038419",
+    "modified_at": "2025-12-13T14:17:24.038419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_nlp_ch_12.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 12",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "12"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_nlp_ch_16.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 16",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "16"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_nlp_ch_27.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 27",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "27"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.010927",
+    "modified_at": "2025-12-13T14:17:24.010927",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_nlp_ch_43.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 43",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "43"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.017998",
+    "modified_at": "2025-12-13T14:17:24.017998",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_nlp_ch_58.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 58",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "58"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.030419",
+    "modified_at": "2025-12-13T14:17:24.030419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_nlp_ch_76.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 76",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "76"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.035420",
+    "modified_at": "2025-12-13T14:17:24.035420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "cours_nlp_ch_76_copy.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 76 copy",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "76",
+      "copy"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.051416",
+    "modified_at": "2025-12-13T14:17:24.051416",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "cours_nlp_ch_78.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cours nlp ch 78",
+    "tokens": [
+      "cours",
+      "nlp",
+      "ch",
+      "78"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.036418",
+    "modified_at": "2025-12-13T14:17:24.036418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "CV_stage_2025_113.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 113",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "113"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.042420",
+    "modified_at": "2025-12-13T14:17:24.042420",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "CV_stage_2025_118.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 118",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "118"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.043418",
+    "modified_at": "2025-12-13T14:17:24.043418",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "CV_stage_2025_22.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 22",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "22"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "CV_stage_2025_55.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 55",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "55"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.029422",
+    "modified_at": "2025-12-13T14:17:24.029422",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "CV_stage_2025_61.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 61",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "61"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.030419",
+    "modified_at": "2025-12-13T14:17:24.030419",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "CV_stage_2025_63.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 63",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "63"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.031419",
+    "modified_at": "2025-12-13T14:17:24.031419",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "CV_stage_2025_98.pdf",
+    "extension": ".pdf",
+    "normalized_name": "cv stage 2025 98",
+    "tokens": [
+      "cv",
+      "stage",
+      "2025",
+      "98"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.040420",
+    "modified_at": "2025-12-13T14:17:24.040420",
+    "has_year": 2025,
+    "has_copy": false
+  },
+  {
+    "filename": "data.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "data",
+    "tokens": [
+      "data"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-16T15:46:51.745239",
+    "modified_at": "2025-12-13T14:17:24.050422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "dataset_resultats_33.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "dataset resultats 33",
+    "tokens": [
+      "dataset",
+      "resultats",
+      "33"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.014938",
+    "modified_at": "2025-12-13T14:17:24.014938",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "dataset_resultats_34.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "dataset resultats 34",
+    "tokens": [
+      "dataset",
+      "resultats",
+      "34"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.014938",
+    "modified_at": "2025-12-13T14:17:24.014938",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "dataset_resultats_42.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "dataset resultats 42",
+    "tokens": [
+      "dataset",
+      "resultats",
+      "42"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.017998",
+    "modified_at": "2025-12-13T14:17:24.017998",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "dataset_resultats_54.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "dataset resultats 54",
+    "tokens": [
+      "dataset",
+      "resultats",
+      "54"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.028419",
+    "modified_at": "2025-12-13T14:17:24.028419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "dataset_resultats_56.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "dataset resultats 56",
+    "tokens": [
+      "dataset",
+      "resultats",
+      "56"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.029422",
+    "modified_at": "2025-12-13T14:17:24.029422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "dataset_resultats_57.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "dataset resultats 57",
+    "tokens": [
+      "dataset",
+      "resultats",
+      "57"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.029422",
+    "modified_at": "2025-12-13T14:17:24.029422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "dataset_resultats_89.xlsx",
+    "extension": ".xlsx",
+    "normalized_name": "dataset resultats 89",
+    "tokens": [
+      "dataset",
+      "resultats",
+      "89"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.038419",
+    "modified_at": "2025-12-13T14:17:24.038419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "document.pdf",
+    "extension": ".pdf",
+    "normalized_name": "document",
+    "tokens": [
+      "document"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.049417",
+    "modified_at": "2025-12-13T14:17:24.049417",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "doc_final_gq5c3.txt",
+    "extension": ".txt",
+    "normalized_name": "doc final gq5c3",
+    "tokens": [
+      "doc",
+      "final",
+      "gq5c3"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.047418",
+    "modified_at": "2025-12-13T14:17:24.047418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "doc_final_or56f.png",
+    "extension": ".png",
+    "normalized_name": "doc final or56f",
+    "tokens": [
+      "doc",
+      "final",
+      "or56f"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.047418",
+    "modified_at": "2025-12-13T14:17:24.047418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_electricite_1.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture electricite 1",
+    "tokens": [
+      "facture",
+      "electricite",
+      "1"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_electricite_10.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture electricite 10",
+    "tokens": [
+      "facture",
+      "electricite",
+      "10"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_electricite_106.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture electricite 106",
+    "tokens": [
+      "facture",
+      "electricite",
+      "106"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.041420",
+    "modified_at": "2025-12-13T14:17:24.041420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_electricite_115.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture electricite 115",
+    "tokens": [
+      "facture",
+      "electricite",
+      "115"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.043418",
+    "modified_at": "2025-12-13T14:17:24.043418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_electricite_15.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture electricite 15",
+    "tokens": [
+      "facture",
+      "electricite",
+      "15"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_electricite_21.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture electricite 21",
+    "tokens": [
+      "facture",
+      "electricite",
+      "21"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_internet_36.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture internet 36",
+    "tokens": [
+      "facture",
+      "internet",
+      "36"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.017133",
+    "modified_at": "2025-12-13T14:17:24.017133",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_internet_45.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture internet 45",
+    "tokens": [
+      "facture",
+      "internet",
+      "45"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.020376",
+    "modified_at": "2025-12-13T14:17:24.020376",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_internet_69.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture internet 69",
+    "tokens": [
+      "facture",
+      "internet",
+      "69"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.032418",
+    "modified_at": "2025-12-13T14:17:24.032418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_internet_71.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture internet 71",
+    "tokens": [
+      "facture",
+      "internet",
+      "71"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.032418",
+    "modified_at": "2025-12-13T14:17:24.032418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_internet_9.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture internet 9",
+    "tokens": [
+      "facture",
+      "internet",
+      "9"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "facture_internet_95.pdf",
+    "extension": ".pdf",
+    "normalized_name": "facture internet 95",
+    "tokens": [
+      "facture",
+      "internet",
+      "95"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.039418",
+    "modified_at": "2025-12-13T14:17:24.039418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "file_final.pdf",
+    "extension": ".pdf",
+    "normalized_name": "file final",
+    "tokens": [
+      "file",
+      "final"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.049417",
+    "modified_at": "2025-12-13T14:17:24.049417",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "final_v2_c58dr.png",
+    "extension": ".png",
+    "normalized_name": "final v2 c58dr",
+    "tokens": [
+      "final",
+      "v2",
+      "c58dr"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.045427",
+    "modified_at": "2025-12-13T14:17:24.045427",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "final_v2_hzioy.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "final v2 hzioy",
+    "tokens": [
+      "final",
+      "v2",
+      "hzioy"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.049417",
+    "modified_at": "2025-12-13T14:17:24.049417",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "final_v2_o5bxx.txt",
+    "extension": ".txt",
+    "normalized_name": "final v2 o5bxx",
+    "tokens": [
+      "final",
+      "v2",
+      "o5bxx"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-16T15:46:45.655204",
+    "modified_at": "2025-12-13T14:17:24.047418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "image.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "image",
+    "tokens": [
+      "image"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.050422",
+    "modified_at": "2025-12-13T14:17:24.050422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "IMG_79.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "img 79",
+    "tokens": [
+      "img",
+      "79"
+    ],
+    "file_type": "image",
+    "created_at": "2026-01-16T15:46:38.773743",
+    "modified_at": "2025-12-13T14:17:24.036418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "IMG_93.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "img 93",
+    "tokens": [
+      "img",
+      "93"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.039418",
+    "modified_at": "2025-12-13T14:17:24.039418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_100.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 100",
+    "tokens": [
+      "impots",
+      "2023",
+      "100"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.040420",
+    "modified_at": "2025-12-13T14:17:24.040420",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_11.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 11",
+    "tokens": [
+      "impots",
+      "2023",
+      "11"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_30.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 30",
+    "tokens": [
+      "impots",
+      "2023",
+      "30"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.013947",
+    "modified_at": "2025-12-13T14:17:24.013947",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_40.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 40",
+    "tokens": [
+      "impots",
+      "2023",
+      "40"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.017998",
+    "modified_at": "2025-12-13T14:17:24.017998",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_44.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 44",
+    "tokens": [
+      "impots",
+      "2023",
+      "44"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.020376",
+    "modified_at": "2025-12-13T14:17:24.020376",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_48.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 48",
+    "tokens": [
+      "impots",
+      "2023",
+      "48"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.020376",
+    "modified_at": "2025-12-13T14:17:24.020376",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_60.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 60",
+    "tokens": [
+      "impots",
+      "2023",
+      "60"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.030419",
+    "modified_at": "2025-12-13T14:17:24.030419",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_7.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 7",
+    "tokens": [
+      "impots",
+      "2023",
+      "7"
+    ],
+    "file_type": "document",
+    "created_at": "2026-01-16T15:46:25.419390",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_75.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 75",
+    "tokens": [
+      "impots",
+      "2023",
+      "75"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.035420",
+    "modified_at": "2025-12-13T14:17:24.035420",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "impots_2023_94.pdf",
+    "extension": ".pdf",
+    "normalized_name": "impots 2023 94",
+    "tokens": [
+      "impots",
+      "2023",
+      "94"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.039418",
+    "modified_at": "2025-12-13T14:17:24.039418",
+    "has_year": 2023,
+    "has_copy": false
+  },
+  {
+    "filename": "installer.exe",
+    "extension": ".exe",
+    "normalized_name": "installer",
+    "tokens": [
+      "installer"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:24.050422",
+    "modified_at": "2025-12-13T14:17:24.050422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_103.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 103",
+    "tokens": [
+      "installer",
+      "app",
+      "103"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:24.040420",
+    "modified_at": "2025-12-13T14:17:24.040420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_114.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 114",
+    "tokens": [
+      "installer",
+      "app",
+      "114"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:24.042420",
+    "modified_at": "2025-12-13T14:17:24.042420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_19.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 19",
+    "tokens": [
+      "installer",
+      "app",
+      "19"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_37.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 37",
+    "tokens": [
+      "installer",
+      "app",
+      "37"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:24.017998",
+    "modified_at": "2025-12-13T14:17:24.017998",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_53.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 53",
+    "tokens": [
+      "installer",
+      "app",
+      "53"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:24.028419",
+    "modified_at": "2025-12-13T14:17:24.028419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_64.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 64",
+    "tokens": [
+      "installer",
+      "app",
+      "64"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:24.031419",
+    "modified_at": "2025-12-13T14:17:24.031419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "installer_app_81.exe",
+    "extension": ".exe",
+    "normalized_name": "installer app 81",
+    "tokens": [
+      "installer",
+      "app",
+      "81"
+    ],
+    "file_type": "executable",
+    "created_at": "2025-12-13T14:17:24.037418",
+    "modified_at": "2025-12-13T14:17:24.037418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "new_71yzo.png",
+    "extension": ".png",
+    "normalized_name": "new 71yzo",
+    "tokens": [
+      "new",
+      "71yzo"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.046418",
+    "modified_at": "2025-12-13T14:17:24.046418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes.pdf",
+    "extension": ".pdf",
+    "normalized_name": "notes",
+    "tokens": [
+      "notes"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.050422",
+    "modified_at": "2025-12-13T14:17:24.050422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_101.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 101",
+    "tokens": [
+      "notes",
+      "reunion",
+      "101"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.040420",
+    "modified_at": "2025-12-13T14:17:24.040420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_102.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 102",
+    "tokens": [
+      "notes",
+      "reunion",
+      "102"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.040420",
+    "modified_at": "2025-12-13T14:17:24.040420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_31.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 31",
+    "tokens": [
+      "notes",
+      "reunion",
+      "31"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.013947",
+    "modified_at": "2025-12-13T14:17:24.013947",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_39.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 39",
+    "tokens": [
+      "notes",
+      "reunion",
+      "39"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.017998",
+    "modified_at": "2025-12-13T14:17:24.017998",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_51.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 51",
+    "tokens": [
+      "notes",
+      "reunion",
+      "51"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.027410",
+    "modified_at": "2025-12-13T14:17:24.027410",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_65.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 65",
+    "tokens": [
+      "notes",
+      "reunion",
+      "65"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.031419",
+    "modified_at": "2025-12-13T14:17:24.031419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_73.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 73",
+    "tokens": [
+      "notes",
+      "reunion",
+      "73"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.034420",
+    "modified_at": "2025-12-13T14:17:24.034420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_80.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 80",
+    "tokens": [
+      "notes",
+      "reunion",
+      "80"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.036418",
+    "modified_at": "2025-12-13T14:17:24.036418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "notes_reunion_80_copy.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 80 copy",
+    "tokens": [
+      "notes",
+      "reunion",
+      "80",
+      "copy"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.052417",
+    "modified_at": "2025-12-13T14:17:24.052417",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "notes_reunion_88.txt",
+    "extension": ".txt",
+    "normalized_name": "notes reunion 88",
+    "tokens": [
+      "notes",
+      "reunion",
+      "88"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.038419",
+    "modified_at": "2025-12-13T14:17:24.038419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_code_109.zip",
+    "extension": ".zip",
+    "normalized_name": "projet code 109",
+    "tokens": [
+      "projet",
+      "code",
+      "109"
+    ],
+    "file_type": "archive",
+    "created_at": "2025-12-13T14:17:24.042420",
+    "modified_at": "2025-12-13T14:17:24.042420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_code_24.zip",
+    "extension": ".zip",
+    "normalized_name": "projet code 24",
+    "tokens": [
+      "projet",
+      "code",
+      "24"
+    ],
+    "file_type": "archive",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_code_28.zip",
+    "extension": ".zip",
+    "normalized_name": "projet code 28",
+    "tokens": [
+      "projet",
+      "code",
+      "28"
+    ],
+    "file_type": "archive",
+    "created_at": "2025-12-13T14:17:24.011945",
+    "modified_at": "2025-12-13T14:17:24.011945",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_code_68.zip",
+    "extension": ".zip",
+    "normalized_name": "projet code 68",
+    "tokens": [
+      "projet",
+      "code",
+      "68"
+    ],
+    "file_type": "archive",
+    "created_at": "2025-12-13T14:17:24.032418",
+    "modified_at": "2025-12-13T14:17:24.032418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_code_72.zip",
+    "extension": ".zip",
+    "normalized_name": "projet code 72",
+    "tokens": [
+      "projet",
+      "code",
+      "72"
+    ],
+    "file_type": "archive",
+    "created_at": "2025-12-13T14:17:24.033420",
+    "modified_at": "2025-12-13T14:17:24.033420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_code_77.zip",
+    "extension": ".zip",
+    "normalized_name": "projet code 77",
+    "tokens": [
+      "projet",
+      "code",
+      "77"
+    ],
+    "file_type": "archive",
+    "created_at": "2025-12-13T14:17:24.035420",
+    "modified_at": "2025-12-13T14:17:24.035420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_ia_rapport_111.pdf",
+    "extension": ".pdf",
+    "normalized_name": "projet ia rapport 111",
+    "tokens": [
+      "projet",
+      "ia",
+      "rapport",
+      "111"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.042420",
+    "modified_at": "2025-12-13T14:17:24.042420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_ia_rapport_41.pdf",
+    "extension": ".pdf",
+    "normalized_name": "projet ia rapport 41",
+    "tokens": [
+      "projet",
+      "ia",
+      "rapport",
+      "41"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.017998",
+    "modified_at": "2025-12-13T14:17:24.017998",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "projet_ia_rapport_47.pdf",
+    "extension": ".pdf",
+    "normalized_name": "projet ia rapport 47",
+    "tokens": [
+      "projet",
+      "ia",
+      "rapport",
+      "47"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.020376",
+    "modified_at": "2025-12-13T14:17:24.020376",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "scan123.pdf",
+    "extension": ".pdf",
+    "normalized_name": "scan123",
+    "tokens": [
+      "scan123"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.049417",
+    "modified_at": "2025-12-13T14:17:24.049417",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "scan_02dgt.txt",
+    "extension": ".txt",
+    "normalized_name": "scan 02dgt",
+    "tokens": [
+      "scan",
+      "02dgt"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.047418",
+    "modified_at": "2025-12-13T14:17:24.047418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "scan_4shnf.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "scan 4shnf",
+    "tokens": [
+      "scan",
+      "4shnf"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.044424",
+    "modified_at": "2025-12-13T14:17:24.044424",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "scan_ciyhe.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "scan ciyhe",
+    "tokens": [
+      "scan",
+      "ciyhe"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.046418",
+    "modified_at": "2025-12-13T14:17:24.046418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "scan_ertj5.png",
+    "extension": ".png",
+    "normalized_name": "scan ertj5",
+    "tokens": [
+      "scan",
+      "ertj5"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.045427",
+    "modified_at": "2025-12-13T14:17:24.045427",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "scan_j2qp8.txt",
+    "extension": ".txt",
+    "normalized_name": "scan j2qp8",
+    "tokens": [
+      "scan",
+      "j2qp8"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.048416",
+    "modified_at": "2025-12-13T14:17:24.048416",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "screenshot_error_104.png",
+    "extension": ".png",
+    "normalized_name": "screenshot error 104",
+    "tokens": [
+      "screenshot",
+      "error",
+      "104"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.041420",
+    "modified_at": "2025-12-13T14:17:24.041420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "screenshot_error_117.png",
+    "extension": ".png",
+    "normalized_name": "screenshot error 117",
+    "tokens": [
+      "screenshot",
+      "error",
+      "117"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.043418",
+    "modified_at": "2025-12-13T14:17:24.043418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "screenshot_error_117_copy.png",
+    "extension": ".png",
+    "normalized_name": "screenshot error 117 copy",
+    "tokens": [
+      "screenshot",
+      "error",
+      "117",
+      "copy"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.051416",
+    "modified_at": "2025-12-13T14:17:24.051416",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "screenshot_error_119.png",
+    "extension": ".png",
+    "normalized_name": "screenshot error 119",
+    "tokens": [
+      "screenshot",
+      "error",
+      "119"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.044424",
+    "modified_at": "2025-12-13T14:17:24.044424",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "screenshot_error_14.png",
+    "extension": ".png",
+    "normalized_name": "screenshot error 14",
+    "tokens": [
+      "screenshot",
+      "error",
+      "14"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "screenshot_error_92.png",
+    "extension": ".png",
+    "normalized_name": "screenshot error 92",
+    "tokens": [
+      "screenshot",
+      "error",
+      "92"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.038419",
+    "modified_at": "2025-12-13T14:17:24.038419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "script.py",
+    "extension": ".py",
+    "normalized_name": "script",
+    "tokens": [
+      "script"
+    ],
+    "file_type": "code",
+    "created_at": "2025-12-13T14:17:24.050422",
+    "modified_at": "2025-12-13T14:17:24.050422",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "script_analysis_112.py",
+    "extension": ".py",
+    "normalized_name": "script analysis 112",
+    "tokens": [
+      "script",
+      "analysis",
+      "112"
+    ],
+    "file_type": "code",
+    "created_at": "2025-12-13T14:17:24.042420",
+    "modified_at": "2025-12-13T14:17:24.042420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "script_analysis_17.py",
+    "extension": ".py",
+    "normalized_name": "script analysis 17",
+    "tokens": [
+      "script",
+      "analysis",
+      "17"
+    ],
+    "file_type": "code",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "script_analysis_23.py",
+    "extension": ".py",
+    "normalized_name": "script analysis 23",
+    "tokens": [
+      "script",
+      "analysis",
+      "23"
+    ],
+    "file_type": "code",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "script_analysis_8.py",
+    "extension": ".py",
+    "normalized_name": "script analysis 8",
+    "tokens": [
+      "script",
+      "analysis",
+      "8"
+    ],
+    "file_type": "code",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "script_analysis_87.py",
+    "extension": ".py",
+    "normalized_name": "script analysis 87",
+    "tokens": [
+      "script",
+      "analysis",
+      "87"
+    ],
+    "file_type": "code",
+    "created_at": "2025-12-13T14:17:24.038419",
+    "modified_at": "2025-12-13T14:17:24.038419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "script_analysis_99.py",
+    "extension": ".py",
+    "normalized_name": "script analysis 99",
+    "tokens": [
+      "script",
+      "analysis",
+      "99"
+    ],
+    "file_type": "code",
+    "created_at": "2025-12-13T14:17:24.040420",
+    "modified_at": "2025-12-13T14:17:24.040420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_105.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 105",
+    "tokens": [
+      "td",
+      "ia",
+      "105"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.041420",
+    "modified_at": "2025-12-13T14:17:24.041420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_108.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 108",
+    "tokens": [
+      "td",
+      "ia",
+      "108"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.041420",
+    "modified_at": "2025-12-13T14:17:24.041420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_116.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 116",
+    "tokens": [
+      "td",
+      "ia",
+      "116"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.043418",
+    "modified_at": "2025-12-13T14:17:24.043418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_2.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 2",
+    "tokens": [
+      "td",
+      "ia",
+      "2"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_20.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 20",
+    "tokens": [
+      "td",
+      "ia",
+      "20"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:23.998258",
+    "modified_at": "2025-12-13T14:17:23.998258",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_25.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 25",
+    "tokens": [
+      "td",
+      "ia",
+      "25"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.009529",
+    "modified_at": "2025-12-13T14:17:24.009529",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_2_copy.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 2 copy",
+    "tokens": [
+      "td",
+      "ia",
+      "2",
+      "copy"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.052417",
+    "modified_at": "2025-12-13T14:17:24.052417",
+    "has_year": null,
+    "has_copy": true
+  },
+  {
+    "filename": "TD_IA_35.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 35",
+    "tokens": [
+      "td",
+      "ia",
+      "35"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.016150",
+    "modified_at": "2025-12-13T14:17:24.016150",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_52.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 52",
+    "tokens": [
+      "td",
+      "ia",
+      "52"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.027410",
+    "modified_at": "2025-12-13T14:17:24.027410",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_59.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 59",
+    "tokens": [
+      "td",
+      "ia",
+      "59"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.030419",
+    "modified_at": "2025-12-13T14:17:24.030419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_66.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 66",
+    "tokens": [
+      "td",
+      "ia",
+      "66"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.031419",
+    "modified_at": "2025-12-13T14:17:24.031419",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_74.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 74",
+    "tokens": [
+      "td",
+      "ia",
+      "74"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.034420",
+    "modified_at": "2025-12-13T14:17:24.034420",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_83.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 83",
+    "tokens": [
+      "td",
+      "ia",
+      "83"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.037418",
+    "modified_at": "2025-12-13T14:17:24.037418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "TD_IA_86.docx",
+    "extension": ".docx",
+    "normalized_name": "td ia 86",
+    "tokens": [
+      "td",
+      "ia",
+      "86"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.037418",
+    "modified_at": "2025-12-13T14:17:24.037418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "temp_cvs4f.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "temp cvs4f",
+    "tokens": [
+      "temp",
+      "cvs4f"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.048416",
+    "modified_at": "2025-12-13T14:17:24.048416",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "temp_pseim.jpeg",
+    "extension": ".jpeg",
+    "normalized_name": "temp pseim",
+    "tokens": [
+      "temp",
+      "pseim"
+    ],
+    "file_type": "image",
+    "created_at": "2025-12-13T14:17:24.046418",
+    "modified_at": "2025-12-13T14:17:24.046418",
+    "has_year": null,
+    "has_copy": false
+  },
+  {
+    "filename": "unknown_file.txt",
+    "extension": ".txt",
+    "normalized_name": "unknown file",
+    "tokens": [
+      "unknown",
+      "file"
+    ],
+    "file_type": "document",
+    "created_at": "2025-12-13T14:17:24.051416",
+    "modified_at": "2025-12-13T14:17:24.051416",
+    "has_year": null,
+    "has_copy": false
+  }
+]

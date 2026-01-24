@@ -1,0 +1,1250 @@
+[
+  {
+    "filename": ".gitkeep",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='.gitkeep', topic='Documentation Gitkeeper Fichier', keywords_clean=['.gitkeep', 'autre', 'documentation', 'gitignore'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "archive.zip",
+    "category": "Archives",
+    "subcategory": "ZIP",
+    "confidence": 0.92,
+    "rationale": "Classé comme Archives/ZIP via rule. Confiance=0.92. Signaux utilisés: filename='archive.zip', topic='Fichier Archivé', keywords_clean=['archivage', 'compression', 'dossier', 'fichiers', 'sauvegarder'], summary_present. rule_id=archive_zip.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_0.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_0.pdf', topic='Formulaire d'attestation scolaire pour le semestre commençant par septembre', keywords_clean=['certificat', 'formulaire', 'scolarité', 'septembre'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_107.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_107.pdf', topic='Certificat scolaire français élémentaire n°107', keywords_clean=['attestation scolaire', 'certificat de fin d’année', 'français élémentaire'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_110.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_110.pdf', topic='attestation scolaire de grade XI', keywords_clean=['attestation', 'dossier académique', 'grade xi', 'scolarite'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_29.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_29.pdf', topic='Certificat scolaire', keywords_clean=['certificat', 'numéro d’attestation', 'scolarité'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_32.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_32.pdf', topic='certificat scolaire de fin d'année', keywords_clean=['attestation scolaire', \"fin d'année\"], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_38.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_38.pdf', topic='Attestation scolaire n°38', keywords_clean=['attestation', \"numéro d'attestation\", 'scolarité'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_50.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_50.pdf', topic='Scolarité - Attestation', keywords_clean=['attestation', 'documentation scolaire', 'âge', 'éducation primaire'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_6.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_6.pdf', topic='Certification de scolarité', keywords_clean=['certification', \"formulaire d'attestation\", 'éducation primaire', 'établissement scolaire'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "attestation_scolarite_96.pdf",
+    "category": "Administratif",
+    "subcategory": "Attestations",
+    "confidence": 0.92,
+    "rationale": "Classé comme Administratif/Attestations via rule. Confiance=0.92. Signaux utilisés: filename='attestation_scolarite_96.pdf', topic='Certificat scolaire de fin d'année', keywords_clean=['certificat', \"fin d'année\", 'scolarité'], summary_present. rule_id=admin_attestation_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "carte_identite_26.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='carte_identite_26.pdf', topic='Carte d'identité nationale françaises de série 26', keywords_clean=['carte', 'france', 'identité', 'numéro', 'série'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "carte_identite_5.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='carte_identite_5.pdf', topic='Cartes d'identité françaises', keywords_clean=[\"cartes d'identité\", 'france', 'personne physique'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "carte_identite_82.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='carte_identite_82.pdf', topic='Carte d'identité nationale', keywords_clean=['carte', 'identite', 'numero identification'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "carte_identite_84.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='carte_identite_84.pdf', topic='Carte d'identité nationale France', keywords_clean=[\"carte d'identité\", 'france', 'numéro', 'personne physique'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "carte_identite_91.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='carte_identite_91.pdf', topic='Carte d'identité nationale françaises numéro 91', keywords_clean=['carte identité', 'france', 'numéro 91'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "carte_identite_97.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='carte_identite_97.pdf', topic='Carte d'identité française du XXe siècle', keywords_clean=['carte identité', 'france', 'xxe siècle'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "copy_4cc5o.pdf",
+    "category": "Images",
+    "subcategory": "Scans",
+    "confidence": 0.55,
+    "rationale": "Classé comme Images/Scans via embedding. Confiance=0.55. Signaux utilisés: filename='copy_4cc5o.pdf', topic='Fiche de copie d'archives numériques', keywords_clean=['fiche', 'numérisation'], summary_present. similarity=0.464",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "copy_b9487.pdf",
+    "category": "Images",
+    "subcategory": "Scans",
+    "confidence": 0.55,
+    "rationale": "Classé comme Images/Scans via embedding. Confiance=0.55. Signaux utilisés: filename='copy_b9487.pdf', topic='Document d'identification non disponible', keywords_clean=['extention de fichier', 'nombrilinominal'], summary_present. similarity=0.411",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "copy_fk8ut.txt",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.55,
+    "rationale": "Classé comme Administratif/Identite via embedding. Confiance=0.55. Signaux utilisés: filename='copy_fk8ut.txt', topic='Document non lu', keywords_clean=['copyrighted work', 'unreadable content'], summary_present. similarity=0.354",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "copy_irodx.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='copy_irodx.txt', topic='Copie d'un document IRODX', keywords_clean=['copier', 'fichier texte', 'irodx'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "copy_ubcxu.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='copy_ubcxu.png', topic='image_generic', keywords_clean=['ubcxu'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "copy_vazcc.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='copy_vazcc.png', topic='image_generic', keywords_clean=['vazcc'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "copy_vren9.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.55,
+    "rationale": "Classé comme Administratif/Impots via embedding. Confiance=0.55. Signaux utilisés: filename='copy_vren9.pdf', topic='Document sur le droit des copies d'œuvres intellectuelles', keywords_clean=['droit', 'œuvre intellectuelle'], summary_present. similarity=0.473",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_13.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_13.pdf', topic='Machine Learning Course #13 Summary', keywords_clean=['apprentissage automatique', 'cours machine learning', 'théorie computationnelle'], summary_present. similarity=0.826",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_18.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_18.pdf', keywords_clean=['cours', 'learning', 'machine'], summary_present. similarity=0.671",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_18_copy.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_18_copy.pdf', topic='Machine learning course content', keywords_clean=['apprentissage automatique', 'cours', 'développement de compétences ia', 'machine learning'], summary_present. similarity=0.763",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_3.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_3.pdf', topic='Apprentissage automatique', keywords_clean=['apprentissage', 'entraînement', 'machine learning', \"modèles d'apprentissage\"], summary_present. similarity=0.887",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_4.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_4.pdf', topic='apprentissage automatique - cours', keywords_clean=['algorithmes', 'apprendre', 'cours', 'machine learning'], summary_present. similarity=0.838",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_46.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_46.pdf', topic='Apprentissage automatique', keywords_clean=['apprentissage automatique', 'cours machine learning', 'informatique appliquée'], summary_present. similarity=0.865",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_49.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_49.pdf', topic='apprentissage automatique', keywords_clean=['apprentissage', 'automatique', 'cours', 'machine learning'], summary_present. similarity=0.848",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_62.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_62.pdf', topic='Machine Learning Course Summary', keywords_clean=['course summary', 'educational materials', 'learning', 'lecture notes', 'machine learning'], summary_present. similarity=0.756",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_67.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.55,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.55. Signaux utilisés: filename='cours_machine_learning_67.pdf', topic='Machine Learning Course Insights', keywords_clean=['course', 'educational material', 'insights', 'machine learning'], summary_present. similarity=0.402",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_70.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_70.pdf', topic='Apprentissage automatique cours', keywords_clean=['apprentissage automatique', 'cours', 'machine learning', 'numéro de cours'], summary_present. similarity=0.875",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_85.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_85.pdf', topic='Apprentissage automatique - cours universitaire', keywords_clean=['apprentissage automatique', 'cours universitaires', 'machine learning'], summary_present. similarity=0.871",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_machine_learning_90.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.80. Signaux utilisés: filename='cours_machine_learning_90.pdf', topic='Machine Learning Course Overview', keywords_clean=['apprentissage automatique', 'cours machine learning', 'programme pédagogique'], summary_present. similarity=0.850",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_12.pdf",
+    "category": "Cours",
+    "subcategory": "NLP",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/NLP via embedding. Confiance=0.80. Signaux utilisés: filename='cours_nlp_ch_12.pdf', topic='Traitement automatique de la langue naturelle - Module Ch12', keywords_clean=['apprentissage profond en traitement linguistique', 'cours nlp ch12'], summary_present. similarity=0.726",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_16.pdf",
+    "category": "Cours",
+    "subcategory": "NLP",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/NLP via embedding. Confiance=0.80. Signaux utilisés: filename='cours_nlp_ch_16.pdf', topic='Cours d'apprentissage automatique et traitement du langage naturel - Chapitre 16', keywords_clean=['apprentissage automatique', 'chapitre 16', 'cours nlp', 'traitement du langage naturel'], summary_present. similarity=0.699",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_27.pdf",
+    "category": "Cours",
+    "subcategory": "NLP",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/NLP via embedding. Confiance=0.80. Signaux utilisés: filename='cours_nlp_ch_27.pdf', topic='Traitement Automatique du Langage Naturel - Cours Ch27', keywords_clean=['chapitre 27', 'cours nlp', 'nlp'], summary_present. similarity=0.791",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_43.pdf",
+    "category": "Cours",
+    "subcategory": "NLP",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/NLP via embedding. Confiance=0.80. Signaux utilisés: filename='cours_nlp_ch_43.pdf', topic='Natural Language Processing - Cours 43', keywords_clean=['chapitre', 'cours', 'nlp'], summary_present. similarity=0.682",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_58.pdf",
+    "category": "Cours",
+    "subcategory": "NLP",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/NLP via embedding. Confiance=0.80. Signaux utilisés: filename='cours_nlp_ch_58.pdf', topic='Cours NLP Chapitre 58 Analyse', keywords_clean=['analyse', 'chapitre', 'cours', 'nlp'], summary_present. similarity=0.721",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_76.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.7,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.70. Signaux utilisés: filename='cours_nlp_ch_76.pdf', topic='Analyse automatique des langues', keywords_clean=['analyse automatique', 'langue naturelle', 'traitement du texte'], summary_present. similarity=0.596",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_76_copy.pdf",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.7,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.70. Signaux utilisés: filename='cours_nlp_ch_76_copy.pdf', topic='apprentissage automatique et traitement du langage naturel - Cours 76', keywords_clean=['apprentissage automatique', 'cours 76', 'thèmes clés', 'traitement du langage naturel'], summary_present. similarity=0.645",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "cours_nlp_ch_78.pdf",
+    "category": "Cours",
+    "subcategory": "NLP",
+    "confidence": 0.8,
+    "rationale": "Classé comme Cours/NLP via embedding. Confiance=0.80. Signaux utilisés: filename='cours_nlp_ch_78.pdf', topic='Techniques de NLP en Chinois pour le cours du 78e trimestre', keywords_clean=['applications', 'chinese language', 'nlp', 'techniques'], summary_present. similarity=0.656",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "CV_stage_2025_113.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_113.pdf', topic='curriculum vitae documentary analysis', keywords_clean=['2025', 'analysis', 'stage'], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "CV_stage_2025_118.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_118.pdf', keywords_clean=['118', '2025', 'stage'], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "CV_stage_2025_22.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_22.pdf', topic='Résumé de carrière professionnel pour un poste futuriste en intelligence artificielle', keywords_clean=['futuriste', 'intelligence artificielle', \"rôle d'emploi\"], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "CV_stage_2025_55.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_55.pdf', topic='CV de stages à l'horizon 2025-2026', keywords_clean=['résumé professionnel', 'saison 2025/2026', 'stages'], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "CV_stage_2025_61.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_61.pdf', topic='Curriculum vitae - Recruitment phase', keywords_clean=['2025', 'curriculum vitae', 'stage recruitment'], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "CV_stage_2025_63.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_63.pdf', topic='CV 2025 Stage for Applicant Number 63', keywords_clean=['applicant', 'number', 'stage'], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "CV_stage_2025_98.pdf",
+    "category": "Administratif",
+    "subcategory": "CV",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/CV via rule. Confiance=0.93. Signaux utilisés: filename='CV_stage_2025_98.pdf', topic='CV développement professionnel', keywords_clean=['2025', 'développement professionnel', 'stage'], summary_present. rule_id=admin_cv_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "data.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='data.xlsx', topic='Base de données Excel', keywords_clean=['base de données', 'excel', 'fichiers', 'tableaux', 'traitement des données'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "dataset_resultats_33.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='dataset_resultats_33.xlsx', topic='Résultats de données n° 33', keywords_clean=['données', 'n° 33', 'résultats'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "dataset_resultats_34.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='dataset_resultats_34.xlsx', topic='Resultats de données #34', keywords_clean=['#34', 'donnée', 'résultats', 'série'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "dataset_resultats_42.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='dataset_resultats_42.xlsx', topic='Analyses de données numériques', keywords_clean=['analysis', 'data science', 'dataset', 'results', 'statistics'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "dataset_resultats_54.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='dataset_resultats_54.xlsx', topic='Resultats de données numériques', keywords_clean=['analyse quantitative', 'données', 'département des mathématiques', 'resultat'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "dataset_resultats_56.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='dataset_resultats_56.xlsx', topic='Résultats de données', keywords_clean=['dataset', 'données', 'ligne', 'numéro', 'résultats'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "dataset_resultats_57.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='dataset_resultats_57.xlsx', topic='Résultats de l'enquête sur le dataset #57', keywords_clean=['dataset', 'données', 'enquête', 'resultats'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "dataset_resultats_89.xlsx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.95,
+    "rationale": "Classé comme Donnees/Tableurs via rule. Confiance=0.95. Signaux utilisés: filename='dataset_resultats_89.xlsx', topic='Dataset Results Analysis - File Reference Point #89', keywords_clean=['dataset', 'numbered file reference', 'reference point', 'results'], summary_present. rule_id=data_tableur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "document.pdf",
+    "category": "Administratif",
+    "subcategory": "Identite",
+    "confidence": 0.94,
+    "rationale": "Classé comme Administratif/Identite via rule. Confiance=0.94. Signaux utilisés: filename='document.pdf', topic='Document anonymisé sans contenu exécrable', keywords_clean=['anonymisé', 'controversé', 'information'], summary_present. rule_id=admin_identite_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "doc_final_gq5c3.txt",
+    "category": "Images",
+    "subcategory": "Scans",
+    "confidence": 0.55,
+    "rationale": "Classé comme Images/Scans via embedding. Confiance=0.55. Signaux utilisés: filename='doc_final_gq5c3.txt', topic='Document étude conclusion finalisée GQ5C3', keywords_clean=['conclusion', 'gq5c3', 'étude'], summary_present. similarity=0.350",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "doc_final_or56f.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='doc_final_or56f.png', topic='image_generic', keywords_clean=['doc', 'final', 'or56f'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_electricite_1.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_electricite_1.pdf', topic='Facture d'électricité', keywords_clean=['compte mensuel', 'consommation énergétique', 'facture électrique'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_electricite_10.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_electricite_10.pdf', topic='facture d'électricité', keywords_clean=['client identifié', 'date facturation', 'facture électrique', 'montant total'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_electricite_106.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_electricite_106.pdf', topic='Facture d'électricité n° 1 endroit indiqué', keywords_clean=['découverte', 'electricite', 'facture', 'montant à payer', 'numéro de facture'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_electricite_115.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_electricite_115.pdf', topic='Facture d'électricité', keywords_clean=['compte', 'date', 'facture', 'montant', 'électricité'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_electricite_15.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_electricite_15.pdf', topic='Facture d'électricité', keywords_clean=['compte', 'durée factuelle (15 jours)', 'facture', 'service public', 'électricité'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_electricite_21.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_electricite_21.pdf', topic='Facture de l'électricité', keywords_clean=['durée facturation', 'facture', 'électricité'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_internet_36.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_internet_36.pdf', topic='Facture d'Internet', keywords_clean=['débit internet', 'montant facturier', 'service internet'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_internet_45.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_internet_45.pdf', topic='Facture d'Internet', keywords_clean=['date limite', 'facture', 'internet', 'montant', 'service'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_internet_69.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_internet_69.pdf', topic='Facturation Internet', keywords_clean=['date limite', 'facture', 'internet', 'montant', 'paiement'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_internet_71.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_internet_71.pdf', topic='Facture d'Internet pour salaire du mois de juillet.', keywords_clean=['facture', 'internet', 'juillet', 'mois', 'salaire'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_internet_9.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_internet_9.pdf', topic='Facture d'Internet', keywords_clean=['date limite', 'débit', 'facture', 'internet', 'montant'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "facture_internet_95.pdf",
+    "category": "Administratif",
+    "subcategory": "Factures",
+    "confidence": 0.95,
+    "rationale": "Classé comme Administratif/Factures via rule. Confiance=0.95. Signaux utilisés: filename='facture_internet_95.pdf', topic='Facturation Internet', keywords_clean=['adresse cliente', \"date d'effet\", 'facture', 'internet', 'montant facturé'], summary_present. rule_id=admin_facture_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "file_final.pdf",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='file_final.pdf', topic='Document final review content-less', keywords_clean=['filename', 'review', 'tokens'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "final_v2_c58dr.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='final_v2_c58dr.png', topic='image_generic', keywords_clean=['c58dr', 'final'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "final_v2_hzioy.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='final_v2_hzioy.jpeg', topic='image_generic', keywords_clean=['final', 'hzioy'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "final_v2_o5bxx.txt",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.55,
+    "rationale": "Classé comme Projets/Code via embedding. Confiance=0.55. Signaux utilisés: filename='final_v2_o5bxx.txt', topic='Version finale du fichier document texte.', keywords_clean=['final', 'version'], summary_present. similarity=0.368",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "image.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='image.jpeg', topic='image_generic', summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "IMG_79.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='IMG_79.jpeg', topic='image_generic', summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "IMG_93.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='IMG_93.jpeg', topic='image_generic', summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_100.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_100.pdf', topic='Impôt sur le revenu pour l'année 2023 à un taux de 1%', keywords_clean=['2023', 'impots', 'revenu', 'taux', 'taxe'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_11.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_11.pdf', topic='Impôts pour novembre 2023', keywords_clean=['déclaration d’impôt', 'imposition', 'novembre', 'octobre'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_30.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_30.pdf', topic='Impôt sur le revenu pour l'année 2023, tranche des gains de 30 €.', keywords_clean=['contract', 'declaration', 'impots', 'revenu', 'taxation'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_40.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_40.pdf', topic='Impôt pour l'année fiscale de 2023 (au titre des revenus)', keywords_clean=['2 endroits fixés et dûs en vertu du code fiscal national', 'impots', 'revenus personnels ou professionnels'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_44.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_44.pdf', keywords_clean=['2023', 'impots'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_48.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_48.pdf', topic='Impôts Fédéraux pour l'année 2023, Article 48', keywords_clean=['impots fédéraux', 'responsables des impôts', 'règles fiscales'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_60.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_60.pdf', topic='Impôt pour l'année fiscale 2023-2024 (59e année budgétaire)', keywords_clean=[\"budget de l'état\", 'contributions financières', 'dépenses gouvernementales', 'impots fiscales', \"règles d'imposition\"], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_7.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_7.pdf', topic='Impôts pour l'année 2023 - Trimestre 4', keywords_clean=['2degrè', 'impots', 'responsabilité', 'tarification'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_75.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_75.pdf', keywords_clean=['2023', 'impots'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "impots_2023_94.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.93,
+    "rationale": "Classé comme Administratif/Impots via rule. Confiance=0.93. Signaux utilisés: filename='impots_2023_94.pdf', topic='Impôt sur le revenu pour l'année fiscale de 2023-2024', keywords_clean=['2023-2term', 'année civile', 'fiscalité', 'impots', 'revenu'], summary_present. rule_id=admin_impots_pdf.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer.exe', topic='Installation procedure for software executable.', keywords_clean=['execution process', 'installer.exe', 'software installation'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_103.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_103.exe', topic='Installation d'application logicielle', keywords_clean=['app', 'exe', 'installer', 'logiciel'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_114.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_114.exe', topic='Installation Exécutable Application', keywords_clean=['app', 'exe', 'installer', 'setup', 'software'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_19.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_19.exe', topic='Application Installation Guide', keywords_clean=['app', 'executable', 'guide', 'installer'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_37.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_37.exe', topic='Installation guide for software application 'App 37'', keywords_clean=['app', 'installer', 'software installation'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_53.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_53.exe', topic='Installation d'application Windows', keywords_clean=['exe file', 'installer application', 'windows system'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_64.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_64.exe', topic='Installation d'un logiciel portant sur des architectures de processeurs à 64 bits', keywords_clean=['app', 'application', 'binary', 'executable', 'installer'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "installer_app_81.exe",
+    "category": "Logiciels",
+    "subcategory": "Installateurs",
+    "confidence": 0.96,
+    "rationale": "Classé comme Logiciels/Installateurs via rule. Confiance=0.96. Signaux utilisés: filename='installer_app_81.exe', topic='Installation logiciel Windows', keywords_clean=['app', 'application', 'installer', 'logiciel', 'windows'], summary_present. rule_id=logiciel_installateur.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "new_71yzo.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='new_71yzo.png', topic='image_generic', keywords_clean=['71yzo', 'new'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "notes.pdf",
+    "category": "Administratif",
+    "subcategory": "Impots",
+    "confidence": 0.55,
+    "rationale": "Classé comme Administratif/Impots via embedding. Confiance=0.55. Signaux utilisés: filename='notes.pdf', topic='Notes personnelles', keywords_clean=['notes', 'personnelles'], summary_present. similarity=0.456",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_101.txt",
+    "category": "Projets",
+    "subcategory": "Rapports",
+    "confidence": 0.55,
+    "rationale": "Classé comme Projets/Rapports via embedding. Confiance=0.55. Signaux utilisés: filename='notes_reunion_101.txt', topic='Rapports de réunion numérotés', keywords_clean=['numéroté', 'rapport', 'réunion'], summary_present. similarity=0.414",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_102.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='notes_reunion_102.txt', topic='Reunion Document #102 Notes Analysis', keywords_clean=['analysis', 'notes', 'numbered document', 'reunion', 'semantic'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_31.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='notes_reunion_31.txt', topic='Reunion Notes #31', keywords_clean=['agenda', 'discussion', 'meeting', 'notes', 'reunion'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_39.txt",
+    "category": "Projets",
+    "subcategory": "Rapports",
+    "confidence": 0.55,
+    "rationale": "Classé comme Projets/Rapports via embedding. Confiance=0.55. Signaux utilisés: filename='notes_reunion_39.txt', topic='Rapport de réunion numéro 39', keywords_clean=['numéro', 'rapport', 'réunion', 'soumission'], summary_present. similarity=0.493",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_51.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='notes_reunion_51.txt', topic='Reunion notes discussing future project planning.', keywords_clean=['future projects', 'project planning', 'reunion notes'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_65.txt",
+    "category": "Archives",
+    "subcategory": "Old",
+    "confidence": 0.55,
+    "rationale": "Classé comme Archives/Old via embedding. Confiance=0.55. Signaux utilisés: filename='notes_reunion_65.txt', topic='Réunion numéro 65 notes', keywords_clean=['notes de réunion', 'numéro 65', 'réunion'], summary_present. similarity=0.444",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_73.txt",
+    "category": "Archives",
+    "subcategory": "Old",
+    "confidence": 0.55,
+    "rationale": "Classé comme Archives/Old via embedding. Confiance=0.55. Signaux utilisés: filename='notes_reunion_73.txt', topic='Réunion numéro 73 notes', keywords_clean=['enregistrement', 'notes', 'numéro', 'réunion', 'seance'], summary_present. similarity=0.405",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_80.txt",
+    "category": "Archives",
+    "subcategory": "Old",
+    "confidence": 0.55,
+    "rationale": "Classé comme Archives/Old via embedding. Confiance=0.55. Signaux utilisés: filename='notes_reunion_80.txt', topic='Rapport de réunion numérique', keywords_clean=['matière', 'notes', 'numérique', 'rapport', 'réunion'], summary_present. similarity=0.410",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_80_copy.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='notes_reunion_80_copy.txt', topic='Note-taking during a meeting about the year's progress.', keywords_clean=['meeting', 'notes', 'progress', 'reunion'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "notes_reunion_88.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='notes_reunion_88.txt', topic='Reunion Discussion Notes', keywords_clean=['attendees', 'discussion', 'notes', 'reunion', 'topics'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "projet_code_109.zip",
+    "category": "Archives",
+    "subcategory": "ZIP",
+    "confidence": 0.92,
+    "rationale": "Classé comme Archives/ZIP via rule. Confiance=0.92. Signaux utilisés: filename='projet_code_109.zip', topic='Projet de codage numérique', keywords_clean=['codage', 'logique informatique', 'nombreux', 'projets'], summary_present. rule_id=archive_zip.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_code_24.zip",
+    "category": "Archives",
+    "subcategory": "ZIP",
+    "confidence": 0.92,
+    "rationale": "Classé comme Archives/ZIP via rule. Confiance=0.92. Signaux utilisés: filename='projet_code_24.zip', topic='Codage projet', keywords_clean=['analyseurs de code', 'codage', 'documentation', 'projets', 'tâches'], summary_present. rule_id=archive_zip.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_code_28.zip",
+    "category": "Archives",
+    "subcategory": "ZIP",
+    "confidence": 0.92,
+    "rationale": "Classé comme Archives/ZIP via rule. Confiance=0.92. Signaux utilisés: filename='projet_code_28.zip', topic='Projets de codage numéro 28', keywords_clean=['coding project', 'numéro projet', 'projets code'], summary_present. rule_id=archive_zip.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_code_68.zip",
+    "category": "Archives",
+    "subcategory": "ZIP",
+    "confidence": 0.92,
+    "rationale": "Classé comme Archives/ZIP via rule. Confiance=0.92. Signaux utilisés: filename='projet_code_68.zip', topic='Projet de développement logiciel', keywords_clean=['code', 'développement logiciel', 'projet'], summary_present. rule_id=archive_zip.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_code_72.zip",
+    "category": "Archives",
+    "subcategory": "ZIP",
+    "confidence": 0.92,
+    "rationale": "Classé comme Archives/ZIP via rule. Confiance=0.92. Signaux utilisés: filename='projet_code_72.zip', topic='Projet informatique indépendant de code Java.', keywords_clean=['code', 'indépendant', 'java', 'projet'], summary_present. rule_id=archive_zip.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_code_77.zip",
+    "category": "Archives",
+    "subcategory": "ZIP",
+    "confidence": 0.92,
+    "rationale": "Classé comme Archives/ZIP via rule. Confiance=0.92. Signaux utilisés: filename='projet_code_77.zip', topic='Projet numérique codé de projet code 77', keywords_clean=['code', 'numérique', 'project code 77', 'projet'], summary_present. rule_id=archive_zip.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_ia_rapport_111.pdf",
+    "category": "Projets",
+    "subcategory": "Rapports",
+    "confidence": 0.88,
+    "rationale": "Classé comme Projets/Rapports via rule. Confiance=0.88. Signaux utilisés: filename='projet_ia_rapport_111.pdf', topic='IA rapport', keywords_clean=['analyse', 'intelligence artificielle', 'projet', 'rapport'], summary_present. rule_id=projet_rapport_keyword.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_ia_rapport_41.pdf",
+    "category": "Projets",
+    "subcategory": "Rapports",
+    "confidence": 0.88,
+    "rationale": "Classé comme Projets/Rapports via rule. Confiance=0.88. Signaux utilisés: filename='projet_ia_rapport_41.pdf', topic='IA projet rapport analysis', keywords_clean=['analyse report', 'projet ia', \"rétention d'information\"], summary_present. rule_id=projet_rapport_keyword.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "projet_ia_rapport_47.pdf",
+    "category": "Projets",
+    "subcategory": "Rapports",
+    "confidence": 0.88,
+    "rationale": "Classé comme Projets/Rapports via rule. Confiance=0.88. Signaux utilisés: filename='projet_ia_rapport_47.pdf', topic='IA et rapports d'analyse', keywords_clean=['analyses informatiques', 'projets ia', 'rédigés travaux documentaires'], summary_present. rule_id=projet_rapport_keyword.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "scan123.pdf",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='scan123.pdf', topic='Document scan excerpt missing', keywords_clean=['content_excerpt', 'file_type', 'scan123', 'tokens'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "scan_02dgt.txt",
+    "category": "Images",
+    "subcategory": "Scans",
+    "confidence": 0.55,
+    "rationale": "Classé comme Images/Scans via embedding. Confiance=0.55. Signaux utilisés: filename='scan_02dgt.txt', topic='Détection de graphe', keywords_clean=['graph detection', 'pattern recognition', 'scan'], summary_present. similarity=0.479",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "scan_4shnf.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='scan_4shnf.jpeg', topic='image_generic', keywords_clean=['4shnf', 'scan'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "scan_ciyhe.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='scan_ciyhe.jpeg', topic='image_generic', keywords_clean=['ciyhe', 'scan'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "scan_ertj5.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='scan_ertj5.png', topic='image_generic', keywords_clean=['ertj5', 'scan'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "scan_j2qp8.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='scan_j2qp8.txt', topic='Système d'authentification J2QP8', keywords_clean=['authentication', 'j2qp8'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "screenshot_error_104.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='screenshot_error_104.png', topic='image_generic', keywords_clean=['error', 'screenshot'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "screenshot_error_117.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='screenshot_error_117.png', topic='image_generic', keywords_clean=['error', 'screenshot'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "screenshot_error_117_copy.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='screenshot_error_117_copy.png', topic='image_generic', keywords_clean=['error', 'screenshot'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "screenshot_error_119.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='screenshot_error_119.png', topic='image_generic', keywords_clean=['error', 'screenshot'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "screenshot_error_14.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='screenshot_error_14.png', topic='image_generic', keywords_clean=['error', 'screenshot'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "screenshot_error_92.png",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='screenshot_error_92.png', topic='image_generic', keywords_clean=['error', 'screenshot'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "script.py",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.9,
+    "rationale": "Classé comme Projets/Code via rule. Confiance=0.90. Signaux utilisés: filename='script.py', topic='Script Python Programme', keywords_clean=['programmation', 'python', 'script'], summary_present. rule_id=projet_code_by_ext.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "script_analysis_112.py",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.9,
+    "rationale": "Classé comme Projets/Code via rule. Confiance=0.90. Signaux utilisés: filename='script_analysis_112.py', topic='Script Analysis Tools', keywords_clean=['analysis', 'script', 'tools'], summary_present. rule_id=projet_code_by_ext.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "script_analysis_17.py",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.9,
+    "rationale": "Classé comme Projets/Code via rule. Confiance=0.90. Signaux utilisés: filename='script_analysis_17.py', topic='Script Analysis - Python Scripts', keywords_clean=['file type', 'python scripts', 'script analysis', 'tokens'], summary_present. rule_id=projet_code_by_ext.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "script_analysis_23.py",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.9,
+    "rationale": "Classé comme Projets/Code via rule. Confiance=0.90. Signaux utilisés: filename='script_analysis_23.py', topic='Script Analysis Technique', keywords_clean=['algorithmic evaluation', 'data processing', 'script analysis technique'], summary_present. rule_id=projet_code_by_ext.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "script_analysis_8.py",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.9,
+    "rationale": "Classé comme Projets/Code via rule. Confiance=0.90. Signaux utilisés: filename='script_analysis_8.py', topic='Script Analysis Algorithm', keywords_clean=['algorithm', 'execution', 'functionality', 'python code'], summary_present. rule_id=projet_code_by_ext.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "script_analysis_87.py",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.9,
+    "rationale": "Classé comme Projets/Code via rule. Confiance=0.90. Signaux utilisés: filename='script_analysis_87.py', topic='Script Analysis', keywords_clean=['data processing', 'python', 'script analysis'], summary_present. rule_id=projet_code_by_ext.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "script_analysis_99.py",
+    "category": "Projets",
+    "subcategory": "Code",
+    "confidence": 0.9,
+    "rationale": "Classé comme Projets/Code via rule. Confiance=0.90. Signaux utilisés: filename='script_analysis_99.py', topic='Analyse de script par le biais d'un programme Python', keywords_clean=['analyser', 'programme', 'python', 'script'], summary_present. rule_id=projet_code_by_ext.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "TD_IA_105.docx",
+    "category": "Projets",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Projets/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_105.docx', topic='Intelligence Artificielle Applicée à la Transformation des Données', keywords_clean=['applications', 'intelligence artificielle', 'transformation de données'], summary_present. similarity=0.588",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_108.docx",
+    "category": "Cours",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Cours/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_108.docx', topic='Intelligence Artificielle #108', keywords_clean=['intelligence artificielle', 'numéro 108', 'td ia'], summary_present. similarity=0.614",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_116.docx",
+    "category": "Projets",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Projets/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_116.docx', topic='intelligence artificielle thématique-89', keywords_clean=['analyse documentaire', 'thème'], summary_present. similarity=0.591",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_2.docx",
+    "category": "Projets",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Projets/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_2.docx', topic='intelligence artificielle (apprentissage profond)', keywords_clean=['apprentissage deep learning', 'ia apprenti', 'td intelligence'], summary_present. similarity=0.530",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_20.docx",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.7,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_20.docx', topic='Intelligence artificielle et numérique', keywords_clean=['intelligence artificielle', 'numérique'], summary_present. similarity=0.559",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_25.docx",
+    "category": "Cours",
+    "subcategory": "IA",
+    "confidence": 0.55,
+    "rationale": "Classé comme Cours/IA via embedding. Confiance=0.55. Signaux utilisés: filename='TD_IA_25.docx', topic='IA et TD dans les systèmes intelligents', keywords_clean=['intelligence artificielle (ia)', 'tri-diode'], summary_present. similarity=0.423",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_2_copy.docx",
+    "category": "Donnees",
+    "subcategory": "Tableurs",
+    "confidence": 0.55,
+    "rationale": "Classé comme Donnees/Tableurs via embedding. Confiance=0.55. Signaux utilisés: filename='TD_IA_2_copy.docx', summary_present. similarity=0.451",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_35.docx",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.55,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.55. Signaux utilisés: filename='TD_IA_35.docx', topic='intelligence artificielle TD-35', keywords_clean=['algorithm design', 'model number', 'simulation', 'td ai'], summary_present. similarity=0.410",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_52.docx",
+    "category": "Projets",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Projets/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_52.docx', topic='Intelligence Artificielle en technologie', keywords_clean=['informatique', 'intelligence artificielle', 'technologie'], summary_present. similarity=0.543",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_59.docx",
+    "category": "Cours",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Cours/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_59.docx', topic='Intelligence artificielle TD #59', keywords_clean=['intelligence artificielle', 'numéro de chapitre', 'td_ia_59'], summary_present. similarity=0.594",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_66.docx",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.7,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_66.docx', topic='Traitement automatique d'information (IA)', keywords_clean=['automatique information'], summary_present. similarity=0.566",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_74.docx",
+    "category": "Projets",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Projets/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_74.docx', topic='intelligence artificielle et technologies de l'information', keywords_clean=['apprentissage automatique', 'intelligence artificielle', 'technologie des informations'], summary_present. similarity=0.520",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_83.docx",
+    "category": "Projets",
+    "subcategory": "IA",
+    "confidence": 0.7,
+    "rationale": "Classé comme Projets/IA via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_83.docx', topic='Intelligence Artificielle et Tutorat en ligne', keywords_clean=['intelligence artificielle', 'tutorat en ligne', 'éducation technique-décisionnelle'], summary_present. similarity=0.582",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "TD_IA_86.docx",
+    "category": "Cours",
+    "subcategory": "Machine_Learning",
+    "confidence": 0.7,
+    "rationale": "Classé comme Cours/Machine_Learning via embedding. Confiance=0.70. Signaux utilisés: filename='TD_IA_86.docx', topic='Intelligence artificielle temps réel', keywords_clean=['analyse en continu', 'intelligence artificielle', 'temps réel'], summary_present. similarity=0.509",
+    "decision_source": "embedding"
+  },
+  {
+    "filename": "temp_cvs4f.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='temp_cvs4f.jpeg', topic='image_generic', keywords_clean=['cvs4f', 'temp'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "temp_pseim.jpeg",
+    "category": "Images",
+    "subcategory": "Screenshots",
+    "confidence": 0.9,
+    "rationale": "Classé comme Images/Screenshots via rule. Confiance=0.90. Signaux utilisés: filename='temp_pseim.jpeg', topic='image_generic', keywords_clean=['pseim', 'temp'], summary_present. rule_id=image_screenshot.",
+    "decision_source": "rule"
+  },
+  {
+    "filename": "unknown_file.txt",
+    "category": "Divers",
+    "subcategory": null,
+    "confidence": 0.4,
+    "rationale": "Classé comme Divers via embedding. Confiance=0.40. Signaux utilisés: filename='unknown_file.txt', topic='Document anonymity issue', keywords_clean=['anonymous file', 'data privacy', 'encryption methods', 'federated learning'], summary_present. low_similarity_fallback_to_Divers",
+    "decision_source": "embedding"
+  }
+]

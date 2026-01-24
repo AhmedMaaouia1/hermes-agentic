@@ -1,0 +1,81 @@
+{
+  "Administratif": {
+    "Factures": {
+      "description": "Factures, reçus, paiements, documents de transaction financière, TVA."
+    },
+    "Impots": {
+      "description": "Documents fiscaux, impôts, taxes, avis d’imposition, déclarations fiscales."
+    },
+    "Identite": {
+      "description": "Documents d’identité officiels comme carte nationale, passeport, justificatifs."
+    },
+    "CV": {
+      "description": "Curriculum vitae, dossiers de candidature, documents professionnels."
+    },
+    "Attestations": {
+      "description": "Attestations, certificats, documents administratifs officiels."
+    }
+  },
+
+  "Cours": {
+    "NLP": {
+      "description": "Cours et supports liés au traitement du langage naturel (NLP)."
+    },
+    "Machine_Learning": {
+      "description": "Cours et documents sur l’apprentissage automatique."
+    },
+    "IA": {
+      "description": "Cours et supports sur l’intelligence artificielle."
+    },
+    "Divers": {
+      "description": "Autres documents de cours ne rentrant pas dans une catégorie précise."
+    }
+  },
+
+  "Projets": {
+    "IA": {
+      "description": "Projets liés à l’intelligence artificielle."
+    },
+    "Code": {
+      "description": "Code source, scripts, fichiers de développement."
+    },
+    "Rapports": {
+      "description": "Rapports de projet, documents finaux, rendus."
+    }
+  },
+
+  "Images": {
+    "Photos": {
+      "description": "Photographies personnelles ou génériques."
+    },
+    "Screenshots": {
+      "description": "Captures d’écran, screenshots."
+    },
+    "Scans": {
+      "description": "Documents scannés, images de documents papier."
+    }
+  },
+
+  "Archives": {
+    "ZIP": {
+      "description": "Archives compressées ZIP."
+    },
+    "Old": {
+      "description": "Anciennes archives ou sauvegardes."
+    }
+  },
+
+  "Logiciels": {
+    "Installateurs": {
+      "description": "Fichiers d’installation de logiciels."
+    }
+  },
+
+  "Donnees": {
+    "Tableurs": {
+      "description": "Fichiers de données tabulaires comme Excel ou CSV."
+    }
+  },
+
+  "Divers": {}
+}
