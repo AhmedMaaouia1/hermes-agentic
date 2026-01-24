@@ -2,12 +2,16 @@
   "folder_structure": {
     "Divers": [
       ".gitkeep",
-      "copy_4cc5o.pdf",
       "copy_irodx.txt",
-      "doc_final_gq5c3.txt",
-      "notes_reunion_39.txt",
+      "file_final.pdf",
+      "notes_reunion_102.txt",
+      "notes_reunion_31.txt",
       "notes_reunion_51.txt",
-      "TD_IA_83.docx"
+      "notes_reunion_80_copy.txt",
+      "notes_reunion_88.txt",
+      "scan123.pdf",
+      "scan_j2qp8.txt",
+      "unknown_file.txt"
     ],
     "Archives/ZIP": [
       "archive.zip",
@@ -35,17 +39,15 @@
       "carte_identite_82.pdf",
       "carte_identite_84.pdf",
       "carte_identite_91.pdf",
-      "carte_identite_97.pdf"
+      "carte_identite_97.pdf",
+      "copy_fk8ut.txt",
+      "document.pdf"
     ],
     "Images/Scans": [
+      "copy_4cc5o.pdf",
       "copy_b9487.pdf",
-      "copy_fk8ut.txt",
-      "copy_vren9.pdf",
-      "document.pdf",
-      "scan123.pdf",
-      "scan_02dgt.txt",
-      "scan_j2qp8.txt",
-      "unknown_file.txt"
+      "doc_final_gq5c3.txt",
+      "scan_02dgt.txt"
     ],
     "Images/Screenshots": [
       "copy_ubcxu.png",
@@ -69,6 +71,20 @@
       "temp_cvs4f.jpeg",
       "temp_pseim.jpeg"
     ],
+    "Administratif/Impots": [
+      "copy_vren9.pdf",
+      "impots_2023_100.pdf",
+      "impots_2023_11.pdf",
+      "impots_2023_30.pdf",
+      "impots_2023_40.pdf",
+      "impots_2023_44.pdf",
+      "impots_2023_48.pdf",
+      "impots_2023_60.pdf",
+      "impots_2023_7.pdf",
+      "impots_2023_75.pdf",
+      "impots_2023_94.pdf",
+      "notes.pdf"
+    ],
     "Cours/Machine_Learning": [
       "cours_machine_learning_13.pdf",
       "cours_machine_learning_18.pdf",
@@ -82,9 +98,12 @@
       "cours_machine_learning_70.pdf",
       "cours_machine_learning_85.pdf",
       "cours_machine_learning_90.pdf",
-      "cours_nlp_ch_78.pdf",
-      "TD_IA_116.docx",
-      "TD_IA_66.docx"
+      "cours_nlp_ch_76.pdf",
+      "cours_nlp_ch_76_copy.pdf",
+      "TD_IA_20.docx",
+      "TD_IA_35.docx",
+      "TD_IA_66.docx",
+      "TD_IA_86.docx"
     ],
     "Cours/NLP": [
       "cours_nlp_ch_12.pdf",
@@ -92,8 +111,7 @@
       "cours_nlp_ch_27.pdf",
       "cours_nlp_ch_43.pdf",
       "cours_nlp_ch_58.pdf",
-      "cours_nlp_ch_76.pdf",
-      "cours_nlp_ch_76_copy.pdf"
+      "cours_nlp_ch_78.pdf"
     ],
     "Administratif/CV": [
       "CV_stage_2025_113.pdf",
@@ -112,7 +130,8 @@
       "dataset_resultats_54.xlsx",
       "dataset_resultats_56.xlsx",
       "dataset_resultats_57.xlsx",
-      "dataset_resultats_89.xlsx"
+      "dataset_resultats_89.xlsx",
+      "TD_IA_2_copy.docx"
     ],
     "Administratif/Factures": [
       "facture_electricite_1.pdf",
@@ -129,7 +148,6 @@
       "facture_internet_95.pdf"
     ],
     "Projets/Code": [
-      "file_final.pdf",
       "final_v2_o5bxx.txt",
       "script.py",
       "script_analysis_112.py",
@@ -138,18 +156,6 @@
       "script_analysis_8.py",
       "script_analysis_87.py",
       "script_analysis_99.py"
-    ],
-    "Administratif/Impots": [
-      "impots_2023_100.pdf",
-      "impots_2023_11.pdf",
-      "impots_2023_30.pdf",
-      "impots_2023_40.pdf",
-      "impots_2023_44.pdf",
-      "impots_2023_48.pdf",
-      "impots_2023_60.pdf",
-      "impots_2023_7.pdf",
-      "impots_2023_75.pdf",
-      "impots_2023_94.pdf"
     ],
     "Logiciels/Installateurs": [
       "installer.exe",
@@ -162,37 +168,29 @@
       "installer_app_81.exe"
     ],
     "Projets/Rapports": [
-      "notes.pdf",
+      "notes_reunion_101.txt",
+      "notes_reunion_39.txt",
       "projet_ia_rapport_111.pdf",
       "projet_ia_rapport_41.pdf",
       "projet_ia_rapport_47.pdf"
     ],
-    "Cours/Divers": [
-      "notes_reunion_101.txt",
-      "notes_reunion_88.txt"
-    ],
     "Archives/Old": [
-      "notes_reunion_102.txt",
-      "notes_reunion_31.txt",
       "notes_reunion_65.txt",
       "notes_reunion_73.txt",
-      "notes_reunion_80.txt",
-      "notes_reunion_80_copy.txt"
-    ],
-    "Cours/IA": [
-      "TD_IA_105.docx",
-      "TD_IA_108.docx",
-      "TD_IA_2_copy.docx"
+      "notes_reunion_80.txt"
     ],
     "Projets/IA": [
+      "TD_IA_105.docx",
+      "TD_IA_116.docx",
       "TD_IA_2.docx",
-      "TD_IA_20.docx",
-      "TD_IA_25.docx",
-      "TD_IA_35.docx",
       "TD_IA_52.docx",
-      "TD_IA_59.docx",
       "TD_IA_74.docx",
-      "TD_IA_86.docx"
+      "TD_IA_83.docx"
+    ],
+    "Cours/IA": [
+      "TD_IA_108.docx",
+      "TD_IA_25.docx",
+      "TD_IA_59.docx"
     ]
   },
   "file_to_folder": {
@@ -213,13 +211,13 @@
     "carte_identite_84.pdf": "Administratif/Identite",
     "carte_identite_91.pdf": "Administratif/Identite",
     "carte_identite_97.pdf": "Administratif/Identite",
-    "copy_4cc5o.pdf": "Divers",
+    "copy_4cc5o.pdf": "Images/Scans",
     "copy_b9487.pdf": "Images/Scans",
-    "copy_fk8ut.txt": "Images/Scans",
+    "copy_fk8ut.txt": "Administratif/Identite",
     "copy_irodx.txt": "Divers",
     "copy_ubcxu.png": "Images/Screenshots",
     "copy_vazcc.png": "Images/Screenshots",
-    "copy_vren9.pdf": "Images/Scans",
+    "copy_vren9.pdf": "Administratif/Impots",
     "cours_machine_learning_13.pdf": "Cours/Machine_Learning",
     "cours_machine_learning_18.pdf": "Cours/Machine_Learning",
     "cours_machine_learning_18_copy.pdf": "Cours/Machine_Learning",
@@ -237,9 +235,9 @@
     "cours_nlp_ch_27.pdf": "Cours/NLP",
     "cours_nlp_ch_43.pdf": "Cours/NLP",
     "cours_nlp_ch_58.pdf": "Cours/NLP",
-    "cours_nlp_ch_76.pdf": "Cours/NLP",
-    "cours_nlp_ch_76_copy.pdf": "Cours/NLP",
-    "cours_nlp_ch_78.pdf": "Cours/Machine_Learning",
+    "cours_nlp_ch_76.pdf": "Cours/Machine_Learning",
+    "cours_nlp_ch_76_copy.pdf": "Cours/Machine_Learning",
+    "cours_nlp_ch_78.pdf": "Cours/NLP",
     "CV_stage_2025_113.pdf": "Administratif/CV",
     "CV_stage_2025_118.pdf": "Administratif/CV",
     "CV_stage_2025_22.pdf": "Administratif/CV",
@@ -255,8 +253,8 @@
     "dataset_resultats_56.xlsx": "Donnees/Tableurs",
     "dataset_resultats_57.xlsx": "Donnees/Tableurs",
     "dataset_resultats_89.xlsx": "Donnees/Tableurs",
-    "document.pdf": "Images/Scans",
-    "doc_final_gq5c3.txt": "Divers",
+    "document.pdf": "Administratif/Identite",
+    "doc_final_gq5c3.txt": "Images/Scans",
     "doc_final_or56f.png": "Images/Screenshots",
     "facture_electricite_1.pdf": "Administratif/Factures",
     "facture_electricite_10.pdf": "Administratif/Factures",
@@ -270,7 +268,7 @@
     "facture_internet_71.pdf": "Administratif/Factures",
     "facture_internet_9.pdf": "Administratif/Factures",
     "facture_internet_95.pdf": "Administratif/Factures",
-    "file_final.pdf": "Projets/Code",
+    "file_final.pdf": "Divers",
     "final_v2_c58dr.png": "Images/Screenshots",
     "final_v2_hzioy.jpeg": "Images/Screenshots",
     "final_v2_o5bxx.txt": "Projets/Code",
@@ -296,17 +294,17 @@
     "installer_app_64.exe": "Logiciels/Installateurs",
     "installer_app_81.exe": "Logiciels/Installateurs",
     "new_71yzo.png": "Images/Screenshots",
-    "notes.pdf": "Projets/Rapports",
-    "notes_reunion_101.txt": "Cours/Divers",
-    "notes_reunion_102.txt": "Archives/Old",
-    "notes_reunion_31.txt": "Archives/Old",
-    "notes_reunion_39.txt": "Divers",
+    "notes.pdf": "Administratif/Impots",
+    "notes_reunion_101.txt": "Projets/Rapports",
+    "notes_reunion_102.txt": "Divers",
+    "notes_reunion_31.txt": "Divers",
+    "notes_reunion_39.txt": "Projets/Rapports",
     "notes_reunion_51.txt": "Divers",
     "notes_reunion_65.txt": "Archives/Old",
     "notes_reunion_73.txt": "Archives/Old",
     "notes_reunion_80.txt": "Archives/Old",
-    "notes_reunion_80_copy.txt": "Archives/Old",
-    "notes_reunion_88.txt": "Cours/Divers",
+    "notes_reunion_80_copy.txt": "Divers",
+    "notes_reunion_88.txt": "Divers",
     "projet_code_109.zip": "Archives/ZIP",
     "projet_code_24.zip": "Archives/ZIP",
     "projet_code_28.zip": "Archives/ZIP",
@@ -316,12 +314,12 @@
     "projet_ia_rapport_111.pdf": "Projets/Rapports",
     "projet_ia_rapport_41.pdf": "Projets/Rapports",
     "projet_ia_rapport_47.pdf": "Projets/Rapports",
-    "scan123.pdf": "Images/Scans",
+    "scan123.pdf": "Divers",
     "scan_02dgt.txt": "Images/Scans",
     "scan_4shnf.jpeg": "Images/Screenshots",
     "scan_ciyhe.jpeg": "Images/Screenshots",
     "scan_ertj5.png": "Images/Screenshots",
-    "scan_j2qp8.txt": "Images/Scans",
+    "scan_j2qp8.txt": "Divers",
     "screenshot_error_104.png": "Images/Screenshots",
     "screenshot_error_117.png": "Images/Screenshots",
     "screenshot_error_117_copy.png": "Images/Screenshots",
@@ -335,32 +333,36 @@
     "script_analysis_8.py": "Projets/Code",
     "script_analysis_87.py": "Projets/Code",
     "script_analysis_99.py": "Projets/Code",
-    "TD_IA_105.docx": "Cours/IA",
+    "TD_IA_105.docx": "Projets/IA",
     "TD_IA_108.docx": "Cours/IA",
-    "TD_IA_116.docx": "Cours/Machine_Learning",
+    "TD_IA_116.docx": "Projets/IA",
     "TD_IA_2.docx": "Projets/IA",
-    "TD_IA_20.docx": "Projets/IA",
-    "TD_IA_25.docx": "Projets/IA",
-    "TD_IA_2_copy.docx": "Cours/IA",
-    "TD_IA_35.docx": "Projets/IA",
+    "TD_IA_20.docx": "Cours/Machine_Learning",
+    "TD_IA_25.docx": "Cours/IA",
+    "TD_IA_2_copy.docx": "Donnees/Tableurs",
+    "TD_IA_35.docx": "Cours/Machine_Learning",
     "TD_IA_52.docx": "Projets/IA",
-    "TD_IA_59.docx": "Projets/IA",
+    "TD_IA_59.docx": "Cours/IA",
     "TD_IA_66.docx": "Cours/Machine_Learning",
     "TD_IA_74.docx": "Projets/IA",
-    "TD_IA_83.docx": "Divers",
-    "TD_IA_86.docx": "Projets/IA",
+    "TD_IA_83.docx": "Projets/IA",
+    "TD_IA_86.docx": "Cours/Machine_Learning",
     "temp_cvs4f.jpeg": "Images/Screenshots",
     "temp_pseim.jpeg": "Images/Screenshots",
-    "unknown_file.txt": "Images/Scans"
+    "unknown_file.txt": "Divers"
   },
   "rationale": "Files are grouped deterministically by their assigned category. When a subcategory is available, it is used as a second-level folder. Files without subcategories are placed directly under their category. No category or subcategory has been modified during planning.",
   "warnings": [
     "Low confidence (0.40) for file '.gitkeep' in category 'Divers'",
-    "Low confidence (0.40) for file 'copy_4cc5o.pdf' in category 'Divers'",
     "Low confidence (0.40) for file 'copy_irodx.txt' in category 'Divers'",
-    "Low confidence (0.40) for file 'doc_final_gq5c3.txt' in category 'Divers'",
-    "Low confidence (0.40) for file 'notes_reunion_39.txt' in category 'Divers'",
+    "Low confidence (0.40) for file 'file_final.pdf' in category 'Divers'",
+    "Low confidence (0.40) for file 'notes_reunion_102.txt' in category 'Divers'",
+    "Low confidence (0.40) for file 'notes_reunion_31.txt' in category 'Divers'",
     "Low confidence (0.40) for file 'notes_reunion_51.txt' in category 'Divers'",
-    "Low confidence (0.40) for file 'TD_IA_83.docx' in category 'Divers'"
+    "Low confidence (0.40) for file 'notes_reunion_80_copy.txt' in category 'Divers'",
+    "Low confidence (0.40) for file 'notes_reunion_88.txt' in category 'Divers'",
+    "Low confidence (0.40) for file 'scan123.pdf' in category 'Divers'",
+    "Low confidence (0.40) for file 'scan_j2qp8.txt' in category 'Divers'",
+    "Low confidence (0.40) for file 'unknown_file.txt' in category 'Divers'"
   ]
 }

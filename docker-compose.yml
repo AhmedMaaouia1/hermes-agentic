@@ -25,7 +25,7 @@ services:
       OLLAMA_HOST: http://ollama:11434
     volumes:
       - .:/app
-    command: python src/main.py data/downloads_raw
+    command: python src/main.py data/test_small
     restart: "no"
 
 volumes:
