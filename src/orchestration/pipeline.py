@@ -56,6 +56,9 @@ def _safe_write_json(path: Path, data) -> None:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+def _write_status(step: str):
+    with open("logs/pipeline_status.txt", "w", encoding="utf-8") as f:
+        f.write(step)
 
 # ======================================================
 # Pipeline principal
@@ -113,6 +116,7 @@ def run_pipeline(folder_path: str) -> PipelineResult:
     # --------------------------------------------------
     # 3) Analyse + Catégorisation (fichier par fichier)
     # --------------------------------------------------
+    _write_status("Analyse des fichiers en cours")
     for pf in parsed_files:
         file_path = os.path.join(folder_path, pf.filename)
 
@@ -139,6 +143,8 @@ def run_pipeline(folder_path: str) -> PipelineResult:
     # --------------------------------------------------
     # 4) Planification hiérarchique (raisonnement global)
     # --------------------------------------------------
+    _write_status("Planification hiérarchique en cours")
+    
     hierarchy_plan: HierarchyProposal = planner.plan(
         categorizations=categorizations
     )
@@ -151,6 +157,7 @@ def run_pipeline(folder_path: str) -> PipelineResult:
     # --------------------------------------------------
     # 5) Revue critique (lecture seule)
     # --------------------------------------------------
+    _write_status("Revue critique en cours")
     review_result: ReviewResult = reviewer.review(
         parsed_files=parsed_files,
         profiles=profiles,
@@ -170,6 +177,7 @@ def run_pipeline(folder_path: str) -> PipelineResult:
     # --------------------------------------------------
     # 6) Agrégation finale (sans logique métier)
     # --------------------------------------------------
+    _write_status("Terminé")
     return PipelineResult(
         parsed_files=parsed_files,
         file_profiles=profiles,
