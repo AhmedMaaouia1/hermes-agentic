@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERMES Agentic</title>
+    <link rel="stylesheet" href="/static/modern-styles.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">HERMES Agentic</div>
+            <h1>Analyse Intelligente de Dossiers</h1>
+            <p class="subtitle">Pipeline multi-agents pour organiser et optimiser vos structures de fichiers</p>
+        </header>
+
+        <div class="card input-section">
+            <h2>Configuration</h2>
+            <div class="field-group">
+                <label for="folderPath">Chemin absolu du dossier</label>
+                <input type="text" id="folderPath" placeholder="C:\Users\Vous\Documents\Factures">
+                <p class="hint">Saisissez le chemin complet du dossier à analyser</p>
+            </div>
+            <div class="field-group">
+                <label for="folderPicker">Sélecteur de dossier (optionnel)</label>
+                <input type="file" id="folderPicker" webkitdirectory directory multiple>
+                <p class="hint" id="pickedFolder"></p>
+            </div>
+            <button id="runPipeline" class="btn btn-primary">Lancer l'analyse</button>
+            <div id="status" class="status" style="display: none;"></div>
+        </div>
+
+        <div class="grid grid-4">
+            <div class="card summary-card">
+                <div class="summary-label">Fichiers analysés</div>
+                <div class="summary-value" id="summaryTotal">-</div>
+            </div>
+            <div class="card summary-card">
+                <div class="summary-label">Confiance faible</div>
+                <div class="summary-value warning" id="summaryLow">-</div>
+            </div>
+            <div class="card summary-card">
+                <div class="summary-label">Avertissements</div>
+                <div class="summary-value warning" id="summaryWarnings">-</div>
+            </div>
+            <div class="card summary-card">
+                <div class="summary-label">Doublons</div>
+                <div class="summary-value warning" id="summaryDuplicates">-</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Points d'attention</h2>
+            <ul id="attentionList" class="list empty">
+                <li>Aucun point critique détecté</li>
+            </ul>
+        </div>
+
+        <div class="grid grid-2">
+            <div class="card">
+                <h2>Hiérarchie proposée</h2>
+                <div id="treeView" class="tree">
+                    <p style="text-align: center; color: var(--text-muted); padding: 2rem;">
+                        Lancez l'analyse pour visualiser la structure
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Avertissements</h2>
+                <ul id="warnings" class="list empty">
+                    <li>Aucun avertissement</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid grid-2">
+            <div class="card">
+                <h2>Suggestions</h2>
+                <div id="suggestions" class="list empty">Aucune suggestion disponible</div>
+            </div>
+            <div class="card">
+                <h2>Problèmes détectés</h2>
+                <div id="issues" class="list empty">Aucun problème détecté</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/modern-app.js"></script>
+</body>
+</html>

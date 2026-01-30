@@ -1170,3 +1170,32 @@
 2026-01-24 11:24:55,956 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
 2026-01-24 11:24:55,958 | WARNING | hermes.reviewer | LLM Reviewer skipped (error): 'NoneType' object has no attribute 'group'
 2026-01-24 11:24:55,959 | INFO | hermes.reviewer | ReviewerAgent: review completed issues=3 suggestions=1
+2026-01-25 14:45:20,931 | INFO | hermes.categorizer | CategorizerAgent initialized (enable_embeddings=True, taxonomy='src/resources/taxonomy.json').
+2026-01-25 14:46:53,395 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-25 14:47:07,609 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2026-01-25 14:47:07,610 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-25 14:47:17,893 | INFO | hermes.categorizer | [EMBEDDING] model_loaded=all-MiniLM-L6-v2
+2026-01-25 14:47:18,627 | INFO | hermes.categorizer | [EMBEDDING] taxonomy_embeddings_built n=19
+2026-01-25 14:47:18,674 | WARNING | hermes.categorizer | [FALLBACK] file=1.jpg reason=low_similarity best=Images/Scans score=0.290 conf=0.40
+2026-01-25 14:47:24,149 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-25 14:47:33,322 | INFO | hermes.categorizer | [RULE] file=attestation_scolarite_107.pdf rule_id=admin_attestation_pdf category=Administratif/Attestations confidence=0.92
+2026-01-25 14:47:37,753 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-25 14:47:47,876 | INFO | hermes.categorizer | [RULE] file=carte_identite_5.pdf rule_id=admin_identite_pdf category=Administratif/Identite confidence=0.94
+2026-01-25 14:47:53,405 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-25 14:48:02,807 | WARNING | hermes.categorizer | [FALLBACK] file=copy_fk8ut.txt reason=low_similarity best=Projets/Code score=0.243 conf=0.40
+2026-01-25 14:48:02,952 | INFO | hermes.categorizer | [RULE] file=copy_vazcc.png rule_id=image_screenshot category=Images/Screenshots confidence=0.90
+2026-01-25 14:48:07,870 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-25 14:48:19,127 | INFO | hermes.categorizer | [RULE] file=CV_stage_2025_118.pdf rule_id=admin_cv_pdf category=Administratif/CV confidence=0.93
+2026-01-25 14:48:22,586 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-25 14:48:31,744 | INFO | hermes.categorizer | [RULE] file=data.xlsx rule_id=data_tableur category=Donnees/Tableurs confidence=0.95
+2026-01-25 14:48:36,078 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 200 OK"
+2026-01-25 14:48:45,364 | INFO | hermes.categorizer | [RULE] file=installer_app_19.exe rule_id=logiciel_installateur category=Logiciels/Installateurs confidence=0.96
+2026-01-25 14:48:45,380 | INFO | agents.planner | Starting hierarchy planning for 8 files.
+2026-01-25 14:48:45,382 | WARNING | agents.planner | Low confidence (0.40) for file '1.jpg' in category 'Divers'
+2026-01-25 14:48:45,383 | WARNING | agents.planner | Low confidence (0.40) for file 'copy_fk8ut.txt' in category 'Divers'
+2026-01-25 14:48:45,384 | INFO | agents.planner | Planner output folders: dict_keys(['Divers', 'Administratif/Attestations', 'Administratif/Identite', 'Images/Screenshots', 'Administratif/CV', 'Donnees/Tableurs', 'Logiciels/Installateurs'])
+2026-01-25 14:48:45,386 | INFO | agents.planner | Hierarchy planning completed.
+2026-01-25 14:48:45,421 | INFO | hermes.reviewer | ReviewerAgent: starting review
+2026-01-25 14:48:45,619 | INFO | httpx | HTTP Request: POST http://ollama:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-01-25 14:48:45,620 | WARNING | hermes.reviewer | LLM Reviewer skipped (error): 'NoneType' object has no attribute 'group'
+2026-01-25 14:48:45,622 | INFO | hermes.reviewer | ReviewerAgent: review completed issues=3 suggestions=7

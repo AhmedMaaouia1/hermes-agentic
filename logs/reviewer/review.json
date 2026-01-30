@@ -3,37 +3,19 @@
     {
       "issue_type": "low_confidence_categorization",
       "severity": "medium",
-      "description": "11 fichiers ont une confiance < 0.55. Ils sont candidats pour une vérification manuelle.",
+      "description": "2 fichiers ont une confiance < 0.55. Ils sont candidats pour une vérification manuelle.",
       "affected_files": [
-        ".gitkeep",
-        "copy_irodx.txt",
-        "file_final.pdf",
-        "notes_reunion_102.txt",
-        "notes_reunion_31.txt",
-        "notes_reunion_51.txt",
-        "notes_reunion_80_copy.txt",
-        "notes_reunion_88.txt",
-        "scan123.pdf",
-        "scan_j2qp8.txt",
-        "unknown_file.txt"
+        "1.jpg",
+        "copy_fk8ut.txt"
       ]
     },
     {
       "issue_type": "divers_overuse",
       "severity": "low",
-      "description": "11 fichiers sont classés en 'Divers'. Cela peut indiquer des règles insuffisantes ou un profil trop pauvre.",
+      "description": "2 fichiers sont classés en 'Divers'. Cela peut indiquer des règles insuffisantes ou un profil trop pauvre.",
       "affected_files": [
-        ".gitkeep",
-        "copy_irodx.txt",
-        "file_final.pdf",
-        "notes_reunion_102.txt",
-        "notes_reunion_31.txt",
-        "notes_reunion_51.txt",
-        "notes_reunion_80_copy.txt",
-        "notes_reunion_88.txt",
-        "scan123.pdf",
-        "scan_j2qp8.txt",
-        "unknown_file.txt"
+        "1.jpg",
+        "copy_fk8ut.txt"
       ]
     },
     {
@@ -41,26 +23,46 @@
       "severity": "low",
       "description": "Certains fichiers semblent être des doublons (copy/copie/(1), etc.).",
       "affected_files": [
-        "TD_IA_2_copy.docx",
-        "copy_4cc5o.pdf",
-        "copy_b9487.pdf",
         "copy_fk8ut.txt",
-        "copy_irodx.txt",
-        "copy_ubcxu.png",
-        "copy_vazcc.png",
-        "copy_vren9.pdf",
-        "cours_machine_learning_18_copy.pdf",
-        "cours_nlp_ch_76_copy.pdf",
-        "notes_reunion_80_copy.txt",
-        "screenshot_error_117_copy.png"
+        "copy_vazcc.png"
       ]
     }
   ],
   "suggestions": [
     {
+      "action": "merge_folder",
+      "target": "Administratif/Attestations",
+      "suggestion": "Le dossier 'Administratif/Attestations' contient un seul fichier. Suggestion: fusionner dans 'Administratif' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Administratif/Identite",
+      "suggestion": "Le dossier 'Administratif/Identite' contient un seul fichier. Suggestion: fusionner dans 'Administratif' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Images/Screenshots",
+      "suggestion": "Le dossier 'Images/Screenshots' contient un seul fichier. Suggestion: fusionner dans 'Images' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Administratif/CV",
+      "suggestion": "Le dossier 'Administratif/CV' contient un seul fichier. Suggestion: fusionner dans 'Administratif' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Donnees/Tableurs",
+      "suggestion": "Le dossier 'Donnees/Tableurs' contient un seul fichier. Suggestion: fusionner dans 'Donnees' pour réduire la fragmentation."
+    },
+    {
+      "action": "merge_folder",
+      "target": "Logiciels/Installateurs",
+      "suggestion": "Le dossier 'Logiciels/Installateurs' contient un seul fichier. Suggestion: fusionner dans 'Logiciels' pour réduire la fragmentation."
+    },
+    {
       "action": "move_file",
       "target": "Review/",
-      "suggestion": "11 fichiers ont une faible confiance. Suggestion: les placer dans un dossier 'Review/' pour vérification manuelle. Exemples: .gitkeep, copy_irodx.txt, file_final.pdf, notes_reunion_102.txt, notes_reunion_31.txt"
+      "suggestion": "2 fichiers ont une faible confiance. Suggestion: les placer dans un dossier 'Review/' pour vérification manuelle. Exemples: 1.jpg, copy_fk8ut.txt"
     }
   ],
   "revised_structure": null

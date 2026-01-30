@@ -27,6 +27,22 @@ services:
       - .:/app
     command: python src/main.py data/test_small
     restart: "no"
+  
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: hermes-web
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: uvicorn web.app:app --app-dir src --host 0.0.0.0 --port 8000
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      OLLAMA_HOST: http://ollama:11434
 
 volumes:
   ollama_data:
